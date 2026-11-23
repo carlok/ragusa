@@ -1,0 +1,3 @@
+# External code called (never modified) by Project A. Clones live outside the repo.
+autographforge  https://github.com/JanPastorek/AutoGraphForge  510cf50083d2a2a481499e296383246d1587c029  path=../../_ext/AutoGraphForge
+txgraffiti      pypi  0.4.1  (pinned in pyproject.toml / uv.lock)

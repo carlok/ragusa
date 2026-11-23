@@ -1,0 +1,4 @@
+# Build only from crates already in the local cargo cache. A new dependency is a
+# deliberate decision: flip this off for that one fetch, then turn it back on.
+[net]
+offline = true

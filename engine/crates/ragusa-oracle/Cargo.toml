@@ -1,0 +1,12 @@
+[package]
+name = "ragusa-oracle"
+description = "Known-results oracles for ragusa: the ETP implication graph, a catalogue of knot invariant inequalities"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+flate2.workspace = true
+ragusa-gen.workspace = true
+serde_json.workspace = true

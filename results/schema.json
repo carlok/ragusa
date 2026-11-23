@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ragusa result row",
+  "description": "One row per (system, table, target, generator, filter, stage). Every published number is recomputed from these rows.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id", "system", "system_version", "table", "table_sha256", "target",
+    "generator", "filter", "filter_kind", "stage", "order",
+    "n_in", "n_representative", "n_alias", "n_discarded", "seed"
+  ],
+  "properties": {
+    "run_id": {"type": "string"},
+    "system": {"enum": ["txgraffiti", "autographforge", "ragusa"]},
+    "system_version": {"type": "string", "description": "package version or git commit"},
+    "table": {"type": "string"},
+    "table_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "feature_subset": {"type": "array", "items": {"type": "string"}},
+    "predicate_subset": {"type": "array", "items": {"type": "string"}},
+    "target": {"type": ["string", "null"]},
+    "generator": {"type": "string", "description": "generator name, or 'all' for a pooled stage"},
+    "filter": {"type": "string", "description": "acceptance rule name, or 'generated' for the generation stage"},
+    "filter_kind": {"enum": ["novelty", "redundancy", "generation", "chance"], "description": "PROMPT.md section 2: never mix novelty and redundancy counts"},
+    "stage": {"type": "integer", "minimum": 0},
+    "order": {"type": "string", "description": "filter ordering identifier, e.g. 'dedup>dalmatian>morgan'"},
+    "n_in": {"type": "integer", "minimum": 0},
+    "n_representative": {"type": "integer", "minimum": 0},
+    "n_alias": {"type": "integer", "minimum": 0},
+    "n_discarded": {"type": "integer", "minimum": 0},
+    "seed": {"type": ["integer", "null"]},
+    "wall_s": {"type": ["number", "null"]},
+    "notes": {"type": ["string", "null"]}
+  }
+}

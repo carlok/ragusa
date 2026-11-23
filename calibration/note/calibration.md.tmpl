@@ -1,0 +1,110 @@
+# Calibration: what the shipped TxGraffiti filters discard on `${table}`
+
+Every number below is filled in from `results/rows/` by `docs/gen/render.py`.
+Status: internal calibration for Project B, not a publication. Ján Pastorek and Randy Davila were
+written to in October 2026 about the points below that concern their code. Where they have not
+answered, those points are our reading and measurement of their code, and may be wrong.
+
+## Scope and pinning
+
+- System measured: the `txgraffiti` package, version ${txg_version}, called unmodified.
+  Not the paper's abstract design, and not the website.
+- Table: shipped `${table}`, ${n_objects} objects, sha256 `${table_sha_short}…`.
+- Target `${target}`; all ${n_features} other numeric columns as features (`feature_size` one);
+  all ${n_preds} boolean columns as hypotheses.
+- Generators in `txgraffiti2`'s default order: ${generators}. Candidates per generator: ${per_generator}.
+  LP runs on PuLP's bundled CBC, put on PATH because the package's solver lookup did not find it
+  on our machine (gate G-A0).
+- Seed ${seed}; chance baselines use ${chance_draws} draws.
+
+Pool: ${pool_raw} generated, `remove_duplicates` removes ${dedup_killed} (${dedup_pct}), leaving
+**${pool_dedup} candidates**. Of these, ${pool_false} are false on the table, ${pool_classes} are distinct
+on the table, and they span ${pool_hyps} hypotheses.
+
+## Controls
+
+${table_gates}
+
+Gates overall: ${all_gates_pass}. G-A1 (PROMPT.md §1.1 scope) reproduces
+${ga1_generated} → ${ga1_remove_duplicates} → ${ga1_filter_with_dalmatian} → ${ga1_filter_with_morgan};
+adding LP gives ${ga1lp_generated} → ${ga1lp_remove_duplicates} → ${ga1lp_filter_with_dalmatian} → ${ga1lp_filter_with_morgan}
+with an identical survivor set. The staged documented pipeline gives ${pipe_after_dalmatian} → ${pipe_after_morgan};
+`txgraffiti2()` itself returns ${txgraffiti2_count}.
+
+## 1. Three-way partition, each rule separately on the same pool
+
+The package's filters return lists, so they do not produce the paper's alias class.
+Here a rejected candidate is an **alias** when an accepted candidate is identical to it
+on the table (same lhs, operator, hypothesis rows and right-hand values there);
+every other rejection is **discarded**. The definition is ours, not txgraffiti's.
+
+${table_partition}
+
+`sophie_accept` has no shipped filter wrapper; it is driven greedily in pool order
+against the previously accepted list, as its docstring describes. It only looks at
+hypothesis coverage. On this table it accepts ${sophie_rep}: the first candidate in the pool has
+hypothesis `connected`, which holds on every object, so nothing after it adds coverage.
+Its kill rate records a mismatch of purpose (Sophie was designed for sufficient conditions,
+not for bounds under single-predicate hypotheses), not a flaw.
+
+**Dalmatian by operator.** Upper bounds: ${pool_upper} in the pool (${pool_upper_true} true on the table),
+${dal_rep_upper} accepted, ${dal_rej_upper_true} true ones rejected. Lower bounds: ${pool_lower} in the pool
+(${pool_lower_true} true), ${dal_rep_lower} accepted, ${dal_rej_lower_true} true ones rejected,
+${dal_lower_reading}. The cause is in the source: `dalmatian_accept` collects only `<=` bounds as
+existing bounds, so a true `>=` candidate is compared against upper bounds, whose row-wise minimum
+it lies below almost everywhere. Of Dalmatian's ${dalmatian_rep} representatives, ${dal_accepted_lower_bounds}
+are lower bounds.
+
+Further detail: ${dal_accepted_without_competitors} accepted candidates had no competing upper bound in their group;
+${dal_accepted_single_strict_row} rested on a single strictly-below row; ${dal_strict_witness_objects} objects
+witness all strict acceptances.
+
+## 2. Object-database floor
+
+For every decision and every object, would the shipped rule decide differently if that
+one object were removed (candidate pool held fixed)? Computed by kernels that match the
+shipped rule exactly on the full table, on sampled removals (G-A4), and on every removal
+of a small table (`tests/test_rules.py`).
+
+${table_floor}
+
+Reading: a decision is **fragile** when removing a single object flips it. Only single-object
+removals are measured; decisions that need two objects removed together are not counted.
+
+## 3. Chance baseline
+
+A random rule accepts the same number of candidates, uniformly. "P(random ≥ rule)" is the
+share of draws that match or beat the rule on that metric.
+
+${table_chance}
+
+Reading for Dalmatian, the headline rule: it keeps no false conjecture (random draws keep many), but on
+the two redundancy metrics it is ${dalmatian_tight_objects_vs_chance} for objects with a tight survivor and
+${dalmatian_distinct_table_classes_vs_chance} for distinct table classes. Morgan is
+${morgan_tight_objects_vs_chance} for tight objects. A kill rate says nothing until it is read against these ranges.
+
+## 4. AutoGraphForge's known-results filter (the other kind of filter)
+
+Credit: Ján Pastorek, AutoGraphForge (commit `${agf_commit_short}`). This is a novelty filter,
+not a redundancy filter; its counts are never added to the numbers above.
+
+**On the TxGraffiti pool.** TxGraffiti writes `(hyp) → (body)`; AutoGraphForge's parser needs `⇒`.
+The arrow swap is the only adapter, and the unadapted run is kept as a control.
+
+${table_agf_txg}
+
+**On AutoGraphForge's own CEGIS output** (${agf_cegis_n} statements): the standalone call with the
+module's `_GC2TABLE` columns flags ${agf_gc2_known}; the verdicts the pipeline stored flag
+${agf_stored_known}; ${agf_overlap} are in both, ${agf_gc2_only} only standalone, ${agf_stored_only} only stored.
+The difference follows the column list passed to the same function. Which list the pipeline
+intends is a question we put to the author; until he answers, this is our reading of his code. The earlier report's
+"novel survivors equal survivors" holds by construction (survivors were filtered to novel first)
+and is not a kill count.
+
+## What this calibration says for Project B
+
+- Report each rule's partition separately and with its own chance baseline; a kill rate alone
+  does not show whether a rule keeps anything a random rule would not.
+- Emit per-object flip counts: they show how much each accept/reject decision rests on single objects.
+- Name the column list and the statement syntax for any novelty verdict.
+- A generator that fails silently must be an error, not zero candidates.

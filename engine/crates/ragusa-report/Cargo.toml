@@ -1,0 +1,17 @@
+[package]
+name = "ragusa-report"
+description = "A ragusa run and the floor report it always emits"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+ragusa-filter.workspace = true
+ragusa-gen.workspace = true
+ragusa-oracle.workspace = true
+ragusa-table.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+rayon.workspace = true
+serde_json.workspace = true

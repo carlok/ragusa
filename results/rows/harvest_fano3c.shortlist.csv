@@ -1,0 +1,5 @@
+rank,bound,target,seeds_survived,held_out_confirmed,held_out_undecided,novelty
+1,(TRUE) → (degree >= 2·h1 + -6),degree,5,674690,0,
+2,(TRUE) → (volume >= 2·num_points + -4),volume,5,674690,0,
+3,(is_reflexive) → (degree <= 2·h1 + -6),degree,5,4285,0,
+4,(is_reflexive) → (volume <= 2·num_points + -4),volume,5,4285,0,

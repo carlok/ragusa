@@ -1,0 +1,9907 @@
+{
+ "table": "graph_data",
+ "engine_git_rev": "76d73f41b82b0b17e082e8dc88e79ea75c48a338",
+ "fraction": 0.2,
+ "seeds": "5-9",
+ "targets": [
+  "order",
+  "size",
+  "maximum_degree",
+  "minimum_degree",
+  "diameter",
+  "radius",
+  "clique_number",
+  "chromatic_number",
+  "independence_number",
+  "vertex_cover_number",
+  "matching_number",
+  "triameter",
+  "slater",
+  "annihilation_number",
+  "residue",
+  "harmonic_index",
+  "domination_number",
+  "total_domination_number",
+  "independent_domination_number",
+  "min_maximal_matching_number",
+  "spectral_radius",
+  "largest_laplacian_eigenvalue",
+  "second_largest_adjacency_eigenvalue",
+  "zero_forcing_number"
+ ],
+ "runs": [
+  {
+   "target": "order",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1660,
+     "tested": 1660,
+     "refuted": 458
+    },
+    "sharp >= 1 (current)": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1660,
+     "tested": 1660,
+     "refuted": 458
+    },
+    "tight >= 2": {
+     "kept": 1346,
+     "tested": 1346,
+     "refuted": 422
+    },
+    "tight >= 5": {
+     "kept": 279,
+     "tested": 279,
+     "refuted": 85
+    },
+    "tight >= 10": {
+     "kept": 154,
+     "tested": 154,
+     "refuted": 30
+    },
+    "denominator <= 10": {
+     "kept": 1310,
+     "tested": 1310,
+     "refuted": 360
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1088,
+     "tested": 1088,
+     "refuted": 326
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1716,
+     "tested": 1716,
+     "refuted": 533
+    },
+    "sharp >= 1 (current)": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1716,
+     "tested": 1716,
+     "refuted": 533
+    },
+    "tight >= 2": {
+     "kept": 1346,
+     "tested": 1346,
+     "refuted": 475
+    },
+    "tight >= 5": {
+     "kept": 279,
+     "tested": 279,
+     "refuted": 85
+    },
+    "tight >= 10": {
+     "kept": 147,
+     "tested": 147,
+     "refuted": 18
+    },
+    "denominator <= 10": {
+     "kept": 1380,
+     "tested": 1380,
+     "refuted": 411
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1103,
+     "tested": 1103,
+     "refuted": 361
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1679,
+     "tested": 1679,
+     "refuted": 504
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 0
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1679,
+     "tested": 1679,
+     "refuted": 504
+    },
+    "tight >= 2": {
+     "kept": 1399,
+     "tested": 1399,
+     "refuted": 471
+    },
+    "tight >= 5": {
+     "kept": 263,
+     "tested": 263,
+     "refuted": 65
+    },
+    "tight >= 10": {
+     "kept": 142,
+     "tested": 142,
+     "refuted": 14
+    },
+    "denominator <= 10": {
+     "kept": 1352,
+     "tested": 1352,
+     "refuted": 394
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1163,
+     "tested": 1163,
+     "refuted": 365
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1613,
+     "tested": 1613,
+     "refuted": 163
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1613,
+     "tested": 1613,
+     "refuted": 163
+    },
+    "tight >= 2": {
+     "kept": 1256,
+     "tested": 1256,
+     "refuted": 152
+    },
+    "tight >= 5": {
+     "kept": 215,
+     "tested": 215,
+     "refuted": 0
+    },
+    "tight >= 10": {
+     "kept": 125,
+     "tested": 125,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 1305,
+     "tested": 1305,
+     "refuted": 107
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1036,
+     "tested": 1036,
+     "refuted": 98
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1723,
+     "tested": 1723,
+     "refuted": 328
+    },
+    "sharp >= 1 (current)": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1723,
+     "tested": 1723,
+     "refuted": 328
+    },
+    "tight >= 2": {
+     "kept": 1389,
+     "tested": 1389,
+     "refuted": 293
+    },
+    "tight >= 5": {
+     "kept": 236,
+     "tested": 236,
+     "refuted": 23
+    },
+    "tight >= 10": {
+     "kept": 138,
+     "tested": 138,
+     "refuted": 7
+    },
+    "denominator <= 10": {
+     "kept": 1407,
+     "tested": 1407,
+     "refuted": 241
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1163,
+     "tested": 1163,
+     "refuted": 208
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1815,
+     "tested": 1815,
+     "refuted": 567
+    },
+    "sharp >= 1 (current)": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1815,
+     "tested": 1815,
+     "refuted": 567
+    },
+    "tight >= 2": {
+     "kept": 1493,
+     "tested": 1493,
+     "refuted": 471
+    },
+    "tight >= 5": {
+     "kept": 230,
+     "tested": 230,
+     "refuted": 72
+    },
+    "tight >= 10": {
+     "kept": 124,
+     "tested": 124,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1487,
+     "tested": 1487,
+     "refuted": 460
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1200,
+     "tested": 1200,
+     "refuted": 372
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1821,
+     "tested": 1821,
+     "refuted": 720
+    },
+    "sharp >= 1 (current)": {
+     "kept": 31,
+     "tested": 31,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1821,
+     "tested": 1821,
+     "refuted": 720
+    },
+    "tight >= 2": {
+     "kept": 1431,
+     "tested": 1431,
+     "refuted": 539
+    },
+    "tight >= 5": {
+     "kept": 242,
+     "tested": 242,
+     "refuted": 83
+    },
+    "tight >= 10": {
+     "kept": 128,
+     "tested": 128,
+     "refuted": 26
+    },
+    "denominator <= 10": {
+     "kept": 1509,
+     "tested": 1509,
+     "refuted": 597
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 6
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1161,
+     "tested": 1161,
+     "refuted": 437
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1783,
+     "tested": 1783,
+     "refuted": 649
+    },
+    "sharp >= 1 (current)": {
+     "kept": 26,
+     "tested": 26,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1783,
+     "tested": 1783,
+     "refuted": 649
+    },
+    "tight >= 2": {
+     "kept": 1533,
+     "tested": 1533,
+     "refuted": 589
+    },
+    "tight >= 5": {
+     "kept": 235,
+     "tested": 235,
+     "refuted": 62
+    },
+    "tight >= 10": {
+     "kept": 121,
+     "tested": 121,
+     "refuted": 18
+    },
+    "denominator <= 10": {
+     "kept": 1486,
+     "tested": 1486,
+     "refuted": 530
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1270,
+     "tested": 1270,
+     "refuted": 482
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1808,
+     "tested": 1808,
+     "refuted": 204
+    },
+    "sharp >= 1 (current)": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1808,
+     "tested": 1808,
+     "refuted": 204
+    },
+    "tight >= 2": {
+     "kept": 1400,
+     "tested": 1400,
+     "refuted": 191
+    },
+    "tight >= 5": {
+     "kept": 171,
+     "tested": 171,
+     "refuted": 0
+    },
+    "tight >= 10": {
+     "kept": 102,
+     "tested": 102,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 1489,
+     "tested": 1489,
+     "refuted": 123
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1106,
+     "tested": 1106,
+     "refuted": 114
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1822,
+     "tested": 1822,
+     "refuted": 471
+    },
+    "sharp >= 1 (current)": {
+     "kept": 24,
+     "tested": 24,
+     "refuted": 11
+    },
+    "sharp >= 2": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1822,
+     "tested": 1822,
+     "refuted": 471
+    },
+    "tight >= 2": {
+     "kept": 1497,
+     "tested": 1497,
+     "refuted": 376
+    },
+    "tight >= 5": {
+     "kept": 233,
+     "tested": 233,
+     "refuted": 68
+    },
+    "tight >= 10": {
+     "kept": 122,
+     "tested": 122,
+     "refuted": 18
+    },
+    "denominator <= 10": {
+     "kept": 1543,
+     "tested": 1543,
+     "refuted": 369
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1260,
+     "tested": 1260,
+     "refuted": 292
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1351,
+     "tested": 1351,
+     "refuted": 275
+    },
+    "sharp >= 1 (current)": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1348,
+     "tested": 1348,
+     "refuted": 274
+    },
+    "tight >= 2": {
+     "kept": 996,
+     "tested": 996,
+     "refuted": 238
+    },
+    "tight >= 5": {
+     "kept": 256,
+     "tested": 256,
+     "refuted": 103
+    },
+    "tight >= 10": {
+     "kept": 171,
+     "tested": 171,
+     "refuted": 52
+    },
+    "denominator <= 10": {
+     "kept": 1034,
+     "tested": 1034,
+     "refuted": 188
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 765,
+     "tested": 765,
+     "refuted": 159
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1389,
+     "tested": 1389,
+     "refuted": 383
+    },
+    "sharp >= 1 (current)": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1384,
+     "tested": 1384,
+     "refuted": 379
+    },
+    "tight >= 2": {
+     "kept": 1031,
+     "tested": 1031,
+     "refuted": 329
+    },
+    "tight >= 5": {
+     "kept": 279,
+     "tested": 279,
+     "refuted": 119
+    },
+    "tight >= 10": {
+     "kept": 169,
+     "tested": 169,
+     "refuted": 49
+    },
+    "denominator <= 10": {
+     "kept": 1087,
+     "tested": 1087,
+     "refuted": 279
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 812,
+     "tested": 812,
+     "refuted": 236
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1380,
+     "tested": 1380,
+     "refuted": 323
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1373,
+     "tested": 1373,
+     "refuted": 316
+    },
+    "tight >= 2": {
+     "kept": 1063,
+     "tested": 1063,
+     "refuted": 287
+    },
+    "tight >= 5": {
+     "kept": 291,
+     "tested": 291,
+     "refuted": 124
+    },
+    "tight >= 10": {
+     "kept": 171,
+     "tested": 171,
+     "refuted": 50
+    },
+    "denominator <= 10": {
+     "kept": 1057,
+     "tested": 1057,
+     "refuted": 202
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 824,
+     "tested": 824,
+     "refuted": 180
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1475,
+     "tested": 1475,
+     "refuted": 96
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1475,
+     "tested": 1475,
+     "refuted": 96
+    },
+    "tight >= 2": {
+     "kept": 1117,
+     "tested": 1117,
+     "refuted": 84
+    },
+    "tight >= 5": {
+     "kept": 174,
+     "tested": 174,
+     "refuted": 11
+    },
+    "tight >= 10": {
+     "kept": 122,
+     "tested": 122,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 1153,
+     "tested": 1153,
+     "refuted": 58
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 868,
+     "tested": 868,
+     "refuted": 50
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1403,
+     "tested": 1403,
+     "refuted": 180
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1402,
+     "tested": 1402,
+     "refuted": 179
+    },
+    "tight >= 2": {
+     "kept": 1048,
+     "tested": 1048,
+     "refuted": 149
+    },
+    "tight >= 5": {
+     "kept": 233,
+     "tested": 233,
+     "refuted": 49
+    },
+    "tight >= 10": {
+     "kept": 158,
+     "tested": 158,
+     "refuted": 28
+    },
+    "denominator <= 10": {
+     "kept": 1117,
+     "tested": 1117,
+     "refuted": 131
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 840,
+     "tested": 840,
+     "refuted": 105
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1318,
+     "tested": 1318,
+     "refuted": 353
+    },
+    "sharp >= 1 (current)": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1311,
+     "tested": 1311,
+     "refuted": 353
+    },
+    "tight >= 2": {
+     "kept": 1043,
+     "tested": 1043,
+     "refuted": 327
+    },
+    "tight >= 5": {
+     "kept": 402,
+     "tested": 402,
+     "refuted": 143
+    },
+    "tight >= 10": {
+     "kept": 242,
+     "tested": 242,
+     "refuted": 48
+    },
+    "denominator <= 10": {
+     "kept": 898,
+     "tested": 898,
+     "refuted": 250
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 751,
+     "tested": 751,
+     "refuted": 229
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1241,
+     "tested": 1241,
+     "refuted": 457
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1227,
+     "tested": 1227,
+     "refuted": 454
+    },
+    "tight >= 2": {
+     "kept": 914,
+     "tested": 914,
+     "refuted": 415
+    },
+    "tight >= 5": {
+     "kept": 368,
+     "tested": 368,
+     "refuted": 152
+    },
+    "tight >= 10": {
+     "kept": 226,
+     "tested": 226,
+     "refuted": 63
+    },
+    "denominator <= 10": {
+     "kept": 891,
+     "tested": 891,
+     "refuted": 343
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 692,
+     "tested": 692,
+     "refuted": 313
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1224,
+     "tested": 1224,
+     "refuted": 411
+    },
+    "sharp >= 1 (current)": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1206,
+     "tested": 1206,
+     "refuted": 405
+    },
+    "tight >= 2": {
+     "kept": 969,
+     "tested": 969,
+     "refuted": 382
+    },
+    "tight >= 5": {
+     "kept": 362,
+     "tested": 362,
+     "refuted": 145
+    },
+    "tight >= 10": {
+     "kept": 217,
+     "tested": 217,
+     "refuted": 57
+    },
+    "denominator <= 10": {
+     "kept": 841,
+     "tested": 841,
+     "refuted": 279
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 720,
+     "tested": 720,
+     "refuted": 261
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1255,
+     "tested": 1255,
+     "refuted": 126
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1245,
+     "tested": 1245,
+     "refuted": 126
+    },
+    "tight >= 2": {
+     "kept": 875,
+     "tested": 875,
+     "refuted": 111
+    },
+    "tight >= 5": {
+     "kept": 272,
+     "tested": 272,
+     "refuted": 27
+    },
+    "tight >= 10": {
+     "kept": 182,
+     "tested": 182,
+     "refuted": 6
+    },
+    "denominator <= 10": {
+     "kept": 931,
+     "tested": 931,
+     "refuted": 94
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 675,
+     "tested": 675,
+     "refuted": 81
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1323,
+     "tested": 1323,
+     "refuted": 149
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1318,
+     "tested": 1318,
+     "refuted": 148
+    },
+    "tight >= 2": {
+     "kept": 1034,
+     "tested": 1034,
+     "refuted": 132
+    },
+    "tight >= 5": {
+     "kept": 323,
+     "tested": 323,
+     "refuted": 44
+    },
+    "tight >= 10": {
+     "kept": 214,
+     "tested": 214,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 963,
+     "tested": 963,
+     "refuted": 112
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 794,
+     "tested": 794,
+     "refuted": 97
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1368,
+     "tested": 1368,
+     "refuted": 353
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1361,
+     "tested": 1361,
+     "refuted": 352
+    },
+    "tight >= 2": {
+     "kept": 1043,
+     "tested": 1043,
+     "refuted": 308
+    },
+    "tight >= 5": {
+     "kept": 403,
+     "tested": 403,
+     "refuted": 167
+    },
+    "tight >= 10": {
+     "kept": 255,
+     "tested": 255,
+     "refuted": 94
+    },
+    "denominator <= 10": {
+     "kept": 1012,
+     "tested": 1012,
+     "refuted": 237
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 798,
+     "tested": 798,
+     "refuted": 203
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1458,
+     "tested": 1458,
+     "refuted": 356
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1456,
+     "tested": 1456,
+     "refuted": 354
+    },
+    "tight >= 2": {
+     "kept": 1107,
+     "tested": 1107,
+     "refuted": 327
+    },
+    "tight >= 5": {
+     "kept": 316,
+     "tested": 316,
+     "refuted": 116
+    },
+    "tight >= 10": {
+     "kept": 205,
+     "tested": 205,
+     "refuted": 69
+    },
+    "denominator <= 10": {
+     "kept": 1147,
+     "tested": 1147,
+     "refuted": 264
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 894,
+     "tested": 894,
+     "refuted": 244
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1413,
+     "tested": 1413,
+     "refuted": 392
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 8
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1408,
+     "tested": 1408,
+     "refuted": 387
+    },
+    "tight >= 2": {
+     "kept": 1119,
+     "tested": 1119,
+     "refuted": 365
+    },
+    "tight >= 5": {
+     "kept": 334,
+     "tested": 334,
+     "refuted": 141
+    },
+    "tight >= 10": {
+     "kept": 214,
+     "tested": 214,
+     "refuted": 80
+    },
+    "denominator <= 10": {
+     "kept": 1110,
+     "tested": 1110,
+     "refuted": 303
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 7
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 8
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 914,
+     "tested": 914,
+     "refuted": 284
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1438,
+     "tested": 1438,
+     "refuted": 163
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1438,
+     "tested": 1438,
+     "refuted": 163
+    },
+    "tight >= 2": {
+     "kept": 1070,
+     "tested": 1070,
+     "refuted": 144
+    },
+    "tight >= 5": {
+     "kept": 227,
+     "tested": 227,
+     "refuted": 19
+    },
+    "tight >= 10": {
+     "kept": 142,
+     "tested": 142,
+     "refuted": 6
+    },
+    "denominator <= 10": {
+     "kept": 1102,
+     "tested": 1102,
+     "refuted": 128
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 828,
+     "tested": 828,
+     "refuted": 111
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1510,
+     "tested": 1510,
+     "refuted": 259
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1508,
+     "tested": 1508,
+     "refuted": 257
+    },
+    "tight >= 2": {
+     "kept": 1164,
+     "tested": 1164,
+     "refuted": 244
+    },
+    "tight >= 5": {
+     "kept": 328,
+     "tested": 328,
+     "refuted": 111
+    },
+    "tight >= 10": {
+     "kept": 212,
+     "tested": 212,
+     "refuted": 78
+    },
+    "denominator <= 10": {
+     "kept": 1188,
+     "tested": 1188,
+     "refuted": 187
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 942,
+     "tested": 942,
+     "refuted": 175
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1320,
+     "tested": 1320,
+     "refuted": 286
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1320,
+     "tested": 1320,
+     "refuted": 286
+    },
+    "tight >= 2": {
+     "kept": 1031,
+     "tested": 1031,
+     "refuted": 259
+    },
+    "tight >= 5": {
+     "kept": 444,
+     "tested": 444,
+     "refuted": 113
+    },
+    "tight >= 10": {
+     "kept": 249,
+     "tested": 249,
+     "refuted": 35
+    },
+    "denominator <= 10": {
+     "kept": 1023,
+     "tested": 1023,
+     "refuted": 211
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 855,
+     "tested": 855,
+     "refuted": 189
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1309,
+     "tested": 1309,
+     "refuted": 300
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1307,
+     "tested": 1307,
+     "refuted": 300
+    },
+    "tight >= 2": {
+     "kept": 994,
+     "tested": 994,
+     "refuted": 267
+    },
+    "tight >= 5": {
+     "kept": 412,
+     "tested": 412,
+     "refuted": 91
+    },
+    "tight >= 10": {
+     "kept": 217,
+     "tested": 217,
+     "refuted": 20
+    },
+    "denominator <= 10": {
+     "kept": 1021,
+     "tested": 1021,
+     "refuted": 237
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 827,
+     "tested": 827,
+     "refuted": 208
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1338,
+     "tested": 1338,
+     "refuted": 259
+    },
+    "sharp >= 1 (current)": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1330,
+     "tested": 1330,
+     "refuted": 258
+    },
+    "tight >= 2": {
+     "kept": 1049,
+     "tested": 1049,
+     "refuted": 230
+    },
+    "tight >= 5": {
+     "kept": 409,
+     "tested": 409,
+     "refuted": 80
+    },
+    "tight >= 10": {
+     "kept": 232,
+     "tested": 232,
+     "refuted": 16
+    },
+    "denominator <= 10": {
+     "kept": 1044,
+     "tested": 1044,
+     "refuted": 191
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 7
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 880,
+     "tested": 880,
+     "refuted": 173
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1316,
+     "tested": 1316,
+     "refuted": 100
+    },
+    "sharp >= 1 (current)": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1312,
+     "tested": 1312,
+     "refuted": 100
+    },
+    "tight >= 2": {
+     "kept": 1018,
+     "tested": 1018,
+     "refuted": 100
+    },
+    "tight >= 5": {
+     "kept": 373,
+     "tested": 373,
+     "refuted": 24
+    },
+    "tight >= 10": {
+     "kept": 213,
+     "tested": 213,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 1020,
+     "tested": 1020,
+     "refuted": 74
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 841,
+     "tested": 841,
+     "refuted": 74
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1353,
+     "tested": 1353,
+     "refuted": 126
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1353,
+     "tested": 1353,
+     "refuted": 126
+    },
+    "tight >= 2": {
+     "kept": 1084,
+     "tested": 1084,
+     "refuted": 123
+    },
+    "tight >= 5": {
+     "kept": 385,
+     "tested": 385,
+     "refuted": 26
+    },
+    "tight >= 10": {
+     "kept": 227,
+     "tested": 227,
+     "refuted": 4
+    },
+    "denominator <= 10": {
+     "kept": 1051,
+     "tested": 1051,
+     "refuted": 79
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 892,
+     "tested": 892,
+     "refuted": 76
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1279,
+     "tested": 1279,
+     "refuted": 456
+    },
+    "sharp >= 1 (current)": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1259,
+     "tested": 1259,
+     "refuted": 453
+    },
+    "tight >= 2": {
+     "kept": 1000,
+     "tested": 1000,
+     "refuted": 406
+    },
+    "tight >= 5": {
+     "kept": 508,
+     "tested": 508,
+     "refuted": 187
+    },
+    "tight >= 10": {
+     "kept": 364,
+     "tested": 364,
+     "refuted": 85
+    },
+    "denominator <= 10": {
+     "kept": 818,
+     "tested": 818,
+     "refuted": 308
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 631,
+     "tested": 631,
+     "refuted": 272
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1284,
+     "tested": 1284,
+     "refuted": 442
+    },
+    "sharp >= 1 (current)": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1257,
+     "tested": 1257,
+     "refuted": 438
+    },
+    "tight >= 2": {
+     "kept": 923,
+     "tested": 923,
+     "refuted": 372
+    },
+    "tight >= 5": {
+     "kept": 436,
+     "tested": 436,
+     "refuted": 131
+    },
+    "tight >= 10": {
+     "kept": 350,
+     "tested": 350,
+     "refuted": 83
+    },
+    "denominator <= 10": {
+     "kept": 882,
+     "tested": 882,
+     "refuted": 311
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 623,
+     "tested": 623,
+     "refuted": 263
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1292,
+     "tested": 1292,
+     "refuted": 388
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1246,
+     "tested": 1246,
+     "refuted": 382
+    },
+    "tight >= 2": {
+     "kept": 1044,
+     "tested": 1044,
+     "refuted": 365
+    },
+    "tight >= 5": {
+     "kept": 431,
+     "tested": 431,
+     "refuted": 140
+    },
+    "tight >= 10": {
+     "kept": 329,
+     "tested": 329,
+     "refuted": 81
+    },
+    "denominator <= 10": {
+     "kept": 863,
+     "tested": 863,
+     "refuted": 263
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 721,
+     "tested": 721,
+     "refuted": 248
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1229,
+     "tested": 1229,
+     "refuted": 113
+    },
+    "sharp >= 1 (current)": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1202,
+     "tested": 1202,
+     "refuted": 113
+    },
+    "tight >= 2": {
+     "kept": 845,
+     "tested": 845,
+     "refuted": 103
+    },
+    "tight >= 5": {
+     "kept": 346,
+     "tested": 346,
+     "refuted": 22
+    },
+    "tight >= 10": {
+     "kept": 302,
+     "tested": 302,
+     "refuted": 10
+    },
+    "denominator <= 10": {
+     "kept": 877,
+     "tested": 877,
+     "refuted": 85
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 578,
+     "tested": 578,
+     "refuted": 75
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1379,
+     "tested": 1379,
+     "refuted": 231
+    },
+    "sharp >= 1 (current)": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 0
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1362,
+     "tested": 1362,
+     "refuted": 221
+    },
+    "tight >= 2": {
+     "kept": 1078,
+     "tested": 1078,
+     "refuted": 172
+    },
+    "tight >= 5": {
+     "kept": 443,
+     "tested": 443,
+     "refuted": 81
+    },
+    "tight >= 10": {
+     "kept": 367,
+     "tested": 367,
+     "refuted": 61
+    },
+    "denominator <= 10": {
+     "kept": 945,
+     "tested": 945,
+     "refuted": 147
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 730,
+     "tested": 730,
+     "refuted": 108
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1297,
+     "tested": 1297,
+     "refuted": 499
+    },
+    "sharp >= 1 (current)": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 2": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1283,
+     "tested": 1283,
+     "refuted": 498
+    },
+    "tight >= 2": {
+     "kept": 1009,
+     "tested": 1009,
+     "refuted": 445
+    },
+    "tight >= 5": {
+     "kept": 471,
+     "tested": 471,
+     "refuted": 185
+    },
+    "tight >= 10": {
+     "kept": 326,
+     "tested": 326,
+     "refuted": 90
+    },
+    "denominator <= 10": {
+     "kept": 881,
+     "tested": 881,
+     "refuted": 357
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 685,
+     "tested": 685,
+     "refuted": 319
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1296,
+     "tested": 1296,
+     "refuted": 405
+    },
+    "sharp >= 1 (current)": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1274,
+     "tested": 1274,
+     "refuted": 402
+    },
+    "tight >= 2": {
+     "kept": 929,
+     "tested": 929,
+     "refuted": 341
+    },
+    "tight >= 5": {
+     "kept": 385,
+     "tested": 385,
+     "refuted": 98
+    },
+    "tight >= 10": {
+     "kept": 277,
+     "tested": 277,
+     "refuted": 44
+    },
+    "denominator <= 10": {
+     "kept": 948,
+     "tested": 948,
+     "refuted": 295
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 675,
+     "tested": 675,
+     "refuted": 248
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1297,
+     "tested": 1297,
+     "refuted": 366
+    },
+    "sharp >= 1 (current)": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1272,
+     "tested": 1272,
+     "refuted": 363
+    },
+    "tight >= 2": {
+     "kept": 1047,
+     "tested": 1047,
+     "refuted": 336
+    },
+    "tight >= 5": {
+     "kept": 372,
+     "tested": 372,
+     "refuted": 103
+    },
+    "tight >= 10": {
+     "kept": 268,
+     "tested": 268,
+     "refuted": 52
+    },
+    "denominator <= 10": {
+     "kept": 928,
+     "tested": 928,
+     "refuted": 255
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 768,
+     "tested": 768,
+     "refuted": 234
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1253,
+     "tested": 1253,
+     "refuted": 98
+    },
+    "sharp >= 1 (current)": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1229,
+     "tested": 1229,
+     "refuted": 98
+    },
+    "tight >= 2": {
+     "kept": 860,
+     "tested": 860,
+     "refuted": 84
+    },
+    "tight >= 5": {
+     "kept": 292,
+     "tested": 292,
+     "refuted": 10
+    },
+    "tight >= 10": {
+     "kept": 234,
+     "tested": 234,
+     "refuted": 5
+    },
+    "denominator <= 10": {
+     "kept": 943,
+     "tested": 943,
+     "refuted": 69
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 633,
+     "tested": 633,
+     "refuted": 56
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1370,
+     "tested": 1370,
+     "refuted": 201
+    },
+    "sharp >= 1 (current)": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1359,
+     "tested": 1359,
+     "refuted": 197
+    },
+    "tight >= 2": {
+     "kept": 1049,
+     "tested": 1049,
+     "refuted": 141
+    },
+    "tight >= 5": {
+     "kept": 365,
+     "tested": 365,
+     "refuted": 50
+    },
+    "tight >= 10": {
+     "kept": 296,
+     "tested": 296,
+     "refuted": 35
+    },
+    "denominator <= 10": {
+     "kept": 1003,
+     "tested": 1003,
+     "refuted": 143
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 760,
+     "tested": 760,
+     "refuted": 93
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1437,
+     "tested": 1437,
+     "refuted": 391
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1436,
+     "tested": 1436,
+     "refuted": 390
+    },
+    "tight >= 2": {
+     "kept": 1160,
+     "tested": 1160,
+     "refuted": 338
+    },
+    "tight >= 5": {
+     "kept": 288,
+     "tested": 288,
+     "refuted": 116
+    },
+    "tight >= 10": {
+     "kept": 135,
+     "tested": 135,
+     "refuted": 45
+    },
+    "denominator <= 10": {
+     "kept": 1141,
+     "tested": 1141,
+     "refuted": 287
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 8
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 8
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 924,
+     "tested": 924,
+     "refuted": 249
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1596,
+     "tested": 1596,
+     "refuted": 433
+    },
+    "sharp >= 1 (current)": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 11
+    },
+    "sharp >= 2": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1596,
+     "tested": 1596,
+     "refuted": 433
+    },
+    "tight >= 2": {
+     "kept": 1256,
+     "tested": 1256,
+     "refuted": 401
+    },
+    "tight >= 5": {
+     "kept": 291,
+     "tested": 291,
+     "refuted": 108
+    },
+    "tight >= 10": {
+     "kept": 125,
+     "tested": 125,
+     "refuted": 30
+    },
+    "denominator <= 10": {
+     "kept": 1306,
+     "tested": 1306,
+     "refuted": 316
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1017,
+     "tested": 1017,
+     "refuted": 291
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1564,
+     "tested": 1564,
+     "refuted": 435
+    },
+    "sharp >= 1 (current)": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1563,
+     "tested": 1563,
+     "refuted": 434
+    },
+    "tight >= 2": {
+     "kept": 1331,
+     "tested": 1331,
+     "refuted": 401
+    },
+    "tight >= 5": {
+     "kept": 318,
+     "tested": 318,
+     "refuted": 134
+    },
+    "tight >= 10": {
+     "kept": 122,
+     "tested": 122,
+     "refuted": 26
+    },
+    "denominator <= 10": {
+     "kept": 1282,
+     "tested": 1282,
+     "refuted": 336
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 10
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 11
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1099,
+     "tested": 1099,
+     "refuted": 309
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1525,
+     "tested": 1525,
+     "refuted": 99
+    },
+    "sharp >= 1 (current)": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1525,
+     "tested": 1525,
+     "refuted": 99
+    },
+    "tight >= 2": {
+     "kept": 1196,
+     "tested": 1196,
+     "refuted": 94
+    },
+    "tight >= 5": {
+     "kept": 225,
+     "tested": 225,
+     "refuted": 7
+    },
+    "tight >= 10": {
+     "kept": 95,
+     "tested": 95,
+     "refuted": 2
+    },
+    "denominator <= 10": {
+     "kept": 1262,
+     "tested": 1262,
+     "refuted": 56
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 980,
+     "tested": 980,
+     "refuted": 53
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1620,
+     "tested": 1620,
+     "refuted": 262
+    },
+    "sharp >= 1 (current)": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1617,
+     "tested": 1617,
+     "refuted": 261
+    },
+    "tight >= 2": {
+     "kept": 1335,
+     "tested": 1335,
+     "refuted": 235
+    },
+    "tight >= 5": {
+     "kept": 269,
+     "tested": 269,
+     "refuted": 53
+    },
+    "tight >= 10": {
+     "kept": 110,
+     "tested": 110,
+     "refuted": 12
+    },
+    "denominator <= 10": {
+     "kept": 1323,
+     "tested": 1323,
+     "refuted": 180
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 6
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1090,
+     "tested": 1090,
+     "refuted": 157
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1584,
+     "tested": 1584,
+     "refuted": 453
+    },
+    "sharp >= 1 (current)": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1582,
+     "tested": 1582,
+     "refuted": 453
+    },
+    "tight >= 2": {
+     "kept": 1301,
+     "tested": 1301,
+     "refuted": 404
+    },
+    "tight >= 5": {
+     "kept": 351,
+     "tested": 351,
+     "refuted": 86
+    },
+    "tight >= 10": {
+     "kept": 230,
+     "tested": 230,
+     "refuted": 33
+    },
+    "denominator <= 10": {
+     "kept": 1198,
+     "tested": 1198,
+     "refuted": 331
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1030,
+     "tested": 1030,
+     "refuted": 297
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1563,
+     "tested": 1563,
+     "refuted": 451
+    },
+    "sharp >= 1 (current)": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1558,
+     "tested": 1558,
+     "refuted": 451
+    },
+    "tight >= 2": {
+     "kept": 1226,
+     "tested": 1226,
+     "refuted": 396
+    },
+    "tight >= 5": {
+     "kept": 399,
+     "tested": 399,
+     "refuted": 122
+    },
+    "tight >= 10": {
+     "kept": 257,
+     "tested": 257,
+     "refuted": 48
+    },
+    "denominator <= 10": {
+     "kept": 1200,
+     "tested": 1200,
+     "refuted": 346
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 979,
+     "tested": 979,
+     "refuted": 298
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1568,
+     "tested": 1568,
+     "refuted": 435
+    },
+    "sharp >= 1 (current)": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1559,
+     "tested": 1559,
+     "refuted": 435
+    },
+    "tight >= 2": {
+     "kept": 1314,
+     "tested": 1314,
+     "refuted": 410
+    },
+    "tight >= 5": {
+     "kept": 395,
+     "tested": 395,
+     "refuted": 116
+    },
+    "tight >= 10": {
+     "kept": 234,
+     "tested": 234,
+     "refuted": 30
+    },
+    "denominator <= 10": {
+     "kept": 1208,
+     "tested": 1208,
+     "refuted": 343
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1072,
+     "tested": 1072,
+     "refuted": 323
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1507,
+     "tested": 1507,
+     "refuted": 187
+    },
+    "sharp >= 1 (current)": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1498,
+     "tested": 1498,
+     "refuted": 185
+    },
+    "tight >= 2": {
+     "kept": 1189,
+     "tested": 1189,
+     "refuted": 171
+    },
+    "tight >= 5": {
+     "kept": 319,
+     "tested": 319,
+     "refuted": 24
+    },
+    "tight >= 10": {
+     "kept": 214,
+     "tested": 214,
+     "refuted": 6
+    },
+    "denominator <= 10": {
+     "kept": 1164,
+     "tested": 1164,
+     "refuted": 130
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 962,
+     "tested": 962,
+     "refuted": 120
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1609,
+     "tested": 1609,
+     "refuted": 197
+    },
+    "sharp >= 1 (current)": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 4
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1608,
+     "tested": 1608,
+     "refuted": 197
+    },
+    "tight >= 2": {
+     "kept": 1326,
+     "tested": 1326,
+     "refuted": 181
+    },
+    "tight >= 5": {
+     "kept": 330,
+     "tested": 330,
+     "refuted": 27
+    },
+    "tight >= 10": {
+     "kept": 215,
+     "tested": 215,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 1254,
+     "tested": 1254,
+     "refuted": 138
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1080,
+     "tested": 1080,
+     "refuted": 123
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1505,
+     "tested": 1505,
+     "refuted": 353
+    },
+    "sharp >= 1 (current)": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1503,
+     "tested": 1503,
+     "refuted": 353
+    },
+    "tight >= 2": {
+     "kept": 1219,
+     "tested": 1219,
+     "refuted": 316
+    },
+    "tight >= 5": {
+     "kept": 361,
+     "tested": 361,
+     "refuted": 87
+    },
+    "tight >= 10": {
+     "kept": 249,
+     "tested": 249,
+     "refuted": 32
+    },
+    "denominator <= 10": {
+     "kept": 1110,
+     "tested": 1110,
+     "refuted": 251
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 948,
+     "tested": 948,
+     "refuted": 217
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1504,
+     "tested": 1504,
+     "refuted": 375
+    },
+    "sharp >= 1 (current)": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1499,
+     "tested": 1499,
+     "refuted": 375
+    },
+    "tight >= 2": {
+     "kept": 1183,
+     "tested": 1183,
+     "refuted": 332
+    },
+    "tight >= 5": {
+     "kept": 391,
+     "tested": 391,
+     "refuted": 102
+    },
+    "tight >= 10": {
+     "kept": 272,
+     "tested": 272,
+     "refuted": 38
+    },
+    "denominator <= 10": {
+     "kept": 1128,
+     "tested": 1128,
+     "refuted": 266
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 932,
+     "tested": 932,
+     "refuted": 232
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1482,
+     "tested": 1482,
+     "refuted": 326
+    },
+    "sharp >= 1 (current)": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1473,
+     "tested": 1473,
+     "refuted": 326
+    },
+    "tight >= 2": {
+     "kept": 1213,
+     "tested": 1213,
+     "refuted": 301
+    },
+    "tight >= 5": {
+     "kept": 366,
+     "tested": 366,
+     "refuted": 82
+    },
+    "tight >= 10": {
+     "kept": 259,
+     "tested": 259,
+     "refuted": 35
+    },
+    "denominator <= 10": {
+     "kept": 1105,
+     "tested": 1105,
+     "refuted": 237
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 963,
+     "tested": 963,
+     "refuted": 215
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1469,
+     "tested": 1469,
+     "refuted": 169
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1460,
+     "tested": 1460,
+     "refuted": 167
+    },
+    "tight >= 2": {
+     "kept": 1150,
+     "tested": 1150,
+     "refuted": 159
+    },
+    "tight >= 5": {
+     "kept": 328,
+     "tested": 328,
+     "refuted": 22
+    },
+    "tight >= 10": {
+     "kept": 240,
+     "tested": 240,
+     "refuted": 10
+    },
+    "denominator <= 10": {
+     "kept": 1103,
+     "tested": 1103,
+     "refuted": 103
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 909,
+     "tested": 909,
+     "refuted": 98
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1548,
+     "tested": 1548,
+     "refuted": 186
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 4
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1547,
+     "tested": 1547,
+     "refuted": 186
+    },
+    "tight >= 2": {
+     "kept": 1260,
+     "tested": 1260,
+     "refuted": 171
+    },
+    "tight >= 5": {
+     "kept": 355,
+     "tested": 355,
+     "refuted": 45
+    },
+    "tight >= 10": {
+     "kept": 246,
+     "tested": 246,
+     "refuted": 14
+    },
+    "denominator <= 10": {
+     "kept": 1170,
+     "tested": 1170,
+     "refuted": 121
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1001,
+     "tested": 1001,
+     "refuted": 107
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1632,
+     "tested": 1632,
+     "refuted": 697
+    },
+    "sharp >= 1 (current)": {
+     "kept": 32,
+     "tested": 32,
+     "refuted": 23
+    },
+    "sharp >= 2": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 15
+    },
+    "sharp >= 3": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 10
+    },
+    "sharp >= 5": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 6
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1630,
+     "tested": 1630,
+     "refuted": 695
+    },
+    "tight >= 2": {
+     "kept": 1318,
+     "tested": 1318,
+     "refuted": 537
+    },
+    "tight >= 5": {
+     "kept": 292,
+     "tested": 292,
+     "refuted": 130
+    },
+    "tight >= 10": {
+     "kept": 164,
+     "tested": 164,
+     "refuted": 48
+    },
+    "denominator <= 10": {
+     "kept": 1301,
+     "tested": 1301,
+     "refuted": 516
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 13
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 13
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 7
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1064,
+     "tested": 1064,
+     "refuted": 407
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1708,
+     "tested": 1708,
+     "refuted": 739
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 14
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 10
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1708,
+     "tested": 1708,
+     "refuted": 739
+    },
+    "tight >= 2": {
+     "kept": 1352,
+     "tested": 1352,
+     "refuted": 547
+    },
+    "tight >= 5": {
+     "kept": 285,
+     "tested": 285,
+     "refuted": 106
+    },
+    "tight >= 10": {
+     "kept": 140,
+     "tested": 140,
+     "refuted": 25
+    },
+    "denominator <= 10": {
+     "kept": 1378,
+     "tested": 1378,
+     "refuted": 553
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 9
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1103,
+     "tested": 1103,
+     "refuted": 418
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1695,
+     "tested": 1695,
+     "refuted": 720
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 23
+    },
+    "sharp >= 2": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 16
+    },
+    "sharp >= 3": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 10
+    },
+    "sharp >= 5": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 8
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1695,
+     "tested": 1695,
+     "refuted": 720
+    },
+    "tight >= 2": {
+     "kept": 1389,
+     "tested": 1389,
+     "refuted": 558
+    },
+    "tight >= 5": {
+     "kept": 338,
+     "tested": 338,
+     "refuted": 142
+    },
+    "tight >= 10": {
+     "kept": 146,
+     "tested": 146,
+     "refuted": 29
+    },
+    "denominator <= 10": {
+     "kept": 1368,
+     "tested": 1368,
+     "refuted": 545
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 16
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 16
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 11
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1138,
+     "tested": 1138,
+     "refuted": 435
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1475,
+     "tested": 1475,
+     "refuted": 148
+    },
+    "sharp >= 1 (current)": {
+     "kept": 33,
+     "tested": 33,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 25,
+     "tested": 25,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1475,
+     "tested": 1475,
+     "refuted": 148
+    },
+    "tight >= 2": {
+     "kept": 1295,
+     "tested": 1295,
+     "refuted": 134
+    },
+    "tight >= 5": {
+     "kept": 196,
+     "tested": 196,
+     "refuted": 3
+    },
+    "tight >= 10": {
+     "kept": 112,
+     "tested": 112,
+     "refuted": 1
+    },
+    "denominator <= 10": {
+     "kept": 1246,
+     "tested": 1246,
+     "refuted": 107
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1091,
+     "tested": 1091,
+     "refuted": 95
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1762,
+     "tested": 1762,
+     "refuted": 602
+    },
+    "sharp >= 1 (current)": {
+     "kept": 31,
+     "tested": 31,
+     "refuted": 15
+    },
+    "sharp >= 2": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 11
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 6
+    },
+    "sharp >= 5": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "tight >= 1": {
+     "kept": 1761,
+     "tested": 1761,
+     "refuted": 601
+    },
+    "tight >= 2": {
+     "kept": 1445,
+     "tested": 1445,
+     "refuted": 449
+    },
+    "tight >= 5": {
+     "kept": 309,
+     "tested": 309,
+     "refuted": 105
+    },
+    "tight >= 10": {
+     "kept": 129,
+     "tested": 129,
+     "refuted": 26
+    },
+    "denominator <= 10": {
+     "kept": 1441,
+     "tested": 1441,
+     "refuted": 451
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 7
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1196,
+     "tested": 1196,
+     "refuted": 345
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1434,
+     "tested": 1434,
+     "refuted": 258
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1434,
+     "tested": 1434,
+     "refuted": 258
+    },
+    "tight >= 2": {
+     "kept": 1174,
+     "tested": 1174,
+     "refuted": 226
+    },
+    "tight >= 5": {
+     "kept": 400,
+     "tested": 400,
+     "refuted": 98
+    },
+    "tight >= 10": {
+     "kept": 254,
+     "tested": 254,
+     "refuted": 37
+    },
+    "denominator <= 10": {
+     "kept": 1090,
+     "tested": 1090,
+     "refuted": 184
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 954,
+     "tested": 954,
+     "refuted": 160
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1409,
+     "tested": 1409,
+     "refuted": 298
+    },
+    "sharp >= 1 (current)": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1407,
+     "tested": 1407,
+     "refuted": 298
+    },
+    "tight >= 2": {
+     "kept": 1132,
+     "tested": 1132,
+     "refuted": 265
+    },
+    "tight >= 5": {
+     "kept": 381,
+     "tested": 381,
+     "refuted": 85
+    },
+    "tight >= 10": {
+     "kept": 232,
+     "tested": 232,
+     "refuted": 32
+    },
+    "denominator <= 10": {
+     "kept": 1070,
+     "tested": 1070,
+     "refuted": 212
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 918,
+     "tested": 918,
+     "refuted": 185
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1407,
+     "tested": 1407,
+     "refuted": 265
+    },
+    "sharp >= 1 (current)": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1400,
+     "tested": 1400,
+     "refuted": 265
+    },
+    "tight >= 2": {
+     "kept": 1188,
+     "tested": 1188,
+     "refuted": 244
+    },
+    "tight >= 5": {
+     "kept": 410,
+     "tested": 410,
+     "refuted": 102
+    },
+    "tight >= 10": {
+     "kept": 247,
+     "tested": 247,
+     "refuted": 32
+    },
+    "denominator <= 10": {
+     "kept": 1063,
+     "tested": 1063,
+     "refuted": 190
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 970,
+     "tested": 970,
+     "refuted": 179
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1410,
+     "tested": 1410,
+     "refuted": 106
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1404,
+     "tested": 1404,
+     "refuted": 104
+    },
+    "tight >= 2": {
+     "kept": 1135,
+     "tested": 1135,
+     "refuted": 96
+    },
+    "tight >= 5": {
+     "kept": 343,
+     "tested": 343,
+     "refuted": 21
+    },
+    "tight >= 10": {
+     "kept": 222,
+     "tested": 222,
+     "refuted": 10
+    },
+    "denominator <= 10": {
+     "kept": 1068,
+     "tested": 1068,
+     "refuted": 63
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 923,
+     "tested": 923,
+     "refuted": 61
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1472,
+     "tested": 1472,
+     "refuted": 157
+    },
+    "sharp >= 1 (current)": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1472,
+     "tested": 1472,
+     "refuted": 157
+    },
+    "tight >= 2": {
+     "kept": 1221,
+     "tested": 1221,
+     "refuted": 138
+    },
+    "tight >= 5": {
+     "kept": 382,
+     "tested": 382,
+     "refuted": 54
+    },
+    "tight >= 10": {
+     "kept": 237,
+     "tested": 237,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 1132,
+     "tested": 1132,
+     "refuted": 115
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1001,
+     "tested": 1001,
+     "refuted": 104
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1619,
+     "tested": 1619,
+     "refuted": 392
+    },
+    "sharp >= 1 (current)": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1618,
+     "tested": 1618,
+     "refuted": 391
+    },
+    "tight >= 2": {
+     "kept": 1337,
+     "tested": 1337,
+     "refuted": 340
+    },
+    "tight >= 5": {
+     "kept": 264,
+     "tested": 264,
+     "refuted": 80
+    },
+    "tight >= 10": {
+     "kept": 98,
+     "tested": 98,
+     "refuted": 19
+    },
+    "denominator <= 10": {
+     "kept": 1286,
+     "tested": 1286,
+     "refuted": 278
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 10
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 11
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 6
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1073,
+     "tested": 1073,
+     "refuted": 243
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1555,
+     "tested": 1555,
+     "refuted": 410
+    },
+    "sharp >= 1 (current)": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1555,
+     "tested": 1555,
+     "refuted": 410
+    },
+    "tight >= 2": {
+     "kept": 1239,
+     "tested": 1239,
+     "refuted": 362
+    },
+    "tight >= 5": {
+     "kept": 282,
+     "tested": 282,
+     "refuted": 81
+    },
+    "tight >= 10": {
+     "kept": 104,
+     "tested": 104,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1275,
+     "tested": 1275,
+     "refuted": 282
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1012,
+     "tested": 1012,
+     "refuted": 242
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1575,
+     "tested": 1575,
+     "refuted": 402
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 9
+    },
+    "sharp >= 2": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1574,
+     "tested": 1574,
+     "refuted": 401
+    },
+    "tight >= 2": {
+     "kept": 1318,
+     "tested": 1318,
+     "refuted": 357
+    },
+    "tight >= 5": {
+     "kept": 289,
+     "tested": 289,
+     "refuted": 84
+    },
+    "tight >= 10": {
+     "kept": 106,
+     "tested": 106,
+     "refuted": 25
+    },
+    "denominator <= 10": {
+     "kept": 1275,
+     "tested": 1275,
+     "refuted": 280
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 8
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 8
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1074,
+     "tested": 1074,
+     "refuted": 243
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1649,
+     "tested": 1649,
+     "refuted": 206
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 9
+    },
+    "sharp >= 2": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1649,
+     "tested": 1649,
+     "refuted": 206
+    },
+    "tight >= 2": {
+     "kept": 1335,
+     "tested": 1335,
+     "refuted": 188
+    },
+    "tight >= 5": {
+     "kept": 242,
+     "tested": 242,
+     "refuted": 16
+    },
+    "tight >= 10": {
+     "kept": 85,
+     "tested": 85,
+     "refuted": 3
+    },
+    "denominator <= 10": {
+     "kept": 1364,
+     "tested": 1364,
+     "refuted": 136
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1105,
+     "tested": 1105,
+     "refuted": 123
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1643,
+     "tested": 1643,
+     "refuted": 240
+    },
+    "sharp >= 1 (current)": {
+     "kept": 29,
+     "tested": 29,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1641,
+     "tested": 1641,
+     "refuted": 238
+    },
+    "tight >= 2": {
+     "kept": 1361,
+     "tested": 1361,
+     "refuted": 206
+    },
+    "tight >= 5": {
+     "kept": 271,
+     "tested": 271,
+     "refuted": 68
+    },
+    "tight >= 10": {
+     "kept": 108,
+     "tested": 108,
+     "refuted": 21
+    },
+    "denominator <= 10": {
+     "kept": 1338,
+     "tested": 1338,
+     "refuted": 155
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 10
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1112,
+     "tested": 1112,
+     "refuted": 126
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1424,
+     "tested": 1424,
+     "refuted": 325
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1422,
+     "tested": 1422,
+     "refuted": 323
+    },
+    "tight >= 2": {
+     "kept": 1094,
+     "tested": 1094,
+     "refuted": 270
+    },
+    "tight >= 5": {
+     "kept": 286,
+     "tested": 286,
+     "refuted": 132
+    },
+    "tight >= 10": {
+     "kept": 145,
+     "tested": 145,
+     "refuted": 64
+    },
+    "denominator <= 10": {
+     "kept": 1155,
+     "tested": 1155,
+     "refuted": 235
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 10
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 887,
+     "tested": 887,
+     "refuted": 195
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1568,
+     "tested": 1568,
+     "refuted": 500
+    },
+    "sharp >= 1 (current)": {
+     "kept": 25,
+     "tested": 25,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1568,
+     "tested": 1568,
+     "refuted": 500
+    },
+    "tight >= 2": {
+     "kept": 1216,
+     "tested": 1216,
+     "refuted": 447
+    },
+    "tight >= 5": {
+     "kept": 288,
+     "tested": 288,
+     "refuted": 143
+    },
+    "tight >= 10": {
+     "kept": 135,
+     "tested": 135,
+     "refuted": 53
+    },
+    "denominator <= 10": {
+     "kept": 1272,
+     "tested": 1272,
+     "refuted": 360
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 977,
+     "tested": 977,
+     "refuted": 318
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1526,
+     "tested": 1526,
+     "refuted": 376
+    },
+    "sharp >= 1 (current)": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1524,
+     "tested": 1524,
+     "refuted": 374
+    },
+    "tight >= 2": {
+     "kept": 1246,
+     "tested": 1246,
+     "refuted": 336
+    },
+    "tight >= 5": {
+     "kept": 295,
+     "tested": 295,
+     "refuted": 135
+    },
+    "tight >= 10": {
+     "kept": 132,
+     "tested": 132,
+     "refuted": 45
+    },
+    "denominator <= 10": {
+     "kept": 1236,
+     "tested": 1236,
+     "refuted": 270
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1017,
+     "tested": 1017,
+     "refuted": 244
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1549,
+     "tested": 1549,
+     "refuted": 112
+    },
+    "sharp >= 1 (current)": {
+     "kept": 28,
+     "tested": 28,
+     "refuted": 9
+    },
+    "sharp >= 2": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1547,
+     "tested": 1547,
+     "refuted": 110
+    },
+    "tight >= 2": {
+     "kept": 1193,
+     "tested": 1193,
+     "refuted": 108
+    },
+    "tight >= 5": {
+     "kept": 207,
+     "tested": 207,
+     "refuted": 20
+    },
+    "tight >= 10": {
+     "kept": 90,
+     "tested": 90,
+     "refuted": 4
+    },
+    "denominator <= 10": {
+     "kept": 1289,
+     "tested": 1289,
+     "refuted": 66
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 987,
+     "tested": 987,
+     "refuted": 65
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1630,
+     "tested": 1630,
+     "refuted": 206
+    },
+    "sharp >= 1 (current)": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1627,
+     "tested": 1627,
+     "refuted": 203
+    },
+    "tight >= 2": {
+     "kept": 1309,
+     "tested": 1309,
+     "refuted": 191
+    },
+    "tight >= 5": {
+     "kept": 241,
+     "tested": 241,
+     "refuted": 47
+    },
+    "tight >= 10": {
+     "kept": 102,
+     "tested": 102,
+     "refuted": 14
+    },
+    "denominator <= 10": {
+     "kept": 1345,
+     "tested": 1345,
+     "refuted": 146
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1079,
+     "tested": 1079,
+     "refuted": 134
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1835,
+     "tested": 1835,
+     "refuted": 661
+    },
+    "sharp >= 1 (current)": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 14
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1835,
+     "tested": 1835,
+     "refuted": 661
+    },
+    "tight >= 2": {
+     "kept": 1436,
+     "tested": 1436,
+     "refuted": 588
+    },
+    "tight >= 5": {
+     "kept": 109,
+     "tested": 109,
+     "refuted": 36
+    },
+    "tight >= 10": {
+     "kept": 57,
+     "tested": 57,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 743,
+     "tested": 743,
+     "refuted": 253
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 8
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 542,
+     "tested": 542,
+     "refuted": 228
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1868,
+     "tested": 1868,
+     "refuted": 688
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1868,
+     "tested": 1868,
+     "refuted": 688
+    },
+    "tight >= 2": {
+     "kept": 1412,
+     "tested": 1412,
+     "refuted": 602
+    },
+    "tight >= 5": {
+     "kept": 133,
+     "tested": 133,
+     "refuted": 49
+    },
+    "tight >= 10": {
+     "kept": 59,
+     "tested": 59,
+     "refuted": 14
+    },
+    "denominator <= 10": {
+     "kept": 806,
+     "tested": 806,
+     "refuted": 313
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 523,
+     "tested": 523,
+     "refuted": 260
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1867,
+     "tested": 1867,
+     "refuted": 724
+    },
+    "sharp >= 1 (current)": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1867,
+     "tested": 1867,
+     "refuted": 724
+    },
+    "tight >= 2": {
+     "kept": 1520,
+     "tested": 1520,
+     "refuted": 665
+    },
+    "tight >= 5": {
+     "kept": 119,
+     "tested": 119,
+     "refuted": 31
+    },
+    "tight >= 10": {
+     "kept": 55,
+     "tested": 55,
+     "refuted": 9
+    },
+    "denominator <= 10": {
+     "kept": 741,
+     "tested": 741,
+     "refuted": 286
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 562,
+     "tested": 562,
+     "refuted": 264
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1777,
+     "tested": 1777,
+     "refuted": 214
+    },
+    "sharp >= 1 (current)": {
+     "kept": 28,
+     "tested": 28,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1777,
+     "tested": 1777,
+     "refuted": 214
+    },
+    "tight >= 2": {
+     "kept": 1357,
+     "tested": 1357,
+     "refuted": 192
+    },
+    "tight >= 5": {
+     "kept": 97,
+     "tested": 97,
+     "refuted": 0
+    },
+    "tight >= 10": {
+     "kept": 45,
+     "tested": 45,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 740,
+     "tested": 740,
+     "refuted": 70
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 482,
+     "tested": 482,
+     "refuted": 59
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1914,
+     "tested": 1914,
+     "refuted": 462
+    },
+    "sharp >= 1 (current)": {
+     "kept": 25,
+     "tested": 25,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1914,
+     "tested": 1914,
+     "refuted": 462
+    },
+    "tight >= 2": {
+     "kept": 1520,
+     "tested": 1520,
+     "refuted": 412
+    },
+    "tight >= 5": {
+     "kept": 104,
+     "tested": 104,
+     "refuted": 12
+    },
+    "tight >= 10": {
+     "kept": 57,
+     "tested": 57,
+     "refuted": 9
+    },
+    "denominator <= 10": {
+     "kept": 838,
+     "tested": 838,
+     "refuted": 202
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 596,
+     "tested": 596,
+     "refuted": 162
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1486,
+     "tested": 1486,
+     "refuted": 421
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1484,
+     "tested": 1484,
+     "refuted": 421
+    },
+    "tight >= 2": {
+     "kept": 1197,
+     "tested": 1197,
+     "refuted": 368
+    },
+    "tight >= 5": {
+     "kept": 391,
+     "tested": 391,
+     "refuted": 112
+    },
+    "tight >= 10": {
+     "kept": 232,
+     "tested": 232,
+     "refuted": 40
+    },
+    "denominator <= 10": {
+     "kept": 1096,
+     "tested": 1096,
+     "refuted": 285
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 939,
+     "tested": 939,
+     "refuted": 256
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1476,
+     "tested": 1476,
+     "refuted": 391
+    },
+    "sharp >= 1 (current)": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1472,
+     "tested": 1472,
+     "refuted": 391
+    },
+    "tight >= 2": {
+     "kept": 1167,
+     "tested": 1167,
+     "refuted": 346
+    },
+    "tight >= 5": {
+     "kept": 382,
+     "tested": 382,
+     "refuted": 85
+    },
+    "tight >= 10": {
+     "kept": 222,
+     "tested": 222,
+     "refuted": 30
+    },
+    "denominator <= 10": {
+     "kept": 1096,
+     "tested": 1096,
+     "refuted": 265
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 923,
+     "tested": 923,
+     "refuted": 233
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1466,
+     "tested": 1466,
+     "refuted": 295
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1458,
+     "tested": 1458,
+     "refuted": 295
+    },
+    "tight >= 2": {
+     "kept": 1205,
+     "tested": 1205,
+     "refuted": 273
+    },
+    "tight >= 5": {
+     "kept": 374,
+     "tested": 374,
+     "refuted": 79
+    },
+    "tight >= 10": {
+     "kept": 228,
+     "tested": 228,
+     "refuted": 29
+    },
+    "denominator <= 10": {
+     "kept": 1085,
+     "tested": 1085,
+     "refuted": 197
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 959,
+     "tested": 959,
+     "refuted": 179
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1392,
+     "tested": 1392,
+     "refuted": 226
+    },
+    "sharp >= 1 (current)": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1386,
+     "tested": 1386,
+     "refuted": 226
+    },
+    "tight >= 2": {
+     "kept": 1101,
+     "tested": 1101,
+     "refuted": 214
+    },
+    "tight >= 5": {
+     "kept": 343,
+     "tested": 343,
+     "refuted": 25
+    },
+    "tight >= 10": {
+     "kept": 217,
+     "tested": 217,
+     "refuted": 10
+    },
+    "denominator <= 10": {
+     "kept": 1046,
+     "tested": 1046,
+     "refuted": 167
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 885,
+     "tested": 885,
+     "refuted": 161
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1483,
+     "tested": 1483,
+     "refuted": 165
+    },
+    "sharp >= 1 (current)": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1482,
+     "tested": 1482,
+     "refuted": 165
+    },
+    "tight >= 2": {
+     "kept": 1205,
+     "tested": 1205,
+     "refuted": 152
+    },
+    "tight >= 5": {
+     "kept": 347,
+     "tested": 347,
+     "refuted": 35
+    },
+    "tight >= 10": {
+     "kept": 212,
+     "tested": 212,
+     "refuted": 5
+    },
+    "denominator <= 10": {
+     "kept": 1115,
+     "tested": 1115,
+     "refuted": 105
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 966,
+     "tested": 966,
+     "refuted": 94
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1481,
+     "tested": 1481,
+     "refuted": 397
+    },
+    "sharp >= 1 (current)": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1475,
+     "tested": 1475,
+     "refuted": 397
+    },
+    "tight >= 2": {
+     "kept": 1225,
+     "tested": 1225,
+     "refuted": 367
+    },
+    "tight >= 5": {
+     "kept": 442,
+     "tested": 442,
+     "refuted": 149
+    },
+    "tight >= 10": {
+     "kept": 279,
+     "tested": 279,
+     "refuted": 69
+    },
+    "denominator <= 10": {
+     "kept": 1126,
+     "tested": 1126,
+     "refuted": 278
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 958,
+     "tested": 958,
+     "refuted": 251
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1390,
+     "tested": 1390,
+     "refuted": 337
+    },
+    "sharp >= 1 (current)": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1382,
+     "tested": 1382,
+     "refuted": 336
+    },
+    "tight >= 2": {
+     "kept": 1066,
+     "tested": 1066,
+     "refuted": 269
+    },
+    "tight >= 5": {
+     "kept": 330,
+     "tested": 330,
+     "refuted": 56
+    },
+    "tight >= 10": {
+     "kept": 235,
+     "tested": 235,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1038,
+     "tested": 1038,
+     "refuted": 234
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 818,
+     "tested": 818,
+     "refuted": 176
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1398,
+     "tested": 1398,
+     "refuted": 271
+    },
+    "sharp >= 1 (current)": {
+     "kept": 26,
+     "tested": 26,
+     "refuted": 14
+    },
+    "sharp >= 2": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 9
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1392,
+     "tested": 1392,
+     "refuted": 271
+    },
+    "tight >= 2": {
+     "kept": 1124,
+     "tested": 1124,
+     "refuted": 244
+    },
+    "tight >= 5": {
+     "kept": 335,
+     "tested": 335,
+     "refuted": 48
+    },
+    "tight >= 10": {
+     "kept": 253,
+     "tested": 253,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1046,
+     "tested": 1046,
+     "refuted": 184
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 10
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 10
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 8
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 870,
+     "tested": 870,
+     "refuted": 159
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1376,
+     "tested": 1376,
+     "refuted": 88
+    },
+    "sharp >= 1 (current)": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1367,
+     "tested": 1367,
+     "refuted": 86
+    },
+    "tight >= 2": {
+     "kept": 1047,
+     "tested": 1047,
+     "refuted": 78
+    },
+    "tight >= 5": {
+     "kept": 325,
+     "tested": 325,
+     "refuted": 17
+    },
+    "tight >= 10": {
+     "kept": 225,
+     "tested": 225,
+     "refuted": 3
+    },
+    "denominator <= 10": {
+     "kept": 1047,
+     "tested": 1047,
+     "refuted": 58
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 818,
+     "tested": 818,
+     "refuted": 51
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1438,
+     "tested": 1438,
+     "refuted": 174
+    },
+    "sharp >= 1 (current)": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1433,
+     "tested": 1433,
+     "refuted": 172
+    },
+    "tight >= 2": {
+     "kept": 1131,
+     "tested": 1131,
+     "refuted": 123
+    },
+    "tight >= 5": {
+     "kept": 344,
+     "tested": 344,
+     "refuted": 30
+    },
+    "tight >= 10": {
+     "kept": 238,
+     "tested": 238,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 1082,
+     "tested": 1082,
+     "refuted": 119
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 3
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 874,
+     "tested": 874,
+     "refuted": 71
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1483,
+     "tested": 1483,
+     "refuted": 369
+    },
+    "sharp >= 1 (current)": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1480,
+     "tested": 1480,
+     "refuted": 368
+    },
+    "tight >= 2": {
+     "kept": 1166,
+     "tested": 1166,
+     "refuted": 314
+    },
+    "tight >= 5": {
+     "kept": 350,
+     "tested": 350,
+     "refuted": 118
+    },
+    "tight >= 10": {
+     "kept": 208,
+     "tested": 208,
+     "refuted": 42
+    },
+    "denominator <= 10": {
+     "kept": 1117,
+     "tested": 1117,
+     "refuted": 262
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 935,
+     "tested": 935,
+     "refuted": 227
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1519,
+     "tested": 1519,
+     "refuted": 449
+    },
+    "sharp >= 1 (current)": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 2": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1515,
+     "tested": 1515,
+     "refuted": 449
+    },
+    "tight >= 2": {
+     "kept": 1172,
+     "tested": 1172,
+     "refuted": 394
+    },
+    "tight >= 5": {
+     "kept": 337,
+     "tested": 337,
+     "refuted": 90
+    },
+    "tight >= 10": {
+     "kept": 200,
+     "tested": 200,
+     "refuted": 31
+    },
+    "denominator <= 10": {
+     "kept": 1159,
+     "tested": 1159,
+     "refuted": 321
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 946,
+     "tested": 946,
+     "refuted": 278
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1516,
+     "tested": 1516,
+     "refuted": 340
+    },
+    "sharp >= 1 (current)": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 5
+    },
+    "sharp >= 2": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1509,
+     "tested": 1509,
+     "refuted": 340
+    },
+    "tight >= 2": {
+     "kept": 1217,
+     "tested": 1217,
+     "refuted": 319
+    },
+    "tight >= 5": {
+     "kept": 337,
+     "tested": 337,
+     "refuted": 96
+    },
+    "tight >= 10": {
+     "kept": 194,
+     "tested": 194,
+     "refuted": 35
+    },
+    "denominator <= 10": {
+     "kept": 1157,
+     "tested": 1157,
+     "refuted": 243
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 991,
+     "tested": 991,
+     "refuted": 228
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1461,
+     "tested": 1461,
+     "refuted": 192
+    },
+    "sharp >= 1 (current)": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 4
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 0,
+     "tested": 0,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1454,
+     "tested": 1454,
+     "refuted": 192
+    },
+    "tight >= 2": {
+     "kept": 1117,
+     "tested": 1117,
+     "refuted": 184
+    },
+    "tight >= 5": {
+     "kept": 290,
+     "tested": 290,
+     "refuted": 24
+    },
+    "tight >= 10": {
+     "kept": 191,
+     "tested": 191,
+     "refuted": 12
+    },
+    "denominator <= 10": {
+     "kept": 1115,
+     "tested": 1115,
+     "refuted": 130
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 902,
+     "tested": 902,
+     "refuted": 128
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1525,
+     "tested": 1525,
+     "refuted": 146
+    },
+    "sharp >= 1 (current)": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 1
+    },
+    "sharp >= 2": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "sharp >= 3": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1523,
+     "tested": 1523,
+     "refuted": 146
+    },
+    "tight >= 2": {
+     "kept": 1194,
+     "tested": 1194,
+     "refuted": 130
+    },
+    "tight >= 5": {
+     "kept": 287,
+     "tested": 287,
+     "refuted": 25
+    },
+    "tight >= 10": {
+     "kept": 187,
+     "tested": 187,
+     "refuted": 7
+    },
+    "denominator <= 10": {
+     "kept": 1169,
+     "tested": 1169,
+     "refuted": 86
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 966,
+     "tested": 966,
+     "refuted": 71
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1490,
+     "tested": 1490,
+     "refuted": 344
+    },
+    "sharp >= 1 (current)": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 14
+    },
+    "sharp >= 2": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1489,
+     "tested": 1489,
+     "refuted": 344
+    },
+    "tight >= 2": {
+     "kept": 1206,
+     "tested": 1206,
+     "refuted": 305
+    },
+    "tight >= 5": {
+     "kept": 359,
+     "tested": 359,
+     "refuted": 138
+    },
+    "tight >= 10": {
+     "kept": 182,
+     "tested": 182,
+     "refuted": 49
+    },
+    "denominator <= 10": {
+     "kept": 1145,
+     "tested": 1145,
+     "refuted": 257
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 11
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 13
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 7
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 980,
+     "tested": 980,
+     "refuted": 230
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1552,
+     "tested": 1552,
+     "refuted": 402
+    },
+    "sharp >= 1 (current)": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 15
+    },
+    "sharp >= 2": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 10
+    },
+    "sharp >= 3": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1549,
+     "tested": 1549,
+     "refuted": 402
+    },
+    "tight >= 2": {
+     "kept": 1239,
+     "tested": 1239,
+     "refuted": 377
+    },
+    "tight >= 5": {
+     "kept": 369,
+     "tested": 369,
+     "refuted": 125
+    },
+    "tight >= 10": {
+     "kept": 159,
+     "tested": 159,
+     "refuted": 30
+    },
+    "denominator <= 10": {
+     "kept": 1195,
+     "tested": 1195,
+     "refuted": 293
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 24,
+     "tested": 24,
+     "refuted": 12
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 8
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 995,
+     "tested": 995,
+     "refuted": 272
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1505,
+     "tested": 1505,
+     "refuted": 326
+    },
+    "sharp >= 1 (current)": {
+     "kept": 24,
+     "tested": 24,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1499,
+     "tested": 1499,
+     "refuted": 326
+    },
+    "tight >= 2": {
+     "kept": 1207,
+     "tested": 1207,
+     "refuted": 304
+    },
+    "tight >= 5": {
+     "kept": 343,
+     "tested": 343,
+     "refuted": 104
+    },
+    "tight >= 10": {
+     "kept": 162,
+     "tested": 162,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1160,
+     "tested": 1160,
+     "refuted": 234
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 10
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 7
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 981,
+     "tested": 981,
+     "refuted": 219
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1472,
+     "tested": 1472,
+     "refuted": 125
+    },
+    "sharp >= 1 (current)": {
+     "kept": 28,
+     "tested": 28,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1468,
+     "tested": 1468,
+     "refuted": 125
+    },
+    "tight >= 2": {
+     "kept": 1150,
+     "tested": 1150,
+     "refuted": 110
+    },
+    "tight >= 5": {
+     "kept": 270,
+     "tested": 270,
+     "refuted": 20
+    },
+    "tight >= 10": {
+     "kept": 134,
+     "tested": 134,
+     "refuted": 10
+    },
+    "denominator <= 10": {
+     "kept": 1143,
+     "tested": 1143,
+     "refuted": 84
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 937,
+     "tested": 937,
+     "refuted": 76
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1558,
+     "tested": 1558,
+     "refuted": 156
+    },
+    "sharp >= 1 (current)": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 6
+    },
+    "sharp >= 2": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 2
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1553,
+     "tested": 1553,
+     "refuted": 156
+    },
+    "tight >= 2": {
+     "kept": 1234,
+     "tested": 1234,
+     "refuted": 141
+    },
+    "tight >= 5": {
+     "kept": 317,
+     "tested": 317,
+     "refuted": 43
+    },
+    "tight >= 10": {
+     "kept": 161,
+     "tested": 161,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 1211,
+     "tested": 1211,
+     "refuted": 101
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 1002,
+     "tested": 1002,
+     "refuted": 87
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1771,
+     "tested": 1771,
+     "refuted": 675
+    },
+    "sharp >= 1 (current)": {
+     "kept": 31,
+     "tested": 31,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 10,
+     "tested": 10,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1770,
+     "tested": 1770,
+     "refuted": 675
+    },
+    "tight >= 2": {
+     "kept": 1365,
+     "tested": 1365,
+     "refuted": 601
+    },
+    "tight >= 5": {
+     "kept": 108,
+     "tested": 108,
+     "refuted": 48
+    },
+    "tight >= 10": {
+     "kept": 40,
+     "tested": 40,
+     "refuted": 3
+    },
+    "denominator <= 10": {
+     "kept": 252,
+     "tested": 252,
+     "refuted": 83
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 158,
+     "tested": 158,
+     "refuted": 61
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1794,
+     "tested": 1794,
+     "refuted": 817
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 8
+    },
+    "sharp >= 2": {
+     "kept": 18,
+     "tested": 18,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1793,
+     "tested": 1793,
+     "refuted": 817
+    },
+    "tight >= 2": {
+     "kept": 1340,
+     "tested": 1340,
+     "refuted": 733
+    },
+    "tight >= 5": {
+     "kept": 130,
+     "tested": 130,
+     "refuted": 61
+    },
+    "tight >= 10": {
+     "kept": 56,
+     "tested": 56,
+     "refuted": 13
+    },
+    "denominator <= 10": {
+     "kept": 282,
+     "tested": 282,
+     "refuted": 93
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 165,
+     "tested": 165,
+     "refuted": 71
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1760,
+     "tested": 1760,
+     "refuted": 678
+    },
+    "sharp >= 1 (current)": {
+     "kept": 32,
+     "tested": 32,
+     "refuted": 21
+    },
+    "sharp >= 2": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 11
+    },
+    "sharp >= 3": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 9
+    },
+    "sharp >= 5": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 6
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 3
+    },
+    "tight >= 1": {
+     "kept": 1758,
+     "tested": 1758,
+     "refuted": 676
+    },
+    "tight >= 2": {
+     "kept": 1401,
+     "tested": 1401,
+     "refuted": 641
+    },
+    "tight >= 5": {
+     "kept": 137,
+     "tested": 137,
+     "refuted": 57
+    },
+    "tight >= 10": {
+     "kept": 49,
+     "tested": 49,
+     "refuted": 7
+    },
+    "denominator <= 10": {
+     "kept": 264,
+     "tested": 264,
+     "refuted": 89
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 200,
+     "tested": 200,
+     "refuted": 77
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1686,
+     "tested": 1686,
+     "refuted": 157
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 11
+    },
+    "sharp >= 2": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 8
+    },
+    "sharp >= 3": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1686,
+     "tested": 1686,
+     "refuted": 157
+    },
+    "tight >= 2": {
+     "kept": 1234,
+     "tested": 1234,
+     "refuted": 140
+    },
+    "tight >= 5": {
+     "kept": 86,
+     "tested": 86,
+     "refuted": 16
+    },
+    "tight >= 10": {
+     "kept": 43,
+     "tested": 43,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 384,
+     "tested": 384,
+     "refuted": 37
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 208,
+     "tested": 208,
+     "refuted": 31
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1781,
+     "tested": 1781,
+     "refuted": 465
+    },
+    "sharp >= 1 (current)": {
+     "kept": 34,
+     "tested": 34,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1781,
+     "tested": 1781,
+     "refuted": 465
+    },
+    "tight >= 2": {
+     "kept": 1361,
+     "tested": 1361,
+     "refuted": 423
+    },
+    "tight >= 5": {
+     "kept": 104,
+     "tested": 104,
+     "refuted": 12
+    },
+    "tight >= 10": {
+     "kept": 54,
+     "tested": 54,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 343,
+     "tested": 343,
+     "refuted": 43
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 232,
+     "tested": 232,
+     "refuted": 29
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1698,
+     "tested": 1698,
+     "refuted": 648
+    },
+    "sharp >= 1 (current)": {
+     "kept": 32,
+     "tested": 32,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 7
+    },
+    "sharp >= 5": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1698,
+     "tested": 1698,
+     "refuted": 648
+    },
+    "tight >= 2": {
+     "kept": 1273,
+     "tested": 1273,
+     "refuted": 564
+    },
+    "tight >= 5": {
+     "kept": 116,
+     "tested": 116,
+     "refuted": 38
+    },
+    "tight >= 10": {
+     "kept": 44,
+     "tested": 44,
+     "refuted": 3
+    },
+    "denominator <= 10": {
+     "kept": 502,
+     "tested": 502,
+     "refuted": 142
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 339,
+     "tested": 339,
+     "refuted": 108
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1736,
+     "tested": 1736,
+     "refuted": 738
+    },
+    "sharp >= 1 (current)": {
+     "kept": 28,
+     "tested": 28,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 9
+    },
+    "sharp >= 3": {
+     "kept": 20,
+     "tested": 20,
+     "refuted": 8
+    },
+    "sharp >= 5": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 6
+    },
+    "sharp >= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1736,
+     "tested": 1736,
+     "refuted": 738
+    },
+    "tight >= 2": {
+     "kept": 1280,
+     "tested": 1280,
+     "refuted": 655
+    },
+    "tight >= 5": {
+     "kept": 129,
+     "tested": 129,
+     "refuted": 44
+    },
+    "tight >= 10": {
+     "kept": 58,
+     "tested": 58,
+     "refuted": 12
+    },
+    "denominator <= 10": {
+     "kept": 605,
+     "tested": 605,
+     "refuted": 179
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 393,
+     "tested": 393,
+     "refuted": 147
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1699,
+     "tested": 1699,
+     "refuted": 644
+    },
+    "sharp >= 1 (current)": {
+     "kept": 33,
+     "tested": 33,
+     "refuted": 19
+    },
+    "sharp >= 2": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 12
+    },
+    "sharp >= 3": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 9
+    },
+    "sharp >= 5": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 8
+    },
+    "sharp >= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 3
+    },
+    "tight >= 1": {
+     "kept": 1697,
+     "tested": 1697,
+     "refuted": 642
+    },
+    "tight >= 2": {
+     "kept": 1313,
+     "tested": 1313,
+     "refuted": 582
+    },
+    "tight >= 5": {
+     "kept": 136,
+     "tested": 136,
+     "refuted": 39
+    },
+    "tight >= 10": {
+     "kept": 42,
+     "tested": 42,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 591,
+     "tested": 591,
+     "refuted": 140
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 438,
+     "tested": 438,
+     "refuted": 120
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1610,
+     "tested": 1610,
+     "refuted": 195
+    },
+    "sharp >= 1 (current)": {
+     "kept": 34,
+     "tested": 34,
+     "refuted": 16
+    },
+    "sharp >= 2": {
+     "kept": 24,
+     "tested": 24,
+     "refuted": 11
+    },
+    "sharp >= 3": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 10
+    },
+    "sharp >= 5": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 5
+    },
+    "sharp >= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "tight >= 1": {
+     "kept": 1610,
+     "tested": 1610,
+     "refuted": 195
+    },
+    "tight >= 2": {
+     "kept": 1172,
+     "tested": 1172,
+     "refuted": 163
+    },
+    "tight >= 5": {
+     "kept": 109,
+     "tested": 109,
+     "refuted": 0
+    },
+    "tight >= 10": {
+     "kept": 48,
+     "tested": 48,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 613,
+     "tested": 613,
+     "refuted": 22
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 1
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 393,
+     "tested": 393,
+     "refuted": 18
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1756,
+     "tested": 1756,
+     "refuted": 458
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 7
+    },
+    "sharp >= 3": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 7
+    },
+    "sharp >= 5": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1756,
+     "tested": 1756,
+     "refuted": 458
+    },
+    "tight >= 2": {
+     "kept": 1327,
+     "tested": 1327,
+     "refuted": 423
+    },
+    "tight >= 5": {
+     "kept": 104,
+     "tested": 104,
+     "refuted": 2
+    },
+    "tight >= 10": {
+     "kept": 61,
+     "tested": 61,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 616,
+     "tested": 616,
+     "refuted": 106
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 0
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 0
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 420,
+     "tested": 420,
+     "refuted": 78
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1693,
+     "tested": 1693,
+     "refuted": 539
+    },
+    "sharp >= 1 (current)": {
+     "kept": 41,
+     "tested": 41,
+     "refuted": 31
+    },
+    "sharp >= 2": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 18
+    },
+    "sharp >= 3": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 12
+    },
+    "sharp >= 5": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 7
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1692,
+     "tested": 1692,
+     "refuted": 538
+    },
+    "tight >= 2": {
+     "kept": 1448,
+     "tested": 1448,
+     "refuted": 494
+    },
+    "tight >= 5": {
+     "kept": 178,
+     "tested": 178,
+     "refuted": 137
+    },
+    "tight >= 10": {
+     "kept": 101,
+     "tested": 101,
+     "refuted": 82
+    },
+    "denominator <= 10": {
+     "kept": 172,
+     "tested": 172,
+     "refuted": 79
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 5
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 5
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 128,
+     "tested": 128,
+     "refuted": 74
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1921,
+     "tested": 1921,
+     "refuted": 852
+    },
+    "sharp >= 1 (current)": {
+     "kept": 38,
+     "tested": 38,
+     "refuted": 24
+    },
+    "sharp >= 2": {
+     "kept": 26,
+     "tested": 26,
+     "refuted": 16
+    },
+    "sharp >= 3": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 12
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 5
+    },
+    "sharp >= 10": {
+     "kept": 1,
+     "tested": 1,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1918,
+     "tested": 1918,
+     "refuted": 850
+    },
+    "tight >= 2": {
+     "kept": 1535,
+     "tested": 1535,
+     "refuted": 686
+    },
+    "tight >= 5": {
+     "kept": 132,
+     "tested": 132,
+     "refuted": 91
+    },
+    "tight >= 10": {
+     "kept": 90,
+     "tested": 90,
+     "refuted": 61
+    },
+    "denominator <= 10": {
+     "kept": 510,
+     "tested": 510,
+     "refuted": 237
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 323,
+     "tested": 323,
+     "refuted": 147
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1868,
+     "tested": 1868,
+     "refuted": 704
+    },
+    "sharp >= 1 (current)": {
+     "kept": 37,
+     "tested": 37,
+     "refuted": 28
+    },
+    "sharp >= 2": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 19
+    },
+    "sharp >= 3": {
+     "kept": 15,
+     "tested": 15,
+     "refuted": 13
+    },
+    "sharp >= 5": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 7
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 3
+    },
+    "tight >= 1": {
+     "kept": 1863,
+     "tested": 1863,
+     "refuted": 699
+    },
+    "tight >= 2": {
+     "kept": 1618,
+     "tested": 1618,
+     "refuted": 661
+    },
+    "tight >= 5": {
+     "kept": 160,
+     "tested": 160,
+     "refuted": 104
+    },
+    "tight >= 10": {
+     "kept": 92,
+     "tested": 92,
+     "refuted": 62
+    },
+    "denominator <= 10": {
+     "kept": 406,
+     "tested": 406,
+     "refuted": 184
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 7
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 6
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 368,
+     "tested": 368,
+     "refuted": 183
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 2098,
+     "tested": 2098,
+     "refuted": 582
+    },
+    "sharp >= 1 (current)": {
+     "kept": 37,
+     "tested": 37,
+     "refuted": 12
+    },
+    "sharp >= 2": {
+     "kept": 23,
+     "tested": 23,
+     "refuted": 8
+    },
+    "sharp >= 3": {
+     "kept": 14,
+     "tested": 14,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 2097,
+     "tested": 2097,
+     "refuted": 582
+    },
+    "tight >= 2": {
+     "kept": 1645,
+     "tested": 1645,
+     "refuted": 541
+    },
+    "tight >= 5": {
+     "kept": 52,
+     "tested": 52,
+     "refuted": 3
+    },
+    "tight >= 10": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 2
+    },
+    "denominator <= 10": {
+     "kept": 494,
+     "tested": 494,
+     "refuted": 8
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 250,
+     "tested": 250,
+     "refuted": 8
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1981,
+     "tested": 1981,
+     "refuted": 630
+    },
+    "sharp >= 1 (current)": {
+     "kept": 36,
+     "tested": 36,
+     "refuted": 20
+    },
+    "sharp >= 2": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 12
+    },
+    "sharp >= 3": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 12
+    },
+    "sharp >= 5": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "sharp >= 10": {
+     "kept": 3,
+     "tested": 3,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1979,
+     "tested": 1979,
+     "refuted": 629
+    },
+    "tight >= 2": {
+     "kept": 1630,
+     "tested": 1630,
+     "refuted": 509
+    },
+    "tight >= 5": {
+     "kept": 155,
+     "tested": 155,
+     "refuted": 105
+    },
+    "tight >= 10": {
+     "kept": 91,
+     "tested": 91,
+     "refuted": 63
+    },
+    "denominator <= 10": {
+     "kept": 438,
+     "tested": 438,
+     "refuted": 225
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 6
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 5
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 317,
+     "tested": 317,
+     "refuted": 142
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 5,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1461,
+     "tested": 1461,
+     "refuted": 301
+    },
+    "sharp >= 1 (current)": {
+     "kept": 29,
+     "tested": 29,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 11,
+     "tested": 11,
+     "refuted": 5
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 5
+    },
+    "sharp >= 5": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1458,
+     "tested": 1458,
+     "refuted": 301
+    },
+    "tight >= 2": {
+     "kept": 1109,
+     "tested": 1109,
+     "refuted": 260
+    },
+    "tight >= 5": {
+     "kept": 187,
+     "tested": 187,
+     "refuted": 69
+    },
+    "tight >= 10": {
+     "kept": 108,
+     "tested": 108,
+     "refuted": 31
+    },
+    "denominator <= 10": {
+     "kept": 1121,
+     "tested": 1121,
+     "refuted": 211
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 8
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 19,
+     "tested": 19,
+     "refuted": 8
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 874,
+     "tested": 874,
+     "refuted": 185
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 6,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1551,
+     "tested": 1551,
+     "refuted": 388
+    },
+    "sharp >= 1 (current)": {
+     "kept": 30,
+     "tested": 30,
+     "refuted": 11
+    },
+    "sharp >= 2": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 8
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "sharp >= 10": {
+     "kept": 6,
+     "tested": 6,
+     "refuted": 4
+    },
+    "tight >= 1": {
+     "kept": 1545,
+     "tested": 1545,
+     "refuted": 388
+    },
+    "tight >= 2": {
+     "kept": 1151,
+     "tested": 1151,
+     "refuted": 333
+    },
+    "tight >= 5": {
+     "kept": 165,
+     "tested": 165,
+     "refuted": 61
+    },
+    "tight >= 10": {
+     "kept": 95,
+     "tested": 95,
+     "refuted": 19
+    },
+    "denominator <= 10": {
+     "kept": 1215,
+     "tested": 1215,
+     "refuted": 307
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 6
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 921,
+     "tested": 921,
+     "refuted": 264
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 7,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1482,
+     "tested": 1482,
+     "refuted": 277
+    },
+    "sharp >= 1 (current)": {
+     "kept": 33,
+     "tested": 33,
+     "refuted": 14
+    },
+    "sharp >= 2": {
+     "kept": 13,
+     "tested": 13,
+     "refuted": 3
+    },
+    "sharp >= 3": {
+     "kept": 8,
+     "tested": 8,
+     "refuted": 3
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 2,
+     "tested": 2,
+     "refuted": 1
+    },
+    "tight >= 1": {
+     "kept": 1480,
+     "tested": 1480,
+     "refuted": 277
+    },
+    "tight >= 2": {
+     "kept": 1138,
+     "tested": 1138,
+     "refuted": 245
+    },
+    "tight >= 5": {
+     "kept": 198,
+     "tested": 198,
+     "refuted": 72
+    },
+    "tight >= 10": {
+     "kept": 101,
+     "tested": 101,
+     "refuted": 22
+    },
+    "denominator <= 10": {
+     "kept": 1170,
+     "tested": 1170,
+     "refuted": 223
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 21,
+     "tested": 21,
+     "refuted": 9
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 10
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 3
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 928,
+     "tested": 928,
+     "refuted": 202
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 8,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1520,
+     "tested": 1520,
+     "refuted": 115
+    },
+    "sharp >= 1 (current)": {
+     "kept": 39,
+     "tested": 39,
+     "refuted": 7
+    },
+    "sharp >= 2": {
+     "kept": 22,
+     "tested": 22,
+     "refuted": 4
+    },
+    "sharp >= 3": {
+     "kept": 9,
+     "tested": 9,
+     "refuted": 0
+    },
+    "sharp >= 5": {
+     "kept": 5,
+     "tested": 5,
+     "refuted": 0
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 0
+    },
+    "tight >= 1": {
+     "kept": 1513,
+     "tested": 1513,
+     "refuted": 115
+    },
+    "tight >= 2": {
+     "kept": 1129,
+     "tested": 1129,
+     "refuted": 115
+    },
+    "tight >= 5": {
+     "kept": 123,
+     "tested": 123,
+     "refuted": 8
+    },
+    "tight >= 10": {
+     "kept": 75,
+     "tested": 75,
+     "refuted": 0
+    },
+    "denominator <= 10": {
+     "kept": 1205,
+     "tested": 1205,
+     "refuted": 83
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 25,
+     "tested": 25,
+     "refuted": 4
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 27,
+     "tested": 27,
+     "refuted": 4
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 17,
+     "tested": 17,
+     "refuted": 2
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 909,
+     "tested": 909,
+     "refuted": 83
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 9,
+   "rules": {
+    "duplicates pool": {
+     "kept": 1561,
+     "tested": 1561,
+     "refuted": 162
+    },
+    "sharp >= 1 (current)": {
+     "kept": 35,
+     "tested": 35,
+     "refuted": 10
+    },
+    "sharp >= 2": {
+     "kept": 16,
+     "tested": 16,
+     "refuted": 6
+    },
+    "sharp >= 3": {
+     "kept": 7,
+     "tested": 7,
+     "refuted": 4
+    },
+    "sharp >= 5": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "sharp >= 10": {
+     "kept": 4,
+     "tested": 4,
+     "refuted": 2
+    },
+    "tight >= 1": {
+     "kept": 1560,
+     "tested": 1560,
+     "refuted": 162
+    },
+    "tight >= 2": {
+     "kept": 1187,
+     "tested": 1187,
+     "refuted": 137
+    },
+    "tight >= 5": {
+     "kept": 158,
+     "tested": 158,
+     "refuted": 29
+    },
+    "tight >= 10": {
+     "kept": 92,
+     "tested": 92,
+     "refuted": 15
+    },
+    "denominator <= 10": {
+     "kept": 1233,
+     "tested": 1233,
+     "refuted": 118
+    },
+    "sharp >= 1 and denominator <= 10": {
+     "kept": 24,
+     "tested": 24,
+     "refuted": 6
+    },
+    "sharp >= 1 and denominator <= 100": {
+     "kept": 25,
+     "tested": 25,
+     "refuted": 7
+    },
+    "sharp >= 2 and denominator <= 100": {
+     "kept": 12,
+     "tested": 12,
+     "refuted": 4
+    },
+    "tight >= 2 and denominator <= 10": {
+     "kept": 960,
+     "tested": 960,
+     "refuted": 104
+    }
+   }
+  }
+ ],
+ "skipped": [],
+ "summary": {
+  "duplicates pool": {
+   "kept": 184976,
+   "tested": 184976,
+   "refuted": 43442,
+   "refuted_rate": 0.23485208891964363,
+   "runs_worse_than_pool": 0,
+   "runs_better_than_pool": 0,
+   "runs_equal": 120,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 1 (current)": {
+   "kept": 2321,
+   "tested": 2321,
+   "refuted": 925,
+   "refuted_rate": 0.3985351141749246,
+   "runs_worse_than_pool": 102,
+   "runs_better_than_pool": 18,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 2": {
+   "kept": 1243,
+   "tested": 1243,
+   "refuted": 517,
+   "refuted_rate": 0.415929203539823,
+   "runs_worse_than_pool": 89,
+   "runs_better_than_pool": 31,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 3": {
+   "kept": 782,
+   "tested": 782,
+   "refuted": 324,
+   "refuted_rate": 0.4143222506393862,
+   "runs_worse_than_pool": 74,
+   "runs_better_than_pool": 46,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 5": {
+   "kept": 428,
+   "tested": 428,
+   "refuted": 173,
+   "refuted_rate": 0.40420560747663553,
+   "runs_worse_than_pool": 61,
+   "runs_better_than_pool": 53,
+   "runs_equal": 0,
+   "runs_with_none_tested": 6
+  },
+  "sharp >= 10": {
+   "kept": 184,
+   "tested": 184,
+   "refuted": 63,
+   "refuted_rate": 0.3423913043478261,
+   "runs_worse_than_pool": 36,
+   "runs_better_than_pool": 49,
+   "runs_equal": 0,
+   "runs_with_none_tested": 35
+  },
+  "tight >= 1": {
+   "kept": 184421,
+   "tested": 184421,
+   "refuted": 43330,
+   "refuted_rate": 0.23495155107064813,
+   "runs_worse_than_pool": 51,
+   "runs_better_than_pool": 34,
+   "runs_equal": 35,
+   "runs_with_none_tested": 0
+  },
+  "tight >= 2": {
+   "kept": 145870,
+   "tested": 145870,
+   "refuted": 38251,
+   "refuted_rate": 0.26222664015904573,
+   "runs_worse_than_pool": 110,
+   "runs_better_than_pool": 10,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "tight >= 5": {
+   "kept": 34111,
+   "tested": 34111,
+   "refuted": 8681,
+   "refuted_rate": 0.2544926856439272,
+   "runs_worse_than_pool": 67,
+   "runs_better_than_pool": 53,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "tight >= 10": {
+   "kept": 20207,
+   "tested": 20207,
+   "refuted": 3307,
+   "refuted_rate": 0.16365615875686643,
+   "runs_worse_than_pool": 22,
+   "runs_better_than_pool": 98,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "denominator <= 10": {
+   "kept": 125624,
+   "tested": 125624,
+   "refuted": 25893,
+   "refuted_rate": 0.2061150735528243,
+   "runs_worse_than_pool": 21,
+   "runs_better_than_pool": 99,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 1 and denominator <= 10": {
+   "kept": 1321,
+   "tested": 1321,
+   "refuted": 447,
+   "refuted_rate": 0.3383800151400454,
+   "runs_worse_than_pool": 85,
+   "runs_better_than_pool": 35,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 1 and denominator <= 100": {
+   "kept": 1432,
+   "tested": 1432,
+   "refuted": 497,
+   "refuted_rate": 0.3470670391061452,
+   "runs_worse_than_pool": 88,
+   "runs_better_than_pool": 32,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "sharp >= 2 and denominator <= 100": {
+   "kept": 741,
+   "tested": 741,
+   "refuted": 266,
+   "refuted_rate": 0.358974358974359,
+   "runs_worse_than_pool": 78,
+   "runs_better_than_pool": 42,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  },
+  "tight >= 2 and denominator <= 10": {
+   "kept": 100707,
+   "tested": 100707,
+   "refuted": 22382,
+   "refuted_rate": 0.22224870167912855,
+   "runs_worse_than_pool": 57,
+   "runs_better_than_pool": 63,
+   "runs_equal": 0,
+   "runs_with_none_tested": 0
+  }
+ }
+}

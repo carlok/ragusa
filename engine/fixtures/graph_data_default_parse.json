@@ -1,0 +1,577 @@
+{
+ "generated_by": "calibration/src/ragusa_a/export_generator_fixtures.py",
+ "txgraffiti": "0.4.1",
+ "solver": "lp solver: pulp-bundled solverdir/cbc/osx/i64/cbc (pulp 3.3.2)",
+ "values": [
+  {
+   "column": "harmonic_index",
+   "row": 16,
+   "default": "400af8af8af8af8a",
+   "round_trip": "400af8af8af8af8b"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 20,
+   "default": "400af8af8af8af8a",
+   "round_trip": "400af8af8af8af8b"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 22,
+   "default": "400d111111111112",
+   "round_trip": "400d111111111111"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 40,
+   "default": "400d111111111112",
+   "round_trip": "400d111111111111"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 65,
+   "default": "3ffeeeeeeeeeeeee",
+   "round_trip": "3ffeeeeeeeeeeeef"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 118,
+   "default": "4002f8af8af8af8a",
+   "round_trip": "4002f8af8af8af8b"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 160,
+   "default": "4006618618618617",
+   "round_trip": "4006618618618618"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 247,
+   "default": "400fcf3cf3cf3cf3",
+   "round_trip": "400fcf3cf3cf3cf4"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 267,
+   "default": "400eeeeeeeeeeeee",
+   "round_trip": "400eeeeeeeeeeeef"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 274,
+   "default": "3ffd89d89d89d89f",
+   "round_trip": "3ffd89d89d89d89e"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 291,
+   "default": "400d111111111112",
+   "round_trip": "400d111111111111"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 326,
+   "default": "3ffaaaaaaaaaaaa9",
+   "round_trip": "3ffaaaaaaaaaaaaa"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 332,
+   "default": "400d381381381380",
+   "round_trip": "400d381381381381"
+  },
+  {
+   "column": "harmonic_index",
+   "row": 333,
+   "default": "400eeeeeeeeeeeee",
+   "round_trip": "400eeeeeeeeeeeef"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 7,
+   "default": "40030235b203b2bd",
+   "round_trip": "40030235b203b2bc"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 9,
+   "default": "4002ddc97de08605",
+   "round_trip": "4002ddc97de08604"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 33,
+   "default": "3ffffffffffffffc",
+   "round_trip": "3ffffffffffffffd"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 43,
+   "default": "4001e3779b97f4a8",
+   "round_trip": "4001e3779b97f4a7"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 52,
+   "default": "3ffffffffffffffc",
+   "round_trip": "3ffffffffffffffd"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 72,
+   "default": "3ffffffffffffffb",
+   "round_trip": "3ffffffffffffffa"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 87,
+   "default": "40056477838d9f60",
+   "round_trip": "40056477838d9f5f"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 109,
+   "default": "4000000000000000",
+   "round_trip": "3fffffffffffffff"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 124,
+   "default": "3ffee8dd4748bf10",
+   "round_trip": "3ffee8dd4748bf11"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 134,
+   "default": "4010000000000000",
+   "round_trip": "400fffffffffffff"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 157,
+   "default": "4008b0650770e3b6",
+   "round_trip": "4008b0650770e3b7"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 206,
+   "default": "3ffbb67ae8584ca6",
+   "round_trip": "3ffbb67ae8584ca7"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 229,
+   "default": "3ffbb67ae8584ca6",
+   "round_trip": "3ffbb67ae8584ca7"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 289,
+   "default": "3ffe6f0e134454f8",
+   "round_trip": "3ffe6f0e134454f9"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 291,
+   "default": "3fffd31f94f867cc",
+   "round_trip": "3fffd31f94f867cd"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 310,
+   "default": "3fff329c0558e963",
+   "round_trip": "3fff329c0558e964"
+  },
+  {
+   "column": "spectral_radius",
+   "row": 328,
+   "default": "40026c15a230acf6",
+   "round_trip": "40026c15a230acf5"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 29,
+   "default": "40263f07b357f685",
+   "round_trip": "40263f07b357f686"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 114,
+   "default": "400f88fa49829e79",
+   "round_trip": "400f88fa49829e78"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 133,
+   "default": "400f746ea3a45f87",
+   "round_trip": "400f746ea3a45f88"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 162,
+   "default": "400f08fb2129168c",
+   "round_trip": "400f08fb2129168d"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 174,
+   "default": "400f378709a22a8b",
+   "round_trip": "400f378709a22a8a"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 178,
+   "default": "400ffffffffffffc",
+   "round_trip": "400ffffffffffffd"
+  },
+  {
+   "column": "largest_laplacian_eigenvalue",
+   "row": 274,
+   "default": "402a000000000002",
+   "round_trip": "402a000000000003"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 14,
+   "default": "4000000000000000",
+   "round_trip": "3fffffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 16,
+   "default": "3ff3f3a0e28bedce",
+   "round_trip": "3ff3f3a0e28bedcf"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 18,
+   "default": "3ff0000000000000",
+   "round_trip": "3fefffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 20,
+   "default": "3ff6a09e667f3bca",
+   "round_trip": "3ff6a09e667f3bc9"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 32,
+   "default": "3fff79fe36675de2",
+   "round_trip": "3fff79fe36675de3"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 39,
+   "default": "3ffef0dfee6efa1d",
+   "round_trip": "3ffef0dfee6efa1c"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 71,
+   "default": "3ff8c4a757da554c",
+   "round_trip": "3ff8c4a757da554d"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 77,
+   "default": "bff0000000000000",
+   "round_trip": "bfefffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 78,
+   "default": "3ff4781d34fbe934",
+   "round_trip": "3ff4781d34fbe933"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 79,
+   "default": "3acb3f1dc11a7565",
+   "round_trip": "3acb3f1dc11a7566"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 81,
+   "default": "40041476e4ea6e5a",
+   "round_trip": "40041476e4ea6e59"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 103,
+   "default": "3ffd3bc3aeff7f91",
+   "round_trip": "3ffd3bc3aeff7f90"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 111,
+   "default": "bc9c6855b131641b",
+   "round_trip": "bc9c6855b131641d"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 115,
+   "default": "3ff5b0d7874a9eb9",
+   "round_trip": "3ff5b0d7874a9eb8"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 117,
+   "default": "3fdf57af2526f245",
+   "round_trip": "3fdf57af2526f246"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 119,
+   "default": "3fff6166df103f93",
+   "round_trip": "3fff6166df103f94"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 121,
+   "default": "3ffffffffffffff9",
+   "round_trip": "3ffffffffffffff8"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 125,
+   "default": "3ca5ae7ac3c13c85",
+   "round_trip": "3ca5ae7ac3c13c86"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 129,
+   "default": "3ff0000000000000",
+   "round_trip": "3fefffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 135,
+   "default": "3feffffffffffff9",
+   "round_trip": "3feffffffffffffa"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 136,
+   "default": "3ffffffffffffffc",
+   "round_trip": "3ffffffffffffffd"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 137,
+   "default": "3ffee8dd4748bf10",
+   "round_trip": "3ffee8dd4748bf11"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 151,
+   "default": "3ff0000000000000",
+   "round_trip": "3fefffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 157,
+   "default": "3fdb647658c32f2e",
+   "round_trip": "3fdb647658c32f2f"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 159,
+   "default": "3fd6e843feb78dd8",
+   "round_trip": "3fd6e843feb78dd9"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 161,
+   "default": "3ffffffffffffffc",
+   "round_trip": "3ffffffffffffffd"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 162,
+   "default": "3ff9e3779b97f4a8",
+   "round_trip": "3ff9e3779b97f4a7"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 170,
+   "default": "40009f07a1075737",
+   "round_trip": "40009f07a1075738"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 176,
+   "default": "3c845ba68eed3420",
+   "round_trip": "3c845ba68eed341f"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 187,
+   "default": "3ff6a09e667f3bdc",
+   "round_trip": "3ff6a09e667f3bdb"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 195,
+   "default": "bca21b9c5610d4ec",
+   "round_trip": "bca21b9c5610d4ed"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 202,
+   "default": "4000eb54a525a6c1",
+   "round_trip": "4000eb54a525a6c2"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 203,
+   "default": "3ffe738e59325b4e",
+   "round_trip": "3ffe738e59325b4d"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 205,
+   "default": "3ff9e3779b97f4a8",
+   "round_trip": "3ff9e3779b97f4a7"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 212,
+   "default": "3ffcd4bca9cb5c7a",
+   "round_trip": "3ffcd4bca9cb5c7b"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 215,
+   "default": "3ff9e3779b97f4a0",
+   "round_trip": "3ff9e3779b97f4a1"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 221,
+   "default": "3ffef787e496eaaf",
+   "round_trip": "3ffef787e496eab0"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 222,
+   "default": "3ff0000000000000",
+   "round_trip": "3fefffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 232,
+   "default": "3ffbb67ae8584cb7",
+   "round_trip": "3ffbb67ae8584cb6"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 234,
+   "default": "3ff8fc1ecd5fda0e",
+   "round_trip": "3ff8fc1ecd5fda0f"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 241,
+   "default": "3ff8fc1ecd5fda17",
+   "round_trip": "3ff8fc1ecd5fda18"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 243,
+   "default": "3ff42602eb0e49a3",
+   "round_trip": "3ff42602eb0e49a4"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 258,
+   "default": "3c9e8f62c19000b6",
+   "round_trip": "3c9e8f62c19000b7"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 266,
+   "default": "3ff0000000000005",
+   "round_trip": "3ff0000000000006"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 288,
+   "default": "3ff54006519eb7a9",
+   "round_trip": "3ff54006519eb7aa"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 289,
+   "default": "3ff2cf2304755a5f",
+   "round_trip": "3ff2cf2304755a5e"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 297,
+   "default": "4000000000000000",
+   "round_trip": "3fffffffffffffff"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 299,
+   "default": "3ca8437bc3faae6d",
+   "round_trip": "3ca8437bc3faae6e"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 306,
+   "default": "3fed49e7f070cbf5",
+   "round_trip": "3fed49e7f070cbf4"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 309,
+   "default": "3ff6a09e667f3bca",
+   "round_trip": "3ff6a09e667f3bc9"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 310,
+   "default": "3ff904c37505de4f",
+   "round_trip": "3ff904c37505de4e"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 321,
+   "default": "3cbd8d3b14248314",
+   "round_trip": "3cbd8d3b14248315"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 324,
+   "default": "40053e58934959da",
+   "round_trip": "40053e58934959d9"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 327,
+   "default": "4002300c6f43f64d",
+   "round_trip": "4002300c6f43f64c"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 330,
+   "default": "3ffffffffffffffc",
+   "round_trip": "3ffffffffffffffd"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 335,
+   "default": "3feffffffffffffc",
+   "round_trip": "3feffffffffffffd"
+  },
+  {
+   "column": "second_largest_adjacency_eigenvalue",
+   "row": 336,
+   "default": "3ff0000000000004",
+   "round_trip": "3ff0000000000003"
+  }
+ ]
+}

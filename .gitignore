@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Rust
+target/
+
+# External clones live outside the repo (see calibration/vendor.lock)
+_ext/
+
+# Didactic material, kept out of the repository
+didactic/
+
+# Downloaded third-party datasets (licences and redistribution settled before anything derived is committed)
+external/
+
+# OS
+.DS_Store
+
+# local agent instructions
+CLAUDE.md

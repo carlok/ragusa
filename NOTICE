@@ -1,0 +1,89 @@
+ragusa
+Copyright 2026 Carlo Perassi
+
+This product includes software and data developed by third parties, as follows.
+
+--------------------------------------------------------------------------------
+The Equational Theories Project
+https://github.com/teorth/equational_theories
+Licensed under the Apache License, Version 2.0.
+
+The files
+
+    engine/data/parsimagma/implications.bits.gz
+    engine/data/parsimagma/hard_core.txt
+    engine/data/parsimagma/summary.tsv
+
+are derived from that project's implication data at upstream commit
+e5a88a1479011ece4aad8e3c2e7e5c0ebc0a5b2a, by way of parsimagma, which packed it
+into the bit formats described in engine/data/parsimagma/PROVENANCE.txt. The
+underlying solver output is data/2025-08-11-vampire.json.gz (Janota,
+arXiv:2508.15856). No source code from the Equational Theories Project is
+included; the data is used as a known-results oracle and is unmodified apart
+from the repacking recorded in PROVENANCE.txt.
+
+A copy of the Apache License, Version 2.0 is in LICENSE at the root of this
+repository, which is also ragusa's own licence.
+--------------------------------------------------------------------------------
+
+TxGraffiti
+https://github.com/RandyRDavila/TxGraffiti
+Licensed under the MIT License.
+
+ragusa does not include TxGraffiti's code; Project A installs the package
+(txgraffiti 0.4.1) and calls it. It does include outputs of that code run on
+the package's shipped tables: the candidate and parse fixtures under
+engine/fixtures/ and the rows and floor reports under results/. The licence
+of the work they derive from:
+
+Copyright (c) 2023 Randy Davila
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+--------------------------------------------------------------------------------
+
+AutoGraphForge
+https://github.com/JanPastorek/AutoGraphForge
+Licensed under the MIT License.
+
+ragusa does not include AutoGraphForge's code; Project A clones it outside
+the repository (calibration/vendor.lock) and calls its novelty filter. It
+does include that filter's verdicts, in results/rows/agf_novelty.jsonl and
+results/rows/census_graph_data_independence_number.decisions.csv. The
+licence of the work they derive from:
+
+Copyright (c) 2026 Ján Pastorek
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+--------------------------------------------------------------------------------

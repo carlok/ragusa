@@ -1,0 +1,106 @@
+{
+ "gate": "G-B4",
+ "table_sha256_a": "d074e50dac28df3ab4bbfc8ca56539bd5cbeb171ae37a029b9ec163c8cecde6f",
+ "ragusa_pin": {
+  "content_sha256": "04f7b04fc0b76392167e5eb9c65213ccdbf88e92163c748a5f61aed828b8c5b1",
+  "engine_version": "0.1.0",
+  "n_boolean": 13,
+  "n_numeric": 24,
+  "n_objects": 340,
+  "skipped": [],
+  "sources": [
+   {
+    "file": "graph_data.csv",
+    "sha256": "d074e50dac28df3ab4bbfc8ca56539bd5cbeb171ae37a029b9ec163c8cecde6f"
+   }
+  ],
+  "table": "graph_data"
+ },
+ "ragusa_run": {
+  "chance_draws": 1000,
+  "features": [
+   "order",
+   "size",
+   "maximum_degree",
+   "minimum_degree",
+   "diameter",
+   "radius",
+   "clique_number",
+   "chromatic_number",
+   "vertex_cover_number",
+   "matching_number",
+   "triameter",
+   "slater",
+   "annihilation_number",
+   "residue",
+   "harmonic_index",
+   "domination_number",
+   "total_domination_number",
+   "independent_domination_number",
+   "min_maximal_matching_number",
+   "spectral_radius",
+   "largest_laplacian_eigenvalue",
+   "second_largest_adjacency_eigenvalue",
+   "zero_forcing_number"
+  ],
+  "generators": [
+   "linear_programming",
+   "convex_hull",
+   "ratios"
+  ],
+  "hypotheses": [
+   "connected",
+   "bipartite",
+   "chordal",
+   "cubic",
+   "eulerian",
+   "planar",
+   "regular",
+   "subcubic",
+   "tree",
+   "K_4_free",
+   "triangle_free",
+   "claw_free",
+   "cograph"
+  ],
+  "redundancy": "sharp_coverage",
+  "seed": 0,
+  "slack_tolerance": 1e-09,
+  "target": "independence_number"
+ },
+ "pools": {
+  "txgraffiti_candidates": 1716,
+  "txgraffiti_distinct_bounds": 1716,
+  "ragusa_candidates": 2544,
+  "ragusa_distinct_bounds": 1638,
+  "distinct_bounds_in_both": 1635,
+  "only_txgraffiti": 81,
+  "only_ragusa": 3
+ },
+ "validity_vs_is_true": {
+  "both": 1448,
+  "ragusa_only": 155,
+  "txgraffiti_only": 0,
+  "neither": 32
+ },
+ "sharp_coverage_vs_dalmatian": {
+  "both": 16,
+  "ragusa_only": 3,
+  "txgraffiti_only": 713,
+  "neither": 793
+ },
+ "generality_vs_morgan": {
+  "both": 19,
+  "ragusa_only": 0,
+  "txgraffiti_only": 0,
+  "neither": 0
+ },
+ "survivors_vs_pipeline": {
+  "both": 16,
+  "ragusa_only": 3,
+  "txgraffiti_only": 357,
+  "neither": 1259
+ },
+ "notes": "confusions are over distinct bounds present in both pools; sharp_coverage and generality only over bounds that reached that ragusa stage; txgraffiti's rules each ran on its whole pool",
+ "same_source_csv": true
+}

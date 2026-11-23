@@ -1,0 +1,154 @@
+{
+ "table": "fano3c",
+ "engine_git_rev": "053c731c23be89b854e35236cc790cd6c0be4c38",
+ "engine_args": "--min-tight sqrt --hypotheses TRUE,all",
+ "oracle_knots": false,
+ "fraction": 0.2,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "min_seeds": 3,
+ "targets": [
+  "degree",
+  "volume"
+ ],
+ "runs": [
+  {
+   "target": "degree",
+   "seed": 0,
+   "survivors": 2
+  },
+  {
+   "target": "degree",
+   "seed": 1,
+   "survivors": 2
+  },
+  {
+   "target": "degree",
+   "seed": 2,
+   "survivors": 3
+  },
+  {
+   "target": "degree",
+   "seed": 3,
+   "survivors": 2
+  },
+  {
+   "target": "degree",
+   "seed": 4,
+   "survivors": 3
+  },
+  {
+   "target": "volume",
+   "seed": 0,
+   "survivors": 2
+  },
+  {
+   "target": "volume",
+   "seed": 1,
+   "survivors": 2
+  },
+  {
+   "target": "volume",
+   "seed": 2,
+   "survivors": 2
+  },
+  {
+   "target": "volume",
+   "seed": 3,
+   "survivors": 2
+  },
+  {
+   "target": "volume",
+   "seed": 4,
+   "survivors": 2
+  }
+ ],
+ "skipped": [],
+ "distinct_survivors": 5,
+ "shortlist_size": 4,
+ "bounds": [
+  {
+   "bound": "(TRUE) \u2192 (degree >= 2\u00b7h1 + -6)",
+   "target": "degree",
+   "seeds_survived": 5,
+   "seeds_refuted_on_held_out": 0,
+   "held_out_applicable": 674690,
+   "held_out_refuted": 0,
+   "held_out_confirmed": 674690,
+   "held_out_undecided": 0,
+   "novelty": [],
+   "implied_by": [],
+   "counterexamples": [],
+   "shortlisted": true,
+   "excluded_because": []
+  },
+  {
+   "bound": "(TRUE) \u2192 (volume >= 2\u00b7num_points + -4)",
+   "target": "volume",
+   "seeds_survived": 5,
+   "seeds_refuted_on_held_out": 0,
+   "held_out_applicable": 674690,
+   "held_out_refuted": 0,
+   "held_out_confirmed": 674690,
+   "held_out_undecided": 0,
+   "novelty": [],
+   "implied_by": [],
+   "counterexamples": [],
+   "shortlisted": true,
+   "excluded_because": []
+  },
+  {
+   "bound": "(is_reflexive) \u2192 (degree <= 2\u00b7h1 + -6)",
+   "target": "degree",
+   "seeds_survived": 5,
+   "seeds_refuted_on_held_out": 0,
+   "held_out_applicable": 4285,
+   "held_out_refuted": 0,
+   "held_out_confirmed": 4285,
+   "held_out_undecided": 0,
+   "novelty": [],
+   "implied_by": [],
+   "counterexamples": [],
+   "shortlisted": true,
+   "excluded_because": []
+  },
+  {
+   "bound": "(is_reflexive) \u2192 (volume <= 2\u00b7num_points + -4)",
+   "target": "volume",
+   "seeds_survived": 5,
+   "seeds_refuted_on_held_out": 0,
+   "held_out_applicable": 4285,
+   "held_out_refuted": 0,
+   "held_out_confirmed": 4285,
+   "held_out_undecided": 0,
+   "novelty": [],
+   "implied_by": [],
+   "counterexamples": [],
+   "shortlisted": true,
+   "excluded_because": []
+  },
+  {
+   "bound": "(is_dual_barycentre_zero) \u2192 (degree <= 2/5\u00b7h2 + -2/5)",
+   "target": "degree",
+   "seeds_survived": 2,
+   "seeds_refuted_on_held_out": 0,
+   "held_out_applicable": 44,
+   "held_out_refuted": 0,
+   "held_out_confirmed": 44,
+   "held_out_undecided": 0,
+   "novelty": [],
+   "implied_by": [],
+   "counterexamples": [],
+   "shortlisted": false,
+   "excluded_because": [
+    "few_seeds"
+   ]
+  }
+ ],
+ "max_distinct": 3
+}

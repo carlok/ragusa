@@ -1,0 +1,16 @@
+[package]
+name = "ragusa-gen"
+description = "Conjecture generators over a ragusa table: ratio, LP and convex-hull bounds"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+highs.workspace = true
+qhull.workspace = true
+ragusa-table.workspace = true
+rayon.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

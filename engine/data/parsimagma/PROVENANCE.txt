@@ -1,0 +1,44 @@
+Copied unmodified from parsimagma (the author's own parsimagma, local clone at
+hacks/lean4/parsimagma). Used as data only; ragusa does not depend on parsimagma's code.
+See ROADMAP.md.
+
+parsimagma HEAD at copy time: 2a75a1bfe380effe0b03e13ea5df192d4e939d2f
+last commit touching these files: 200741c81fa9d0c07247241f947f156ea64aa579 (2026-08-28)
+
+producer: src/bin/pm.rs (corpus command).
+corpus_signatures.bin.gz: gzip of 587 bytes per magma, in corpus order; within a signature,
+  bit i of the little-endian byte stream = ETP equation i+1 is satisfied (4694 laws).
+corpus_index.tsv: header `row family params carrier laws_satisfied` (tab-separated), then one
+  line per signature in the same order.
+
+sha256:
+deeff546b984d4aae621cd4ee2b5a30fcbee3ca531d0000589aa2d6519409209  corpus_signatures.bin.gz
+44a3015eba06a59e012f39aad5aa81e4666c8392e491f207c00e834c74f99405  corpus_index.tsv
+
+Added in Sprint 5 (same parsimagma HEAD), used as data only
+------------------------------------------------------------
+implications.bits.gz   parsimagma data/etp/: the Equational Theories Project implication graph
+                       (https://github.com/teorth/equational_theories, Apache-2.0, upstream commit
+                       e5a88a1479011ece4aad8e3c2e7e5c0ebc0a5b2a), derived in parsimagma from
+                       data/2025-08-11-vampire.json.gz (Janota, arXiv:2508.15856). Packed
+                       4694 x 4694 bit matrix: bit j of row i (byte-packed rows, LSB first) is set
+                       iff E_(i+1) entails E_(j+1); diagonal set.
+hard_core.txt          parsimagma data/etp/: the 1062 pairs Vampire left undecided, all false.
+                       One "from to" pair per line, 1-based.
+summary.tsv            parsimagma out/: counts for this corpus (laws, corpus_rows,
+                       graph_false_implications, graph_covered, hard_core_pairs,
+                       hard_core_covered, greedy_cover_size). Used by gate G-B5 as the
+                       independent cross-check.
+
+sha256:
+fa8c505bc364b7371789b178e1fffe6fd65a1fa10877a94a8d694e56e2f7822b  implications.bits.gz
+71eeb9bd1ac5a54b7af637c2ca3037634433e209db1499c5b78188ea31bc347e  hard_core.txt
+9739d01c98f1fd5bcb6b1064af3a5588448cf96ffebdbc9f6ed3c81c34566f1b  summary.tsv
+
+Licence
+-------
+implications.bits.gz, hard_core.txt and summary.tsv derive from the Equational Theories
+Project (https://github.com/teorth/equational_theories), Apache-2.0. The licence text is in
+LICENSE-APACHE-2.0 beside this file and at the repository root; the attribution required by
+Apache-2.0 section 4 is in the repository's NOTICE file. corpus_signatures.bin.gz and
+corpus_index.tsv are produced by parsimagma, also Apache-2.0, same author as ragusa.

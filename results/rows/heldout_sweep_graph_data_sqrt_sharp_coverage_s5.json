@@ -1,0 +1,4635 @@
+{
+ "table": "graph_data",
+ "engine_git_rev": "779c9c4c52e09ba062ab8be12922df3f703a8cb1",
+ "engine_args": "--min-tight sqrt --redundancy sharp_coverage",
+ "fraction": 0.2,
+ "seeds": 5,
+ "seed_from": 5,
+ "targets": [
+  "order",
+  "size",
+  "maximum_degree",
+  "minimum_degree",
+  "diameter",
+  "radius",
+  "clique_number",
+  "chromatic_number",
+  "independence_number",
+  "vertex_cover_number",
+  "matching_number",
+  "triameter",
+  "slater",
+  "annihilation_number",
+  "residue",
+  "harmonic_index",
+  "domination_number",
+  "total_domination_number",
+  "independent_domination_number",
+  "min_maximal_matching_number",
+  "spectral_radius",
+  "largest_laplacian_eigenvalue",
+  "second_largest_adjacency_eigenvalue",
+  "zero_forcing_number"
+ ],
+ "runs": [
+  {
+   "target": "order",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2507,
+     "refuted_on_held_out": 652,
+     "supported_on_held_out": 1855,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1660,
+     "refuted_on_held_out": 458,
+     "supported_on_held_out": 1202,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 137,
+     "refuted_on_held_out": 27,
+     "supported_on_held_out": 110,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2573,
+     "refuted_on_held_out": 772,
+     "supported_on_held_out": 1801,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1716,
+     "refuted_on_held_out": 533,
+     "supported_on_held_out": 1183,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 124,
+     "refuted_on_held_out": 13,
+     "supported_on_held_out": 111,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2525,
+     "refuted_on_held_out": 741,
+     "supported_on_held_out": 1784,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1679,
+     "refuted_on_held_out": 504,
+     "supported_on_held_out": 1175,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 134,
+     "refuted_on_held_out": 11,
+     "supported_on_held_out": 123,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2458,
+     "refuted_on_held_out": 230,
+     "supported_on_held_out": 2228,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1613,
+     "refuted_on_held_out": 163,
+     "supported_on_held_out": 1450,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 116,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 116,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "order",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2584,
+     "refuted_on_held_out": 468,
+     "supported_on_held_out": 2116,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1723,
+     "refuted_on_held_out": 328,
+     "supported_on_held_out": 1395,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 118,
+     "refuted_on_held_out": 9,
+     "supported_on_held_out": 109,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2651,
+     "refuted_on_held_out": 785,
+     "supported_on_held_out": 1866,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1815,
+     "refuted_on_held_out": 567,
+     "supported_on_held_out": 1248,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 99,
+     "refuted_on_held_out": 13,
+     "supported_on_held_out": 86,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2674,
+     "refuted_on_held_out": 1022,
+     "supported_on_held_out": 1652,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1821,
+     "refuted_on_held_out": 720,
+     "supported_on_held_out": 1101,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 99,
+     "refuted_on_held_out": 18,
+     "supported_on_held_out": 81,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 13,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 13,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2650,
+     "refuted_on_held_out": 972,
+     "supported_on_held_out": 1678,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1783,
+     "refuted_on_held_out": 649,
+     "supported_on_held_out": 1134,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 100,
+     "refuted_on_held_out": 11,
+     "supported_on_held_out": 89,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2620,
+     "refuted_on_held_out": 279,
+     "supported_on_held_out": 2341,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1808,
+     "refuted_on_held_out": 204,
+     "supported_on_held_out": 1604,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 85,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 85,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "size",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2678,
+     "refuted_on_held_out": 698,
+     "supported_on_held_out": 1980,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1822,
+     "refuted_on_held_out": 471,
+     "supported_on_held_out": 1351,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 76,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 71,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 12,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 12,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2503,
+     "refuted_on_held_out": 794,
+     "supported_on_held_out": 1709,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1351,
+     "refuted_on_held_out": 275,
+     "supported_on_held_out": 1076,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 169,
+     "refuted_on_held_out": 56,
+     "supported_on_held_out": 113,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2590,
+     "refuted_on_held_out": 978,
+     "supported_on_held_out": 1612,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1389,
+     "refuted_on_held_out": 383,
+     "supported_on_held_out": 1006,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 176,
+     "refuted_on_held_out": 60,
+     "supported_on_held_out": 116,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2558,
+     "refuted_on_held_out": 853,
+     "supported_on_held_out": 1705,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1380,
+     "refuted_on_held_out": 323,
+     "supported_on_held_out": 1057,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 178,
+     "refuted_on_held_out": 48,
+     "supported_on_held_out": 130,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2445,
+     "refuted_on_held_out": 132,
+     "supported_on_held_out": 2313,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1475,
+     "refuted_on_held_out": 96,
+     "supported_on_held_out": 1379,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 121,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 121,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "maximum_degree",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2584,
+     "refuted_on_held_out": 634,
+     "supported_on_held_out": 1950,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1403,
+     "refuted_on_held_out": 180,
+     "supported_on_held_out": 1223,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 155,
+     "refuted_on_held_out": 24,
+     "supported_on_held_out": 131,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2700,
+     "refuted_on_held_out": 501,
+     "supported_on_held_out": 2199,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1318,
+     "refuted_on_held_out": 353,
+     "supported_on_held_out": 965,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 251,
+     "refuted_on_held_out": 54,
+     "supported_on_held_out": 197,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2772,
+     "refuted_on_held_out": 819,
+     "supported_on_held_out": 1953,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1241,
+     "refuted_on_held_out": 457,
+     "supported_on_held_out": 784,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 222,
+     "refuted_on_held_out": 56,
+     "supported_on_held_out": 166,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2662,
+     "refuted_on_held_out": 697,
+     "supported_on_held_out": 1965,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1224,
+     "refuted_on_held_out": 411,
+     "supported_on_held_out": 813,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 212,
+     "refuted_on_held_out": 41,
+     "supported_on_held_out": 171,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2595,
+     "refuted_on_held_out": 168,
+     "supported_on_held_out": 2427,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1255,
+     "refuted_on_held_out": 126,
+     "supported_on_held_out": 1129,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 187,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 181,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "minimum_degree",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2702,
+     "refuted_on_held_out": 197,
+     "supported_on_held_out": 2505,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1323,
+     "refuted_on_held_out": 149,
+     "supported_on_held_out": 1174,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 218,
+     "refuted_on_held_out": 17,
+     "supported_on_held_out": 201,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2653,
+     "refuted_on_held_out": 1000,
+     "supported_on_held_out": 1653,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1368,
+     "refuted_on_held_out": 353,
+     "supported_on_held_out": 1015,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 257,
+     "refuted_on_held_out": 99,
+     "supported_on_held_out": 158,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2574,
+     "refuted_on_held_out": 726,
+     "supported_on_held_out": 1848,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1458,
+     "refuted_on_held_out": 356,
+     "supported_on_held_out": 1102,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 189,
+     "refuted_on_held_out": 67,
+     "supported_on_held_out": 122,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2541,
+     "refuted_on_held_out": 914,
+     "supported_on_held_out": 1627,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1413,
+     "refuted_on_held_out": 392,
+     "supported_on_held_out": 1021,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 208,
+     "refuted_on_held_out": 76,
+     "supported_on_held_out": 132,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2523,
+     "refuted_on_held_out": 310,
+     "supported_on_held_out": 2213,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1438,
+     "refuted_on_held_out": 163,
+     "supported_on_held_out": 1275,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 143,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 131,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "diameter",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2605,
+     "refuted_on_held_out": 540,
+     "supported_on_held_out": 2065,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1510,
+     "refuted_on_held_out": 259,
+     "supported_on_held_out": 1251,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 198,
+     "refuted_on_held_out": 73,
+     "supported_on_held_out": 125,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2520,
+     "refuted_on_held_out": 466,
+     "supported_on_held_out": 2054,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1320,
+     "refuted_on_held_out": 286,
+     "supported_on_held_out": 1034,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 236,
+     "refuted_on_held_out": 30,
+     "supported_on_held_out": 206,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2543,
+     "refuted_on_held_out": 508,
+     "supported_on_held_out": 2035,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1309,
+     "refuted_on_held_out": 300,
+     "supported_on_held_out": 1009,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 226,
+     "refuted_on_held_out": 29,
+     "supported_on_held_out": 197,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2545,
+     "refuted_on_held_out": 411,
+     "supported_on_held_out": 2134,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1338,
+     "refuted_on_held_out": 259,
+     "supported_on_held_out": 1079,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 218,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 208,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 13,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 13,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2527,
+     "refuted_on_held_out": 167,
+     "supported_on_held_out": 2360,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1316,
+     "refuted_on_held_out": 100,
+     "supported_on_held_out": 1216,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 212,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 212,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "radius",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2556,
+     "refuted_on_held_out": 153,
+     "supported_on_held_out": 2403,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1353,
+     "refuted_on_held_out": 126,
+     "supported_on_held_out": 1227,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 203,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 198,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2869,
+     "refuted_on_held_out": 720,
+     "supported_on_held_out": 2149,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1279,
+     "refuted_on_held_out": 456,
+     "supported_on_held_out": 823,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 358,
+     "refuted_on_held_out": 91,
+     "supported_on_held_out": 267,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2794,
+     "refuted_on_held_out": 583,
+     "supported_on_held_out": 2211,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1284,
+     "refuted_on_held_out": 442,
+     "supported_on_held_out": 842,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 329,
+     "refuted_on_held_out": 79,
+     "supported_on_held_out": 250,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2805,
+     "refuted_on_held_out": 546,
+     "supported_on_held_out": 2259,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1292,
+     "refuted_on_held_out": 388,
+     "supported_on_held_out": 904,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 324,
+     "refuted_on_held_out": 77,
+     "supported_on_held_out": 247,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2755,
+     "refuted_on_held_out": 176,
+     "supported_on_held_out": 2579,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1229,
+     "refuted_on_held_out": 113,
+     "supported_on_held_out": 1116,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 286,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 276,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "clique_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2878,
+     "refuted_on_held_out": 245,
+     "supported_on_held_out": 2633,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1379,
+     "refuted_on_held_out": 231,
+     "supported_on_held_out": 1148,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 290,
+     "refuted_on_held_out": 49,
+     "supported_on_held_out": 241,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2735,
+     "refuted_on_held_out": 793,
+     "supported_on_held_out": 1942,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1297,
+     "refuted_on_held_out": 499,
+     "supported_on_held_out": 798,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 312,
+     "refuted_on_held_out": 85,
+     "supported_on_held_out": 227,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2648,
+     "refuted_on_held_out": 533,
+     "supported_on_held_out": 2115,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1296,
+     "refuted_on_held_out": 405,
+     "supported_on_held_out": 891,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 259,
+     "refuted_on_held_out": 41,
+     "supported_on_held_out": 218,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2626,
+     "refuted_on_held_out": 527,
+     "supported_on_held_out": 2099,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1297,
+     "refuted_on_held_out": 366,
+     "supported_on_held_out": 931,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 257,
+     "refuted_on_held_out": 42,
+     "supported_on_held_out": 215,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2611,
+     "refuted_on_held_out": 138,
+     "supported_on_held_out": 2473,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1253,
+     "refuted_on_held_out": 98,
+     "supported_on_held_out": 1155,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 224,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 219,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "chromatic_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2711,
+     "refuted_on_held_out": 206,
+     "supported_on_held_out": 2505,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1370,
+     "refuted_on_held_out": 201,
+     "supported_on_held_out": 1169,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 242,
+     "refuted_on_held_out": 29,
+     "supported_on_held_out": 213,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2563,
+     "refuted_on_held_out": 878,
+     "supported_on_held_out": 1685,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1437,
+     "refuted_on_held_out": 391,
+     "supported_on_held_out": 1046,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 122,
+     "refuted_on_held_out": 41,
+     "supported_on_held_out": 81,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2585,
+     "refuted_on_held_out": 704,
+     "supported_on_held_out": 1881,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1596,
+     "refuted_on_held_out": 433,
+     "supported_on_held_out": 1163,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 106,
+     "refuted_on_held_out": 19,
+     "supported_on_held_out": 87,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 13,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 13,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2528,
+     "refuted_on_held_out": 777,
+     "supported_on_held_out": 1751,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1564,
+     "refuted_on_held_out": 435,
+     "supported_on_held_out": 1129,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 121,
+     "refuted_on_held_out": 22,
+     "supported_on_held_out": 99,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2489,
+     "refuted_on_held_out": 123,
+     "supported_on_held_out": 2366,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1525,
+     "refuted_on_held_out": 99,
+     "supported_on_held_out": 1426,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 96,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 96,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independence_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2606,
+     "refuted_on_held_out": 438,
+     "supported_on_held_out": 2168,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1620,
+     "refuted_on_held_out": 262,
+     "supported_on_held_out": 1358,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 111,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 97,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2585,
+     "refuted_on_held_out": 648,
+     "supported_on_held_out": 1937,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1584,
+     "refuted_on_held_out": 453,
+     "supported_on_held_out": 1131,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 213,
+     "refuted_on_held_out": 34,
+     "supported_on_held_out": 179,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2667,
+     "refuted_on_held_out": 668,
+     "supported_on_held_out": 1999,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1563,
+     "refuted_on_held_out": 451,
+     "supported_on_held_out": 1112,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 204,
+     "refuted_on_held_out": 27,
+     "supported_on_held_out": 177,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2640,
+     "refuted_on_held_out": 639,
+     "supported_on_held_out": 2001,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1568,
+     "refuted_on_held_out": 435,
+     "supported_on_held_out": 1133,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 209,
+     "refuted_on_held_out": 22,
+     "supported_on_held_out": 187,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2613,
+     "refuted_on_held_out": 312,
+     "supported_on_held_out": 2301,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1507,
+     "refuted_on_held_out": 187,
+     "supported_on_held_out": 1320,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 193,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 186,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "vertex_cover_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2679,
+     "refuted_on_held_out": 231,
+     "supported_on_held_out": 2448,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1609,
+     "refuted_on_held_out": 197,
+     "supported_on_held_out": 1412,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 176,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 166,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2495,
+     "refuted_on_held_out": 496,
+     "supported_on_held_out": 1999,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1505,
+     "refuted_on_held_out": 353,
+     "supported_on_held_out": 1152,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 234,
+     "refuted_on_held_out": 32,
+     "supported_on_held_out": 202,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2538,
+     "refuted_on_held_out": 592,
+     "supported_on_held_out": 1946,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1504,
+     "refuted_on_held_out": 375,
+     "supported_on_held_out": 1129,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 242,
+     "refuted_on_held_out": 35,
+     "supported_on_held_out": 207,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2528,
+     "refuted_on_held_out": 537,
+     "supported_on_held_out": 1991,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1482,
+     "refuted_on_held_out": 326,
+     "supported_on_held_out": 1156,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 240,
+     "refuted_on_held_out": 31,
+     "supported_on_held_out": 209,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2495,
+     "refuted_on_held_out": 292,
+     "supported_on_held_out": 2203,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1469,
+     "refuted_on_held_out": 169,
+     "supported_on_held_out": 1300,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 221,
+     "refuted_on_held_out": 11,
+     "supported_on_held_out": 210,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "matching_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2545,
+     "refuted_on_held_out": 248,
+     "supported_on_held_out": 2297,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1548,
+     "refuted_on_held_out": 186,
+     "supported_on_held_out": 1362,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 198,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 184,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2656,
+     "refuted_on_held_out": 1297,
+     "supported_on_held_out": 1359,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1632,
+     "refuted_on_held_out": 697,
+     "supported_on_held_out": 935,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 139,
+     "refuted_on_held_out": 37,
+     "supported_on_held_out": 102,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 12,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 12,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2656,
+     "refuted_on_held_out": 1223,
+     "supported_on_held_out": 1433,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1708,
+     "refuted_on_held_out": 739,
+     "supported_on_held_out": 969,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 133,
+     "refuted_on_held_out": 30,
+     "supported_on_held_out": 103,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2614,
+     "refuted_on_held_out": 1228,
+     "supported_on_held_out": 1386,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1695,
+     "refuted_on_held_out": 720,
+     "supported_on_held_out": 975,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 141,
+     "refuted_on_held_out": 27,
+     "supported_on_held_out": 114,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2501,
+     "refuted_on_held_out": 220,
+     "supported_on_held_out": 2281,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1475,
+     "refuted_on_held_out": 148,
+     "supported_on_held_out": 1327,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 108,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 108,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "triameter",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2708,
+     "refuted_on_held_out": 1016,
+     "supported_on_held_out": 1692,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1762,
+     "refuted_on_held_out": 602,
+     "supported_on_held_out": 1160,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 143,
+     "refuted_on_held_out": 26,
+     "supported_on_held_out": 117,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2564,
+     "refuted_on_held_out": 396,
+     "supported_on_held_out": 2168,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1434,
+     "refuted_on_held_out": 258,
+     "supported_on_held_out": 1176,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 260,
+     "refuted_on_held_out": 36,
+     "supported_on_held_out": 224,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2567,
+     "refuted_on_held_out": 494,
+     "supported_on_held_out": 2073,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1409,
+     "refuted_on_held_out": 298,
+     "supported_on_held_out": 1111,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 244,
+     "refuted_on_held_out": 32,
+     "supported_on_held_out": 212,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2564,
+     "refuted_on_held_out": 457,
+     "supported_on_held_out": 2107,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1407,
+     "refuted_on_held_out": 265,
+     "supported_on_held_out": 1142,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 240,
+     "refuted_on_held_out": 20,
+     "supported_on_held_out": 220,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2581,
+     "refuted_on_held_out": 204,
+     "supported_on_held_out": 2377,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1410,
+     "refuted_on_held_out": 106,
+     "supported_on_held_out": 1304,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 232,
+     "refuted_on_held_out": 11,
+     "supported_on_held_out": 221,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "slater",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2587,
+     "refuted_on_held_out": 203,
+     "supported_on_held_out": 2384,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1472,
+     "refuted_on_held_out": 157,
+     "supported_on_held_out": 1315,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 229,
+     "refuted_on_held_out": 17,
+     "supported_on_held_out": 212,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2645,
+     "refuted_on_held_out": 769,
+     "supported_on_held_out": 1876,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1619,
+     "refuted_on_held_out": 392,
+     "supported_on_held_out": 1227,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 94,
+     "refuted_on_held_out": 23,
+     "supported_on_held_out": 71,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2646,
+     "refuted_on_held_out": 888,
+     "supported_on_held_out": 1758,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1555,
+     "refuted_on_held_out": 410,
+     "supported_on_held_out": 1145,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 103,
+     "refuted_on_held_out": 27,
+     "supported_on_held_out": 76,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2632,
+     "refuted_on_held_out": 843,
+     "supported_on_held_out": 1789,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1575,
+     "refuted_on_held_out": 402,
+     "supported_on_held_out": 1173,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 95,
+     "refuted_on_held_out": 19,
+     "supported_on_held_out": 76,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2523,
+     "refuted_on_held_out": 291,
+     "supported_on_held_out": 2232,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1649,
+     "refuted_on_held_out": 206,
+     "supported_on_held_out": 1443,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 76,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 75,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "annihilation_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2674,
+     "refuted_on_held_out": 591,
+     "supported_on_held_out": 2083,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1643,
+     "refuted_on_held_out": 240,
+     "supported_on_held_out": 1403,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 89,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 77,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2482,
+     "refuted_on_held_out": 903,
+     "supported_on_held_out": 1579,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1424,
+     "refuted_on_held_out": 325,
+     "supported_on_held_out": 1099,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 134,
+     "refuted_on_held_out": 58,
+     "supported_on_held_out": 76,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 2,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2548,
+     "refuted_on_held_out": 914,
+     "supported_on_held_out": 1634,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1568,
+     "refuted_on_held_out": 500,
+     "supported_on_held_out": 1068,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 118,
+     "refuted_on_held_out": 42,
+     "supported_on_held_out": 76,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2495,
+     "refuted_on_held_out": 816,
+     "supported_on_held_out": 1679,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1526,
+     "refuted_on_held_out": 376,
+     "supported_on_held_out": 1150,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 116,
+     "refuted_on_held_out": 31,
+     "supported_on_held_out": 85,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2472,
+     "refuted_on_held_out": 212,
+     "supported_on_held_out": 2260,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1549,
+     "refuted_on_held_out": 112,
+     "supported_on_held_out": 1437,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 84,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 80,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "residue",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2555,
+     "refuted_on_held_out": 413,
+     "supported_on_held_out": 2142,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1630,
+     "refuted_on_held_out": 206,
+     "supported_on_held_out": 1424,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 91,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 81,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 11,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2603,
+     "refuted_on_held_out": 982,
+     "supported_on_held_out": 1621,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1835,
+     "refuted_on_held_out": 661,
+     "supported_on_held_out": 1174,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 44,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 37,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2653,
+     "refuted_on_held_out": 1050,
+     "supported_on_held_out": 1603,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1868,
+     "refuted_on_held_out": 688,
+     "supported_on_held_out": 1180,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 41,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 36,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2637,
+     "refuted_on_held_out": 1105,
+     "supported_on_held_out": 1532,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1867,
+     "refuted_on_held_out": 724,
+     "supported_on_held_out": 1143,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 51,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 46,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2553,
+     "refuted_on_held_out": 304,
+     "supported_on_held_out": 2249,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1777,
+     "refuted_on_held_out": 214,
+     "supported_on_held_out": 1563,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 45,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 45,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "harmonic_index",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2701,
+     "refuted_on_held_out": 720,
+     "supported_on_held_out": 1981,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1914,
+     "refuted_on_held_out": 462,
+     "supported_on_held_out": 1452,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 48,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 46,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2597,
+     "refuted_on_held_out": 587,
+     "supported_on_held_out": 2010,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1486,
+     "refuted_on_held_out": 421,
+     "supported_on_held_out": 1065,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 246,
+     "refuted_on_held_out": 37,
+     "supported_on_held_out": 209,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2636,
+     "refuted_on_held_out": 547,
+     "supported_on_held_out": 2089,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1476,
+     "refuted_on_held_out": 391,
+     "supported_on_held_out": 1085,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 240,
+     "refuted_on_held_out": 35,
+     "supported_on_held_out": 205,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2622,
+     "refuted_on_held_out": 417,
+     "supported_on_held_out": 2205,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1466,
+     "refuted_on_held_out": 295,
+     "supported_on_held_out": 1171,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 233,
+     "refuted_on_held_out": 22,
+     "supported_on_held_out": 211,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2579,
+     "refuted_on_held_out": 337,
+     "supported_on_held_out": 2242,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1392,
+     "refuted_on_held_out": 226,
+     "supported_on_held_out": 1166,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 225,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 215,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "domination_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2657,
+     "refuted_on_held_out": 200,
+     "supported_on_held_out": 2457,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1483,
+     "refuted_on_held_out": 165,
+     "supported_on_held_out": 1318,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 213,
+     "refuted_on_held_out": 9,
+     "supported_on_held_out": 204,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2693,
+     "refuted_on_held_out": 521,
+     "supported_on_held_out": 2172,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1481,
+     "refuted_on_held_out": 397,
+     "supported_on_held_out": 1084,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 275,
+     "refuted_on_held_out": 69,
+     "supported_on_held_out": 206,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 14,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 14,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2628,
+     "refuted_on_held_out": 551,
+     "supported_on_held_out": 2077,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1390,
+     "refuted_on_held_out": 337,
+     "supported_on_held_out": 1053,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 232,
+     "refuted_on_held_out": 26,
+     "supported_on_held_out": 206,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 15,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 15,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2659,
+     "refuted_on_held_out": 436,
+     "supported_on_held_out": 2223,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1398,
+     "refuted_on_held_out": 271,
+     "supported_on_held_out": 1127,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 236,
+     "refuted_on_held_out": 17,
+     "supported_on_held_out": 219,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 14,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 14,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 14,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 14,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2645,
+     "refuted_on_held_out": 187,
+     "supported_on_held_out": 2458,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1376,
+     "refuted_on_held_out": 88,
+     "supported_on_held_out": 1288,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 220,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 217,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 14,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 13,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 14,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 13,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "total_domination_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2696,
+     "refuted_on_held_out": 240,
+     "supported_on_held_out": 2456,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1438,
+     "refuted_on_held_out": 174,
+     "supported_on_held_out": 1264,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 222,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 210,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 13,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 13,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2547,
+     "refuted_on_held_out": 549,
+     "supported_on_held_out": 1998,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1483,
+     "refuted_on_held_out": 369,
+     "supported_on_held_out": 1114,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 201,
+     "refuted_on_held_out": 35,
+     "supported_on_held_out": 166,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2541,
+     "refuted_on_held_out": 648,
+     "supported_on_held_out": 1893,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1519,
+     "refuted_on_held_out": 449,
+     "supported_on_held_out": 1070,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 202,
+     "refuted_on_held_out": 36,
+     "supported_on_held_out": 166,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2525,
+     "refuted_on_held_out": 480,
+     "supported_on_held_out": 2045,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1516,
+     "refuted_on_held_out": 340,
+     "supported_on_held_out": 1176,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 195,
+     "refuted_on_held_out": 32,
+     "supported_on_held_out": 163,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2500,
+     "refuted_on_held_out": 292,
+     "supported_on_held_out": 2208,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1461,
+     "refuted_on_held_out": 192,
+     "supported_on_held_out": 1269,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 192,
+     "refuted_on_held_out": 13,
+     "supported_on_held_out": 179,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 9,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "independent_domination_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2570,
+     "refuted_on_held_out": 181,
+     "supported_on_held_out": 2389,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1525,
+     "refuted_on_held_out": 146,
+     "supported_on_held_out": 1379,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 161,
+     "refuted_on_held_out": 8,
+     "supported_on_held_out": 153,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2606,
+     "refuted_on_held_out": 541,
+     "supported_on_held_out": 2065,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1490,
+     "refuted_on_held_out": 344,
+     "supported_on_held_out": 1146,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 156,
+     "refuted_on_held_out": 46,
+     "supported_on_held_out": 110,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 15,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 15,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2632,
+     "refuted_on_held_out": 608,
+     "supported_on_held_out": 2024,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1552,
+     "refuted_on_held_out": 402,
+     "supported_on_held_out": 1150,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 148,
+     "refuted_on_held_out": 39,
+     "supported_on_held_out": 109,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 17,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 17,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2608,
+     "refuted_on_held_out": 529,
+     "supported_on_held_out": 2079,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1505,
+     "refuted_on_held_out": 326,
+     "supported_on_held_out": 1179,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 136,
+     "refuted_on_held_out": 27,
+     "supported_on_held_out": 109,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 12,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 12,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2568,
+     "refuted_on_held_out": 238,
+     "supported_on_held_out": 2330,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1472,
+     "refuted_on_held_out": 125,
+     "supported_on_held_out": 1347,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 113,
+     "refuted_on_held_out": 11,
+     "supported_on_held_out": 102,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "min_maximal_matching_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2682,
+     "refuted_on_held_out": 241,
+     "supported_on_held_out": 2441,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1558,
+     "refuted_on_held_out": 156,
+     "supported_on_held_out": 1402,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 137,
+     "refuted_on_held_out": 12,
+     "supported_on_held_out": 125,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 8,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2686,
+     "refuted_on_held_out": 1016,
+     "supported_on_held_out": 1670,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1771,
+     "refuted_on_held_out": 675,
+     "supported_on_held_out": 1096,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 45,
+     "refuted_on_held_out": 6,
+     "supported_on_held_out": 39,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2744,
+     "refuted_on_held_out": 1275,
+     "supported_on_held_out": 1469,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1794,
+     "refuted_on_held_out": 817,
+     "supported_on_held_out": 977,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 56,
+     "refuted_on_held_out": 9,
+     "supported_on_held_out": 47,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 6,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 6,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2692,
+     "refuted_on_held_out": 1055,
+     "supported_on_held_out": 1637,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1760,
+     "refuted_on_held_out": 678,
+     "supported_on_held_out": 1082,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 57,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 53,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 7,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2601,
+     "refuted_on_held_out": 212,
+     "supported_on_held_out": 2389,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1686,
+     "refuted_on_held_out": 157,
+     "supported_on_held_out": 1529,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 48,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 48,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 4,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 4,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "spectral_radius",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2722,
+     "refuted_on_held_out": 750,
+     "supported_on_held_out": 1972,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1781,
+     "refuted_on_held_out": 465,
+     "supported_on_held_out": 1316,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 71,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 69,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2474,
+     "refuted_on_held_out": 998,
+     "supported_on_held_out": 1476,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1698,
+     "refuted_on_held_out": 648,
+     "supported_on_held_out": 1050,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 38,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 34,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 1,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 1,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 1,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 1,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2510,
+     "refuted_on_held_out": 1122,
+     "supported_on_held_out": 1388,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1736,
+     "refuted_on_held_out": 738,
+     "supported_on_held_out": 998,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 39,
+     "refuted_on_held_out": 3,
+     "supported_on_held_out": 36,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2473,
+     "refuted_on_held_out": 1006,
+     "supported_on_held_out": 1467,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1699,
+     "refuted_on_held_out": 644,
+     "supported_on_held_out": 1055,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 38,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 38,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2376,
+     "refuted_on_held_out": 274,
+     "supported_on_held_out": 2102,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1610,
+     "refuted_on_held_out": 195,
+     "supported_on_held_out": 1415,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 40,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 40,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "largest_laplacian_eigenvalue",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2523,
+     "refuted_on_held_out": 717,
+     "supported_on_held_out": 1806,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1756,
+     "refuted_on_held_out": 458,
+     "supported_on_held_out": 1298,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 47,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 46,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 5,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2939,
+     "refuted_on_held_out": 1452,
+     "supported_on_held_out": 1487,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1693,
+     "refuted_on_held_out": 539,
+     "supported_on_held_out": 1154,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 109,
+     "refuted_on_held_out": 86,
+     "supported_on_held_out": 23,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 20,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 20,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 6,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2884,
+     "refuted_on_held_out": 1330,
+     "supported_on_held_out": 1554,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1921,
+     "refuted_on_held_out": 852,
+     "supported_on_held_out": 1069,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 83,
+     "refuted_on_held_out": 54,
+     "supported_on_held_out": 29,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 20,
+     "refuted_on_held_out": 13,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 20,
+     "refuted_on_held_out": 13,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2870,
+     "refuted_on_held_out": 1292,
+     "supported_on_held_out": 1578,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1868,
+     "refuted_on_held_out": 704,
+     "supported_on_held_out": 1164,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 86,
+     "refuted_on_held_out": 51,
+     "supported_on_held_out": 35,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 19,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 19,
+     "refuted_on_held_out": 14,
+     "supported_on_held_out": 5,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2929,
+     "refuted_on_held_out": 781,
+     "supported_on_held_out": 2148,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 2098,
+     "refuted_on_held_out": 582,
+     "supported_on_held_out": 1516,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 29,
+     "refuted_on_held_out": 2,
+     "supported_on_held_out": 27,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 8,
+     "refuted_on_held_out": 1,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "second_largest_adjacency_eigenvalue",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2926,
+     "refuted_on_held_out": 1039,
+     "supported_on_held_out": 1887,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1981,
+     "refuted_on_held_out": 630,
+     "supported_on_held_out": 1351,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 72,
+     "refuted_on_held_out": 54,
+     "supported_on_held_out": 18,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 19,
+     "refuted_on_held_out": 16,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 19,
+     "refuted_on_held_out": 16,
+     "supported_on_held_out": 3,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 5,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2450,
+     "refuted_on_held_out": 466,
+     "supported_on_held_out": 1984,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1461,
+     "refuted_on_held_out": 301,
+     "supported_on_held_out": 1160,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 98,
+     "refuted_on_held_out": 37,
+     "supported_on_held_out": 61,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 16,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 16,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 9,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 6,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2504,
+     "refuted_on_held_out": 585,
+     "supported_on_held_out": 1919,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1551,
+     "refuted_on_held_out": 388,
+     "supported_on_held_out": 1163,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 68,
+     "refuted_on_held_out": 17,
+     "supported_on_held_out": 51,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 14,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 14,
+     "refuted_on_held_out": 7,
+     "supported_on_held_out": 7,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 7,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2446,
+     "refuted_on_held_out": 440,
+     "supported_on_held_out": 2006,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1482,
+     "refuted_on_held_out": 277,
+     "supported_on_held_out": 1205,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 92,
+     "refuted_on_held_out": 18,
+     "supported_on_held_out": 74,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 15,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 11,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 15,
+     "refuted_on_held_out": 4,
+     "supported_on_held_out": 11,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 8,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2467,
+     "refuted_on_held_out": 144,
+     "supported_on_held_out": 2323,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1520,
+     "refuted_on_held_out": 115,
+     "supported_on_held_out": 1405,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 66,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 66,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 10,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 10,
+     "refuted_on_held_out": 0,
+     "supported_on_held_out": 10,
+     "untested_on_held_out": 0
+    }
+   }
+  },
+  {
+   "target": "zero_forcing_number",
+   "seed": 9,
+   "train_objects": 272,
+   "held_out_objects": 68,
+   "stages": {
+    "validity": {
+     "kept": 2528,
+     "refuted_on_held_out": 237,
+     "supported_on_held_out": 2291,
+     "untested_on_held_out": 0
+    },
+    "table_duplicates": {
+     "kept": 1561,
+     "refuted_on_held_out": 162,
+     "supported_on_held_out": 1399,
+     "untested_on_held_out": 0
+    },
+    "touch": {
+     "kept": 70,
+     "refuted_on_held_out": 10,
+     "supported_on_held_out": 60,
+     "untested_on_held_out": 0
+    },
+    "sharp_coverage": {
+     "kept": 17,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    },
+    "generality": {
+     "kept": 17,
+     "refuted_on_held_out": 5,
+     "supported_on_held_out": 12,
+     "untested_on_held_out": 0
+    }
+   }
+  }
+ ],
+ "skipped": [],
+ "pooled": {
+  "validity": {
+   "kept": 313358,
+   "refuted": 71697,
+   "untested": 0,
+   "refuted_rate_of_tested": 0.22880220067781898
+  },
+  "table_duplicates": {
+   "kept": 184976,
+   "refuted": 43442,
+   "untested": 0,
+   "refuted_rate_of_tested": 0.23485208891964363
+  },
+  "touch": {
+   "kept": 18967,
+   "refuted": 3036,
+   "untested": 0,
+   "refuted_rate_of_tested": 0.16006748563294143
+  },
+  "sharp_coverage": {
+   "kept": 1071,
+   "refuted": 345,
+   "untested": 0,
+   "refuted_rate_of_tested": 0.32212885154061627
+  },
+  "generality": {
+   "kept": 1071,
+   "refuted": 345,
+   "untested": 0,
+   "refuted_rate_of_tested": 0.32212885154061627
+  }
+ },
+ "survivors_vs_validity": {
+  "runs_compared": 120,
+  "survivors_worse": 67,
+  "survivors_better": 53,
+  "equal": 0
+ }
+}

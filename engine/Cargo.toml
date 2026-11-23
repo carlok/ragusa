@@ -1,0 +1,51 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ragusa-table",
+    "crates/ragusa-gen",
+    "crates/ragusa-filter",
+    "crates/ragusa-oracle",
+    "crates/ragusa-report",
+    "crates/ragusa-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.96"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+flate2 = "1"
+# Native solvers, pinned exactly: G-B2 results depend on them. highs-sys builds HiGHS with cmake.
+highs = "=2.4.0"
+qhull = "=0.4.1"
+serde_json = "1"
+sha2 = "0.10"
+# Seeded, portable randomness for chance baselines: ChaCha8 gives the same stream on every platform.
+rand = { version = "=0.9.5", default-features = false, features = ["alloc"] }
+rand_chacha = { version = "=0.9.0", default-features = false }
+rayon = "1"
+ragusa-table = { path = "crates/ragusa-table" }
+ragusa-gen = { path = "crates/ragusa-gen" }
+ragusa-filter = { path = "crates/ragusa-filter" }
+ragusa-oracle = { path = "crates/ragusa-oracle" }
+ragusa-report = { path = "crates/ragusa-report" }
+
+# Gate G-B5 scans 22 million law pairs; test builds of these crates are optimised so it runs in seconds.
+[profile.dev.package.ragusa-gen]
+opt-level = 3
+
+[profile.dev.package.ragusa-filter]
+opt-level = 3
+
+[profile.dev.package.ragusa-oracle]
+opt-level = 3
+
+[profile.dev.package.ragusa-report]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1

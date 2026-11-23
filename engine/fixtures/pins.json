@@ -1,0 +1,127 @@
+{
+  "calabi_yau_data": {
+    "content_sha256": "73d5e915c6accfcf91d4db29c904f367e0f46fe4374d93660fdf4855f1def6b1",
+    "engine_version": "0.1.0",
+    "n_boolean": 19,
+    "n_numeric": 44,
+    "n_objects": 175,
+    "skipped": [
+      "lattice",
+      "triangulation_backend"
+    ],
+    "sources": [
+      {
+        "file": "calabi_yau_data.csv",
+        "sha256": "a7cf50ad42d1c05ae536e6c525ae50c0942628f3be5771ec056b0204ce491d15"
+      }
+    ],
+    "table": "calabi_yau_data"
+  },
+  "graph_data": {
+    "content_sha256": "04f7b04fc0b76392167e5eb9c65213ccdbf88e92163c748a5f61aed828b8c5b1",
+    "engine_version": "0.1.0",
+    "n_boolean": 13,
+    "n_numeric": 24,
+    "n_objects": 340,
+    "skipped": [],
+    "sources": [
+      {
+        "file": "graph_data.csv",
+        "sha256": "d074e50dac28df3ab4bbfc8ca56539bd5cbeb171ae37a029b9ec163c8cecde6f"
+      }
+    ],
+    "table": "graph_data"
+  },
+  "integer_data": {
+    "content_sha256": "9622dda7d1f3fca81aae30bf7216ac0a6aada88606feaf761e6eb82e28084174",
+    "engine_version": "0.1.0",
+    "n_boolean": 7,
+    "n_numeric": 9,
+    "n_objects": 149,
+    "skipped": [],
+    "sources": [
+      {
+        "file": "integer_data.csv",
+        "sha256": "50d5cf8d52e03313a058d68d706c655e6ddbc40e5e757e9c36572cbeabef6f38"
+      }
+    ],
+    "table": "integer_data"
+  },
+  "magma_corpus_etp4694": {
+    "content_sha256": "dd1ae154e08ec093f2678ddf736f7c9a0c604b972d4b499f795dc92c515bb240",
+    "engine_version": "0.1.0",
+    "n_boolean": 4694,
+    "n_numeric": 0,
+    "n_objects": 2786,
+    "skipped": [],
+    "sources": [
+      {
+        "file": "corpus_signatures.bin.gz",
+        "sha256": "deeff546b984d4aae621cd4ee2b5a30fcbee3ca531d0000589aa2d6519409209"
+      },
+      {
+        "file": "corpus_index.tsv",
+        "sha256": "44a3015eba06a59e012f39aad5aa81e4666c8392e491f207c00e834c74f99405"
+      }
+    ],
+    "table": "magma_corpus_etp4694"
+  },
+  "nba_game_data": {
+    "content_sha256": "828d58f048c7e6cc8608eb60fab24c0d553e38045fe3f76ee670872d9e339cdc",
+    "engine_version": "0.1.0",
+    "n_boolean": 0,
+    "n_numeric": 45,
+    "n_objects": 65698,
+    "skipped": [
+      "team_abbreviation_home",
+      "team_name_home",
+      "game_date",
+      "matchup_home",
+      "wl_home",
+      "team_abbreviation_away",
+      "team_name_away",
+      "matchup_away",
+      "wl_away",
+      "season_type"
+    ],
+    "sources": [
+      {
+        "file": "nba_game_data.csv",
+        "sha256": "ae3b37ed89219b4c6c0aad4a3db7916b6d9cf64ad99a0adcd769d860ab052a36"
+      }
+    ],
+    "table": "nba_game_data"
+  },
+  "polytope_data": {
+    "content_sha256": "6689af397d85aa926115c4658b05d73be9c533e5fe9a091b099ab9ee48b4b7f8",
+    "engine_version": "0.1.0",
+    "n_boolean": 5,
+    "n_numeric": 13,
+    "n_objects": 496,
+    "skipped": [],
+    "sources": [
+      {
+        "file": "polytope_data.csv",
+        "sha256": "b84ae27e66c6ce99408c6530544fa3f5fff1b61718a6e9f35916718a172f8676"
+      }
+    ],
+    "table": "polytope_data"
+  },
+  "qubits_data": {
+    "content_sha256": "55f3907b1c3fb12234d4ba5399d8d709b9f052b4af8e837e326defbf08b65fec",
+    "engine_version": "0.1.0",
+    "n_boolean": 10,
+    "n_numeric": 19,
+    "n_objects": 216,
+    "skipped": [
+      "input_type"
+    ],
+    "sources": [
+      {
+        "file": "Nqubits_data.csv",
+        "sha256": "5a116adeb1e70f3a48f11eb411a4d7ecca99779b7760d43d2d4466169b6cfbed"
+      }
+    ],
+    "table": "qubits_data"
+  }
+}
