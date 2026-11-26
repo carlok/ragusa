@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# `make test` on a clean machine: schema, template lint, pytest, the engine's tests.
+# frontier-gates and reproduce-a are left out: they need KnotInfo's export and an
+# AutoGraphForge clone, which are not in the repository (README.md, External inputs).
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Native build tools for highs-sys and qhull-sys
+        run: sudo apt-get update && sudo apt-get install -y cmake clang libclang-dev
+      - name: Rust toolchain pinned in engine/rust-toolchain.toml
+        working-directory: engine
+        run: rustup show
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: engine
+      - run: make test
+      - name: rustfmt
+        working-directory: engine
+        run: cargo fmt --check
+      - name: clippy
+        working-directory: engine
+        run: cargo clippy --workspace --all-targets --locked -- -D warnings
+      - name: Rendered documents match their templates and results
+        run: python3 docs/gen/render.py && git diff --exit-code
