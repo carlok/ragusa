@@ -10,7 +10,6 @@ from __future__ import annotations
 import os
 import pathlib
 import shutil
-import sys
 import time
 from collections import defaultdict
 from dataclasses import dataclass
@@ -34,9 +33,11 @@ def setup_solver(gen_names) -> str | None:
     ignores PuLP's bundled binary. Put the bundled one on PATH; the package is untouched."""
     if "linear_programming" not in gen_names:
         return None
-    if not (shutil.which("cbc") or shutil.which("glpsol")) and sys.platform == "darwin":
-        cbc_dir = pathlib.Path(pulp.__file__).parent / "solverdir" / "cbc" / "osx" / "i64"
-        os.environ["PATH"] = f"{cbc_dir}{os.pathsep}{os.environ['PATH']}"
+    if not (shutil.which("cbc") or shutil.which("glpsol")):
+        bundled = pulp.PULP_CBC_CMD(msg=False)          # PuLP picks the binary for this platform
+        if bundled.available():
+            cbc_dir = pathlib.Path(os.path.realpath(bundled.path)).parent
+            os.environ["PATH"] = f"{cbc_dir}{os.pathsep}{os.environ['PATH']}"
     return f"lp solver: {_solver_id(shutil.which('cbc') or shutil.which('glpsol'))} (pulp {pulp.__version__})"
 
 

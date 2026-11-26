@@ -567,17 +567,29 @@ name = "ragusa-a"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "pytest" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pulp" },
     { name = "txgraffiti" },
     { name = "xlrd" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
 [package.metadata]
 requires-dist = [
-    { name = "pytest", specifier = ">=9.1.1" },
+    { name = "numpy", specifier = ">=2.5" },
+    { name = "pandas", specifier = ">=3.0" },
+    { name = "pulp", specifier = ">=3.3" },
     { name = "txgraffiti", specifier = "==0.4.1" },
     { name = "xlrd", specifier = ">=2.0.2" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.1.1" }]
 
 [[package]]
 name = "scipy"

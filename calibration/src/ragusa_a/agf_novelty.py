@@ -40,6 +40,11 @@ def pinned_commit() -> str:
 def load_cegis_novelty():
     """Import AutoGraphForge's pipeline.cegis_novelty after checking the pinned commit."""
     commit = pinned_commit()
+    if not (AGF / ".git").exists():
+        sys.exit(f"AutoGraphForge not found at {AGF}. It is cloned next to this repository, at the commit "
+                 f"pinned in calibration/vendor.lock:\n"
+                 f"  git clone https://github.com/JanPastorek/AutoGraphForge {AGF}\n"
+                 f"  git -C {AGF} checkout {commit}")
     head = subprocess.run(["git", "-C", str(AGF), "rev-parse", "HEAD"],
                           capture_output=True, text=True, check=True).stdout.strip()
     if head != commit:
