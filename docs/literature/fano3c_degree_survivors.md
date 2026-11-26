@@ -15,7 +15,7 @@ Scope: 14 inequalities that ragusa found to hold on every row of Kasprzyk's clas
   a1 = e1 - 4 = num_points - 3, Vol(P) = a2 + a1 + 2, and e2 = 10 + 4·a1 + a2.
 
 **Data re-check (read-only).** Every statement was recomputed with exact rationals over the SQLite import
-(`external/fano3c/toricf3c.db`; scratchpad scripts). All 14 have 0 violations and are tight (slack 0)
+(`external/fano3c/toricf3c.db`; throwaway scripts, not in the repository). All 14 have 0 violations and are tight (slack 0)
 on at least one row. Per-class ranges quoted below come from this exact recomputation. Caution: the
 database stores `degree` as text, so SQL `CAST(degree AS REAL)` truncates fractions such as `997/60`
 and must not be used.

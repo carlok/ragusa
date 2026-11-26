@@ -1,44 +1,80 @@
-% Fields taken from PROMPT.md section 5. Entries marked VERIFY need full
-% metadata checked against the source before any write-up.
+% Works this repository measures, uses as data, or builds on. Fields checked on 2026-11-26 against
+% arXiv abstract pages, Crossref DOI records, publisher, Zenodo and GitHub pages. Entries still
+% marked VERIFY name the field that could not be confirmed from a primary source.
 
 @article{davila2026txgraffiti,
   author  = {Davila, Randy},
-  title   = {TxGraffiti},
+  title   = {Automated conjecturing with {TxGraffiti}},
   journal = {Annals of Mathematics and Artificial Intelligence},
+  volume  = {94},
+  number  = {4},
+  pages   = {453--476},
   year    = {2026},
   doi     = {10.1007/s10472-026-10005-5},
   eprint  = {2409.19379},
-  archivePrefix = {arXiv},
-  note    = {v2, 11 May 2026. VERIFY exact title}
+  archivePrefix = {arXiv}
 }
 
 @misc{txgraffitisite,
   author = {Davila, Randy},
   title  = {TxGraffiti website},
-  howpublished = {\url{https://txgraffiti.streamlit.app/}}
+  year   = {2026},
+  howpublished = {\url{https://txgraffiti.streamlit.app/}},
+  note   = {Accessed September 2026}
 }
 
 @misc{txgraffitipkg,
   author = {Davila, Randy},
   title  = {txgraffiti (Python package), version 0.4.1},
-  howpublished = {\url{https://github.com/RandyRDavila/TxGraffiti}}
+  year   = {2025},
+  howpublished = {\url{https://github.com/RandyRDavila/TxGraffiti}},
+  note   = {MIT licence, copyright 2025 Randy Davila}
 }
 
-@misc{davila2021conjectures,
-  author = {Davila, Randy},
-  eprint = {2104.01092},
-  archivePrefix = {arXiv},
-  note   = {Also Australasian J. Combinatorics 84, p. 258. VERIFY authors and title}
+@article{caro2022txgraffiti,
+  author  = {Caro, Yair and Davila, Randy and Henning, Michael A. and Pepper, Ryan},
+  title   = {Conjectures of {TxGraffiti}: Independence, domination, and matchings},
+  journal = {Australasian Journal of Combinatorics},
+  volume  = {84},
+  number  = {2},
+  pages   = {258--274},
+  year    = {2022},
+  eprint  = {2104.01092},
+  archivePrefix = {arXiv}
 }
 
 @misc{pastorek2026autographforge,
   author = {Pastorek, J{\'a}n},
-  title  = {AutoGraphForge},
+  title  = {{AutoGraphForge}: Towards Automated Graph Theory Discovery},
+  year   = {2026},
   eprint = {2609.03478},
   archivePrefix = {arXiv},
-  year   = {2026},
   howpublished = {\url{https://github.com/JanPastorek/AutoGraphForge}},
-  note   = {VERIFY exact title}
+  note   = {Submitted to ITAT 2026 (CEUR Workshop Proceedings)}
+}
+
+@article{fajtlowicz1988graffiti,
+  author  = {Fajtlowicz, Siemion},
+  title   = {On conjectures of {Graffiti}},
+  journal = {Discrete Mathematics},
+  volume  = {72},
+  number  = {1--3},
+  pages   = {113--118},
+  year    = {1988},
+  doi     = {10.1016/0012-365X(88)90199-9}
+}
+
+@incollection{delavina2005graffitipc,
+  author    = {DeLaVi{\~n}a, Ermelinda},
+  title     = {{Graffiti.pc}: A Variant of {Graffiti}},
+  booktitle = {Graphs and Discovery},
+  editor    = {Fajtlowicz, Siemion and Fowler, Patrick W. and Hansen, Pierre and Janowitz, Melvin F. and Roberts, Fred S.},
+  series    = {DIMACS Series in Discrete Mathematics and Theoretical Computer Science},
+  volume    = {69},
+  pages     = {71--79},
+  publisher = {American Mathematical Society},
+  doi       = {10.1090/dimacs/069/05},
+  note      = {VERIFY year: Crossref gives the online date 2007-06-07}
 }
 
 @article{larson2016dalmatian,
@@ -46,46 +82,59 @@
   title   = {Automated conjecturing {I}: {Fajtlowicz}'s {Dalmatian} heuristic revisited},
   journal = {Artificial Intelligence},
   volume  = {231},
+  pages   = {17--38},
   year    = {2016},
-  url     = {https://www.sciencedirect.com/science/article/pii/S0004370215001575}
+  doi     = {10.1016/j.artint.2015.10.002}
+}
+
+@phdthesis{lenat1976am,
+  author = {Lenat, Douglas B.},
+  title  = {{AM}: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic Search},
+  school = {Stanford University},
+  year   = {1976},
+  month  = {July},
+  note   = {Stanford AI Laboratory Memo AIM-286, Computer Science Department Report STAN-CS-76-570}
 }
 
 @phdthesis{colton2001hr,
   author = {Colton, Simon},
+  title  = {Automated theory formation in pure mathematics},
   school = {University of Edinburgh},
   year   = {2001},
-  url    = {https://era.ed.ac.uk/handle/1842/35263},
-  note   = {VERIFY title}
+  url    = {https://hdl.handle.net/1842/35263}
 }
 
 @article{ritchie1984am,
   author  = {Ritchie, G. D. and Hanna, F. K.},
-  title   = {{AM}: A Case Study in {AI} Methodology},
+  title   = {{AM}: A case study in {AI} methodology},
   journal = {Artificial Intelligence},
   volume  = {23},
   number  = {3},
+  pages   = {249--268},
   year    = {1984},
-  note    = {PROMPT.md cites as "Why AM and EURISKO Appear to Work". VERIFY title and venue}
+  doi     = {10.1016/0004-3702(84)90015-8}
 }
 
-@misc{leanconjecturer2025,
-  title  = {LeanConjecturer},
-  url    = {https://arxiv.org/html/2506.22005v1},
+@misc{onda2025leanconjecturer,
+  author = {Onda, Naoto and Kasaura, Kazumi and Oriike, Yuta and Taniguchi, Masaya and Sannai, Akiyoshi and Sonoda, Sho},
+  title  = {{LeanConjecturer}: Automatic Generation of Mathematical Conjectures for Theorem Proving},
+  year   = {2025},
   eprint = {2506.22005},
-  archivePrefix = {arXiv},
-  note   = {VERIFY authors and title}
+  archivePrefix = {arXiv}
 }
 
-@misc{survey2026conjecturing,
+@misc{jooken2025survey,
+  author = {Jooken, Jorik},
+  title  = {Computer-assisted graph theory: a survey},
+  year   = {2025},
   eprint = {2508.20825},
-  archivePrefix = {arXiv},
-  note   = {Field survey. VERIFY authors and title}
+  archivePrefix = {arXiv}
 }
 
 @misc{knotinfo,
   author       = {Livingston, Charles and Moore, Allison H.},
   title        = {KnotInfo: Table of Knot Invariants},
-  howpublished = {URL: \url{knotinfo.org}},
+  howpublished = {URL: \url{https://knotinfo.org}},
   month        = {September},
   year         = {2026},
   note         = {Accessed 14 September 2026; the file read is knotinfo\_data\_complete.xls.zip, sha256
@@ -93,22 +142,74 @@
                   on knotinfo.org/homelinks/cite\_info.html}
 }
 
+@misc{jablonowski2026knots,
+  author = {Jablonowski, Michal},
+  title  = {Integer Knot Invariants: Inequalities, Computations, and Open Problems},
+  year   = {2026},
+  eprint = {2605.22652},
+  archivePrefix = {arXiv},
+  note   = {Version 4 is the one transcribed into engine/data/knots/jablonowski2026.json}
+}
+
+@article{kasprzyk2010fano,
+  author  = {Kasprzyk, Alexander M.},
+  title   = {Canonical Toric {Fano} Threefolds},
+  journal = {Canadian Journal of Mathematics},
+  volume  = {62},
+  number  = {6},
+  pages   = {1293--1309},
+  year    = {2010},
+  doi     = {10.4153/CJM-2010-070-3}
+}
+
+@misc{kasprzyk2010fanodata,
+  author    = {Kasprzyk, Alexander},
+  title     = {The classification of toric canonical {Fano} 3-folds},
+  year      = {2010},
+  publisher = {Zenodo},
+  version   = {v1.0},
+  doi       = {10.5281/zenodo.5866330},
+  note      = {CC0}
+}
+
 @misc{etp2025,
   author = {Tao, Terence and the {Equational Theories Project} contributors},
   title  = {The {Equational Theories Project}},
   year   = {2025},
+  version = {0.2.0},
   howpublished = {\url{https://github.com/teorth/equational_theories}},
-  note   = {Apache-2.0. Implication data at commit e5a88a1479011ece4aad8e3c2e7e5c0ebc0a5b2a,
-            used here as the magma novelty oracle. VERIFY the project's preferred citation form}
+  note   = {Apache-2.0. Software citation per the repository's CITATION.cff. Implication data at commit
+            e5a88a1479011ece4aad8e3c2e7e5c0ebc0a5b2a, used here as the magma novelty oracle}
+}
+
+@misc{bolan2025etp,
+  author = {Bolan, Matthew and Breitner, Joachim and Brox, Jose and Carlini, Nicholas and Carneiro, Mario and
+            van Doorn, Floris and Dvorak, Martin and Goens, Andr{\'e}s and Hill, Aaron and Husum, Harald and
+            Ibarra Mejia, Hern{\'a}n and Kocsis, Zoltan A. and Le Floch, Bruno and Livne Bar-on, Amir and
+            Luccioli, Lorenzo and McNeil, Douglas and Meiburg, Alex and Monticone, Pietro and
+            Nielsen, Pace P. and Osazuwa, Emmanuel Osalotioman and Paolini, Giovanni and Petracci, Marco and
+            Reinke, Bernhard and Renshaw, David and Rossel, Marcus and Roux, Cody and Scanvic, J{\'e}r{\'e}my and
+            Srinivas, Shreyas and Tadipatri, Anand Rao and Tao, Terence and Tsyrklevich, Vlad and
+            Vaquerizo-Villar, Fernando and Weber, Daniel and Zheng, Fan},
+  title  = {The {Equational Theories Project}: Advancing Collaborative Mathematical Research at Scale},
+  year   = {2025},
+  eprint = {2512.07087},
+  archivePrefix = {arXiv}
 }
 
 @misc{janota2025vampire,
   author = {Janota, Mikol{\'a}{\v s}},
+  title  = {Experimental Results for {Vampire} on the {Equational Theories Project}},
+  year   = {2025},
   eprint = {2508.15856},
   archivePrefix = {arXiv},
-  year   = {2025},
-  note   = {Solver run behind the ETP implication data used here. VERIFY authors and title}
+  note   = {Solver run behind the ETP implication data used here}
 }
 
-% TODO: Fajtlowicz (Graffiti), DeLaVi\~na (Graffiti.pc), Lenat (AM/EURISKO) --
-% primary sources not listed in PROMPT.md.
+@misc{parsimagma,
+  author = {Perassi, Carlo},
+  title  = {parsimagma: magma signature and coverage engine over the Equational Theories Project law set},
+  year   = {2026},
+  howpublished = {\url{https://github.com/carlok/parsimagma}},
+  note   = {Apache-2.0. Data copied at commit 2a75a1bfe380effe0b03e13ea5df192d4e939d2f}
+}

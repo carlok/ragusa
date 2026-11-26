@@ -16,8 +16,8 @@ edit the `.tmpl` next to them, not the `.md`.
 
 - [ ] `calibration/note/calibration.md`: re-read the "alias" definition (ours, not txgraffiti's)
       and the Sophie paragraph.
-- [ ] `CITATIONS.bib`: every entry marked VERIFY needs its title and authors checked against
-      the source; Fajtlowicz, DeLaViña and Lenat still have no entry.
+- [ ] `CITATIONS.bib`: checked against primary sources on 2026-11-26; one field is still marked
+      VERIFY (the year of DeLaViña's Graffiti.pc chapter).
 - [ ] Write-up (ROADMAP, "later"): a short note, or a related-work table in B's paper.
 - [ ] `engine/data/knots/jablonowski2026.json` was transcribed by an agent from page images of
       arXiv:2605.22652 v4. Spot-check the 47 relations against Figure 1, and the four "likely" column

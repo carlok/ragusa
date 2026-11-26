@@ -1,5 +1,5 @@
-Copied unmodified from parsimagma (the author's own parsimagma, local clone at
-hacks/lean4/parsimagma). Used as data only; ragusa does not depend on parsimagma's code.
+Copied unmodified from parsimagma (the author's own project, https://github.com/carlok/parsimagma,
+Apache-2.0). Used as data only; ragusa does not depend on parsimagma's code.
 See ROADMAP.md.
 
 parsimagma HEAD at copy time: 2a75a1bfe380effe0b03e13ea5df192d4e939d2f

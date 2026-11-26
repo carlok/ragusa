@@ -16,7 +16,9 @@ The files
 
 are derived from that project's implication data at upstream commit
 e5a88a1479011ece4aad8e3c2e7e5c0ebc0a5b2a, by way of parsimagma, which packed it
-into the bit formats described in engine/data/parsimagma/PROVENANCE.txt. The
+into the bit formats described in engine/data/parsimagma/PROVENANCE.txt.
+engine/data/parsimagma/corpus_signatures.bin.gz and corpus_index.tsv are
+parsimagma's own computation, indexed by the project's numbering of its 4694 laws. The
 underlying solver output is data/2025-08-11-vampire.json.gz (Janota,
 arXiv:2508.15856). No source code from the Equational Theories Project is
 included; the data is used as a known-results oracle and is unmodified apart

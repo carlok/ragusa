@@ -8,7 +8,7 @@ Downloaded 2026-09-14 into the git-ignored `external/fano3c/`.
 | file | `toricf3c.sql`, 563,679,312 bytes, md5 `d38e5d87917a3444a8b5a877e1868f00` — matches the record's checksum |
 | licence | CC0 1.0 (checked in [numbertheory-geometry.md](numbertheory-geometry.md)) |
 | import | `sqlite3 toricf3c.db < toricf3c.sql`, 33.0 s |
-| script | scratchpad `loadtest_fano.py` |
+| script | `loadtest_fano.py`, a throwaway script not in the repository |
 
 ## Shape
 

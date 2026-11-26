@@ -7,7 +7,7 @@ Downloaded 2026-09-14 into the git-ignored `external/matroids9/`.
 | source | Zenodo record 6825419 (Royle, Mayhew), via the Zenodo records API |
 | file | `matroids09_rankLine`, 197,057,794 bytes, md5 `66777481824f5426a1469bafde130c82` — matches the record's checksum |
 | licence | CC BY 4.0 (checked in [combinatorics.md](combinatorics.md)) |
-| script | scratchpad `loadtest_matroids.py` (standard library only) |
+| script | `loadtest_matroids.py` (standard library only), a throwaway script not in the repository |
 
 ## Format, as the readme describes it
 

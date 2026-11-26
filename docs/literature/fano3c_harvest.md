@@ -30,7 +30,7 @@ second is Hibi's criterion, since every row has exactly one interior lattice poi
 
 **Data check.** Read-only (`mode=ro`) SQLite over `external/fano3c/toricf3c.db`, in Python with `fractions.Fraction`.
 `degree` was parsed from text and never CAST. `ehrhart_delta` was JSON-decoded into (1, a1, a2, 1). The script is
-in the session scratchpad (`harvest_check.py`, about 9 s). The table above reports its output. Additional counts:
+in a throwaway script (`harvest_check.py`, about 9 s), not in the repository. The table above reports its output. Additional counts:
 - `gorenstein_index = 1 ⇔ is_reflexive` holds on all rows.
 - h1 = d/2 + 3 on all 4,319 reflexive rows.
 - On every non-reflexive row, slack(1) ≥ (index − 1)/index, and the denominator of slack(1) divides the Gorenstein index.

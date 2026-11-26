@@ -747,8 +747,8 @@ generator effects.
 ### 2026-09-14 — candidates from the shipped generators that are false on the table (our measurement)
 
 Full `graph_data` scope (target `independence_number`, all 23 features, all 13
-predicates), each generator run alone by a throwaway script (scratchpad
-`false_by_gen.py`, nothing written to `results/`). The census pool counts false
+predicates), each generator run alone by a throwaway script
+(`false_by_gen.py`, not in the repository; nothing written to `results/`). The census pool counts false
 candidates after deduplication (244); these counts are before it.
 
 | generator | raw | false on the table | example counterexample slack | cause, as we read it |
