@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use ragusa, please cite it as below, and cite the tools and data it measures (CITATIONS.bib)."
+title: "ragusa: a conjecturing engine that reports its own floor"
+type: software
+authors:
+  - family-names: Perassi
+    given-names: Carlo
+repository-code: "https://github.com/carlok/ragusa"
+license: Apache-2.0
+date-released: 2026-11-23
+keywords:
+  - automated conjecturing
+  - graph theory
+  - knot theory
+  - TxGraffiti
+  - floor report
