@@ -1,5 +1,11 @@
 # Handoff — automated-conjecturing filter census and extension study
 
+> **Editor's note (2026-11-26).** This is the original pre-project brief, written as a handoff to a
+> language model and kept as written, with the corrections marked inline. Where it differs from
+> `CONTROLS.md` (what was measured) or `ROADMAP.md` (what was done), those supersede it. Statements
+> here about TxGraffiti's and AutoGraphForge's code are readings made before the measurements; the
+> measured versions, and the questions put to their authors on 2026-10-04, are in `CONTROLS.md`.
+
 **Task for the receiving model: DESIGN FIRST.** Produce a research design and a repository plan.
 Do not start implementing. Everything below is either measured in this session (marked **[meas]**,
 with how it was measured) or read from a source (marked with its URL). Nothing here is recalled
@@ -87,7 +93,7 @@ feasibility demonstration, not a result.
 
 **Why Dalmatian is slow:** `processing/fajtlowicz.py` compares each candidate against every other
 (`others = [c for c in conjectures if c != new_conj]`), i.e. O(M²) with a full re-evaluation per
-comparison. The paper's own complexity note says O(MN) with cached sharp sets and hashing. The
+comparison. The paper's own complexity note says O(MN) with cached sharp sets and hashing. In our reading the
 released code does not cache. This is both a performance fact and a small contribution.
 
 ### 1.2 AutoGraphForge's novelty filter on its own published survivors **[meas]**
@@ -116,7 +122,8 @@ pipeline may invoke the filter at a different stage or with a different vocabula
   `generated_total: 494`, `generated_by_method: {txgraffiti: 209, conjecturing-expr: 277,
   conjecturing-prop: 8}`, `refuted: 162`, `survivors: 332`, **`novel_survivors: 332`**,
   `elapsed_s: 1982.8`, `rounds: 3`, `final_db_graphs: 348530`.
-  **The novelty filter killed zero in that run.** That does not sit comfortably with §1.2's 154,
+  **The novelty filter killed zero in that run.** *(Corrected: the zero holds by construction, and the
+  kills were logged per shard; see CONTROLS.md, G-A2.)* That does not sit comfortably with §1.2's 154,
   and resolving the tension is a genuine research question, not a gotcha.
 - `results/lifted.json`: `total: 2695`, `subsumed: 141`, `decorative: 367`, `refuted_by_corpus: 0`,
   `lifted: 2328`, `low_support: 977`, `kept: 2268`.
@@ -152,7 +159,7 @@ Module inventory of note:
   plus a `sophie` module (the sufficient-condition heuristic from Graffiti.pc).
 - `export_utils/lean4.py` — **a Lean 4 exporter** (`conjecture_to_lean4`, `conjectures_to_lean`,
   `necessary_conjecture_to_lean`, plus fraction/type-casting machinery). This is the bridge to
-  Carlo's existing Lean and Mathlib work. AutoGraphForge also ships a `lean_project/`.
+  the author's existing Lean and Mathlib work. AutoGraphForge also ships a `lean_project/`.
 - `export_utils/sql.py`, `logic/` (`conjectures`, `inequalities`, `predicates`, `properties`,
   `tables`), `playground/`, `utils/safe_generator.py`.
 
@@ -236,7 +243,6 @@ This work touches other people's live research. The etiquette is part of the des
   the same seam, not as a subject. Contact before publishing anything about his numbers.
 - The 154 from §1.2 is a gift to send him, as a CSV of statement plus matched relation — not a repo
   link. Lead with the list, admit the filter may have been pointed at the wrong stage, and ask.
-- A draft email to him already exists in this conversation's history; reuse its shape.
 
 ### The lineage, to cite and to not re-derive
 - **Siemion Fajtlowicz** — Graffiti, and the Dalmatian heuristic.
@@ -326,7 +332,7 @@ A Rust engine over the unified regime of §0.1. The design must specify:
    Graffiti-lineage system. Graphs are the crowded choice and should be the *control*, not the
    target.
 6. **Formalization, optional and last.** `txgraffiti.export_utils.lean4` already emits Lean 4, and
-   AutoGraphForge ships a `lean_project/`. If this axis is taken, Appendix A becomes mandatory.
+   AutoGraphForge ships a `lean_project/`. If this axis is taken, the author's shared-Lean rules apply (Appendix A, removed on publication).
    AutoGraphForge's own honest prior: 9 formalized, 0 proven, 9 proof_failed.
 
 ### 6.3 Verification discipline — non-negotiable
@@ -361,7 +367,7 @@ A Rust engine over the unified regime of §0.1. The design must specify:
 ## 7. Explicit non-goals
 
 - Do not run sweeps against https://txgraffiti.streamlit.app/ . Enumerate its capabilities,
-  hand-check a few outputs, and otherwise leave the man's server alone.
+  hand-check a few outputs, and otherwise leave the author's server alone.
 - Do not publish anything about Pastorek's numbers before contacting him.
 - Do not re-derive LeanConjecturer's formal-setting novelty floor; cite it.
 - Do not build a concept inventor. Ritchie & Hanna 1984 and a previous project in this family both
@@ -421,7 +427,7 @@ abstract.
 `processing/fajtlowicz.py` compares each candidate against every other and **re-evaluates the
 conjecture against the pandas DataFrame inside every comparison**. The cost is therefore
 O(M² · N) with a pandas constant factor. The paper's own complexity note says O(M · N) with cached
-sharp sets and hashing; the released code does not cache.
+sharp sets and hashing; in our reading the released code does not cache.
 
 The fix, in order:
 
@@ -586,125 +592,8 @@ the name.
 
 ---
 
-# Appendix A — Lean 4 and Mathlib on this machine (shared-environment rules)
+# Appendix A — Lean 4 and Mathlib
 
-**When this applies.** Only to the formalization axis, §6.2 item 6 — the moment anything in this
-project invokes `lake`, Lean, or Mathlib, whether through `txgraffiti.export_utils.lean4` or
-AutoGraphForge's `lean_project/`. The census in Project A touches none of it. Do not front-load
-these rules into a project that is mostly Python; do not skip them for one minute once Lean enters.
-
-**Canonical source of truth:** `PROMPT_SHARED_LEAN_ENV.md`, in the Lean workspace root on Carlo's Mac. The text below was read from that file in this session and is reproduced verbatim.
-If the two ever differ, **the file wins** — re-read it before acting.
-
----
-
-# Lean 4 and Mathlib on this machine: reuse, never re-download
-
-You are working on Carlo's Mac, where several Lean projects already share built copies of
-Mathlib. One built copy is about 7 GB. Downloading or building another is wasted disk space
-and hours of time, and one careless command can break every project that shares a copy.
-Read this before any `lake` command.
-
-## 1. The toolchain
-
-Lean is installed through elan at `~/.elan`. Many toolchains are already there:
-
-```bash
-elan toolchain list
-```
-
-A project's `lean-toolchain` file picks the version. Use one that is already installed.
-**Do not** run `elan toolchain install`, `elan update` or `elan self update`, and do not change
-a `lean-toolchain` to a version that is not on the list. If you really need a new toolchain,
-stop and ask Carlo.
-
-## 2. The shared Mathlib copies
-
-Each canonical copy is a real `.lake/packages` directory holding Mathlib, its dependencies and
-the compiled `.olean` files. Other projects point at it with a symlink.
-
-| Mathlib rev | Toolchain | Note | Projects already sharing it |
-|---|---|---|---|
-| `0df444a360eaa60ab8c11dca51a86af692955474` | `leanprover/lean4:v4.33.1` | newest; the default choice | 4 |
-| `81a5d257c8e410db227a6665ed08f64fea08e997` (tag `v4.32.0`) | `leanprover/lean4:v4.32.0` | | 1 |
-| `c5ea00351c28e24afc9f0f84379aa41082b1188f` | `leanprover/lean4:v4.30.0` | | none |
-| `777aaa61dcd2a1258d2b4962dbe983ede4d23b2e` | `leanprover/lean4:v4.29.0-rc3` | | none |
-
-The canonical `.lake/packages` paths are local to Carlo's machine and are in
-`PROMPT_SHARED_LEAN_ENV.md`, not here.
-
-Check this table against the disk before you rely on it. The `rev` for `mathlib` in the
-canonical project's `lake-manifest.json` is the truth.
-
-## 3. Setting up a new or existing project
-
-Pick a row. **The Mathlib rev and the toolchain must both match exactly.** If no row matches
-what the project needs, stop and ask; do not fetch a new Mathlib.
-
-1. **Toolchain.** Copy `lean-toolchain` from the canonical project.
-2. **Requirement.** In `lakefile.lean` or `lakefile.toml`, require Mathlib at the same rev as
-   the canonical project. A full commit hash is safest; the `v4.32.0` tag also resolves to the
-   right commit for that row.
-3. **Manifest.** Copy `lake-manifest.json` from the canonical project, then change only the
-   top-level `"name"` field to your package's name. Every entry under `packages` must stay
-   byte-identical: same `rev`, `inputRev` and `packagesDir`. Confirm with:
-   ```bash
-   python3 -c "import json,sys; a,b=[{p['name']:(p['rev'],p.get('inputRev')) for p in json.load(open(f))['packages']} for f in sys.argv[1:]]; print('identical' if a==b else 'DIFFERENT')" <canonical>/lake-manifest.json ./lake-manifest.json
-   ```
-4. **Symlink.** Point your `.lake/packages` at the canonical one:
-   ```bash
-   mkdir -p .lake
-   ln -s <canonical project>/.lake/packages .lake/packages
-   ```
-   If `.lake/packages` already exists as a real directory, do not delete it. Tell Carlo how
-   big it is (`du -sh .lake/packages`) and let him decide.
-5. **Build only your own code:**
-   ```bash
-   lake build <YourLib>
-   ```
-   Mathlib's oleans come from the shared copy, so this should compile only your files. If the
-   output shows thousands of Mathlib jobs *compiling* rather than being replayed, stop at once.
-   The manifest or the toolchain does not match.
-
-Your project's own `.lake/build` stays a real, per-project directory. Only `packages` is shared.
-
-## 4. Commands that are forbidden in a project whose packages are shared
-
-These commands write into the shared directory, so they damage every project linked to it:
-
-- `lake update`, which rewrites the manifest and re-checks-out dependencies;
-- `lake exe cache get` or `lake exe cache get!`, which overwrite the shared oleans;
-- `lake clean`, and any `rm -rf .lake` that follows the symlink;
-- `git checkout`, `git pull` or `git stash` inside `.lake/packages/*`. Some copies already
-  report "local changes"; leave them alone;
-- editing any file under `.lake/packages`;
-- deleting or moving a canonical project, or its `.lake`.
-
-When `lake` offers to update a dependency or reports a manifest mismatch, **do not accept**.
-Fix your own manifest (step 3) instead.
-
-Reading is always fine: `grep -rn "theorem foo" .lake/packages/mathlib/Mathlib/`, `#check`,
-and `lake env lean File.lean`.
-
-## 5. Concurrency
-
-Several agents may build at the same time. Two `lake build` runs on the *same* project fight
-over its lock; wait for one to finish rather than killing it. Builds in different projects
-that share packages are fine, because they only read the shared oleans.
-
-## 6. Where to put things
-
-- Lean projects live under a single Lean root on Carlo's machine, with the shared workspaces
-  in a subdirectory of it; `PROMPT_SHARED_LEAN_ENV.md` gives the paths.
-- **Nothing bulky goes in `$HOME`.** No new workspaces, clones or caches there.
-- Scratch files go in your session's scratch directory or in `/tmp`, never inside a canonical
-  project.
-
-## 7. Before you finish
-
-Report three things:
-
-- which canonical copy you linked to;
-- the output of `ls -la .lake`, showing the symlink;
-- the disk use of your project's own `.lake/build` (`du -sh .lake/build`).
-
+*Removed on publication (2026-11-26).* It reproduced the author's local rules for a shared Lean and
+Mathlib installation, which apply to one machine and not to this repository. Lean export is out of
+scope here (ROADMAP.md, "later").
