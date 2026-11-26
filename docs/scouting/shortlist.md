@@ -64,7 +64,7 @@ Merino–Welsh), but everything must be computed and small-n evidence is known t
 3. ~~The KnotInfo count conflict.~~ Resolved by the load test: many invariants are filled only for
    the 2,977 knots up to 12 crossings ([loadtest-knotinfo.md](loadtest-knotinfo.md)).
 
-## Load tests (each needs your approval to download)
+## Load tests (each download approved by the author)
 
 | candidate | files | size |
 |---|---|---|

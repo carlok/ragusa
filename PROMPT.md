@@ -267,7 +267,7 @@ This work touches other people's live research. The etiquette is part of the des
 - Ritchie & Hanna 1984:
   https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=37ab31f586cdc1efc3bf0dcc9ba52f644077e466
 - Colton HR: https://era.ed.ac.uk/handle/1842/35263
-- Field survey, Aug 2026: https://arxiv.org/abs/2508.20825 (does not raise the kill-rate question)
+- Field survey, Aug 2025: https://arxiv.org/abs/2508.20825 (does not raise the kill-rate question)
 - LeanConjecturer, for the one existing formal-setting novelty floor:
   https://arxiv.org/html/2506.22005v1 — 12,289 generated → 10,950 valid → 4,130 novel via `exact?`
   → 3,776 surviving `aesop`. **Do not re-derive this; cite it as precedent for the method.**

@@ -186,8 +186,8 @@ time, in any order; they are independent statements about different relations an
 refers to another. Paste each reply into the `answer.md` next to its prompt.
 
 Same content as the combined dossier next door (`../knotinfo_le13/`), rewritten by
-`python -m ragusa_a.split_dossier`. Derived from KnotInfo, so it stays out of git until KnotInfo's
-reuse terms are settled. ragusa engine rev `{rev}`.
+`python -m ragusa_a.split_dossier`. It is regenerated from the KnotInfo export, which stays out of the
+repository, so it stays out of git too. ragusa engine rev `{rev}`.
 
 | candidate | statement |
 |---|---|

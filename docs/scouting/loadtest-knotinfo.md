@@ -7,7 +7,8 @@ Downloaded 2026-09-14 into the git-ignored `external/knotinfo/`.
 | source | link on https://knotinfo.org/homelinks/database_download.php, served from `https://raw.githubusercontent.com/knotinfo-org/assets/main/knotinfo_data_complete.xls.zip` |
 | file | `knotinfo_data_complete.xls.zip`, 16,471,419 bytes, sha256 `e054075a0d895ea68d081976388f6b8d8177a2c9e167e42f9b91c7880f1a0dcc`; unzips to `knotinfo_data_complete.xls` (82,738,176 bytes) |
 | reader | `xlrd` 2.0.2 (added to the calibration environment) |
-| licence | none stated on the download page; nothing derived is committed until settled |
+| licence | none stated on the download page; settled with the maintainers on 2026-10-02: no copyright, cite KnotInfo, do not repost the database |
+| citation | KnotInfo, C. Livingston and A. H. Moore, https://knotinfo.org (`knotinfo` in `CITATIONS.bib`) |
 
 ## Shape
 

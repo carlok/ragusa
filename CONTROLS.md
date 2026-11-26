@@ -128,7 +128,8 @@ table facts such as constant bounds on the crossing-number range; the counts bel
   relations between the Rasmussen and Ozsváth–Szabó invariants and the signature for alternating
   and quasi-alternating knots), and some look like artefacts of stopping at 13 crossings. A
   literature check is running (Phase D); statements are not reproduced here until the KnotInfo
-  licence is settled.
+  licence is settled. *(Settled 2026-10-02: aggregates may be published; per-knot data and the
+  export stay out.)*
 - **Fano, targets `degree` and `volume`** (`--hypotheses TRUE,all`; 10 runs, wall time not recorded;
   `results/rows/harvest_fano3c.json` and `.shortlist.csv`): 5 distinct survivors, **4 shortlisted**,
   each in all 5 seeds and confirmed on every one of the 674,690 held-out checks (134,938 × 5) or,
@@ -188,7 +189,8 @@ Every number in it comes from `candidates.json`.
 ### 2026-09-15 — Sprint 11 phase D: literature check of the KnotInfo shortlist
 
 Report `external/results/literature_knotinfo_harvest.md` (git-ignored with everything derived from
-KnotInfo until its licence is settled), by a research agent; most sources were read as abstracts or
+KnotInfo until its licence is settled; settled 2026-10-02; the report stays
+there as a provisional working file), by a research agent; most sources were read as abstracts or
 search snippets, one paper in full, so every classification below is provisional. Only aggregates
 and engine lessons are recorded here.
 

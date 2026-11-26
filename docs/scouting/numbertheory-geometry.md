@@ -12,7 +12,7 @@ Source: research-agent survey (web pages only), with load-bearing facts re-check
 | invariants | "well over 100" invariant categories; integer invariants (signature, τ, s, slice and 4-genus, unknotting number, bridge and braid index, Turaev genus, …), hyperbolic volume, polynomials (Alexander, Jones, HOMFLY, seven Khovanov variants, Heegaard Floer) — reported |
 | booleans | alternating, fibered, quasipositive, slice, amphichiral, … — reported |
 | access | invariants as a zipped Excel spreadsheet (~16 MB, two columns per invariant), polynomial invariants (8 MB), PD notation (40 MB zipped, 382 MB unzipped), 3D coordinates, diagrams — **checked** (https://knotinfo.org/homelinks/database_download.php) |
-| licence | none stated on the download page — **checked**; the Python package is GPL — reported |
+| licence | none stated on the download page — **checked**; the Python package is GPL — reported; settled with the maintainers on 2026-10-02: no copyright, cite KnotInfo, do not repost the database |
 
 **Partial oracle — the strongest of any candidate:** Michał Jabłonowski, *Integer Knot
 Invariants: Inequalities, Computations, and Open Problems* (arXiv:2605.22652, 21 May 2026) gives
@@ -40,7 +40,7 @@ columns from a different source, no interval handling and no known-inequality or
 partial oracle.
 
 **Risks:** hard invariants (4-genus, unknotting number) are often intervals or missing, and ragusa's
-generators currently reject missing values; the data licence needs asking; possible overlap with
+generators currently reject missing values; the data licence needs asking (since settled, 2026-10-02; cite as `knotinfo` in `CITATIONS.bib`); possible overlap with
 Graffiti3.
 
 ## 2. Toric canonical Fano 3-folds (Kasprzyk, Graded Ring Database) — agent's second choice

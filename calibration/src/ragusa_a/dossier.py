@@ -10,8 +10,8 @@ another model before any person reads it:
 - `candidates.json`: the same, machine-readable;
 - `candidates.tex` and `candidates.pdf`: the same for reading as a document.
 
-The folder is derived from KnotInfo, so it belongs under `external/` until KnotInfo's reuse terms
-are settled. Earlier literature notes are deliberately not included, so that the model's answers are
+The folder is regenerated from the KnotInfo export, which stays out of the repository (KnotInfo asks
+that its database not be reposted), so it lives under the git-ignored `external/` too. Earlier literature notes are deliberately not included, so that the model's answers are
 not anchored on unverified claims.
 
     python -m ragusa_a.dossier ../external/results/candidates_knotinfo_le13.json \

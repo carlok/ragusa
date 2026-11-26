@@ -31,12 +31,12 @@ https://github.com/RandyRDavila/TxGraffiti
 Licensed under the MIT License.
 
 ragusa does not include TxGraffiti's code; Project A installs the package
-(txgraffiti 0.4.1) and calls it. It does include outputs of that code run on
-the package's shipped tables: the candidate and parse fixtures under
-engine/fixtures/ and the rows and floor reports under results/. The licence
+(txgraffiti 0.4.1) and calls it. It does include cells of the package's shipped
+tables and outputs of its code run on them: the parse and candidate fixtures
+under engine/fixtures/ and the rows and floor reports under results/. The licence
 of the work they derive from:
 
-Copyright (c) 2023 Randy Davila
+Copyright (c) 2025 Randy Davila
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

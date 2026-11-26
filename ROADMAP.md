@@ -23,6 +23,9 @@ implications there remain provers' territory.
 
 ## Sprints
 
+Status (2026-11): sprints 0–12 are done and none is in progress. The repository went public on
+2026-11-23.
+
 | sprint | stage | content | gate |
 |---|---|---|---|
 | 0–1 | A | done (see CONTROLS.md, calibration note) | G-A0..G-A5 |
@@ -33,9 +36,12 @@ implications there remain provers' territory.
 | 6 | frontier scouting | done: pages in `docs/scouting/`; **chosen 2026-09-14: KnotInfo (primary), toric canonical Fano 3-folds (scale test); matroids ≤ 9 elements in reserve** | load tests done (`docs/scouting/loadtest-*.md`) |
 | 7 | B-frontier | done: the engine at frontier scale (intervals, evaluation on demand, attribution without reruns, knot oracle, held-out objects) and first runs | G-B6..G-B10 |
 | 8 | B-frontier | done: held-out sweep on two tables, Fano profiling, literature check | reported (CONTROLS.md) |
-| 9 | B-frontier | an acceptance rule that does not select overfitted bounds | see below |
+| 9 | B-frontier | done (partial fix): an acceptance rule that does not select overfitted bounds | CONTROLS.md 2026-09-15 phase C |
+| 10 | B-frontier | done: sharp coverage replaced; `greedy_touch` is the default | CONTROLS.md 2026-09-15 |
+| 11 | B-frontier | done: first real harvest on the frontier tables | CONTROLS.md 2026-09-15 |
+| 12 | B-frontier | done: artefact checks and a candidate dossier for an external model | range-edge check still weak (CONTROLS.md) |
 | later | write-up | rendered from results; negatives as loud as positives | doc-number lint |
-| later | optional | Lean export, under PROMPT.md Appendix A | — |
+| later | optional | Lean export | out of scope for now |
 
 ## Sprint 12: artefact checks and a candidate dossier for an external model (done; range-edge check still weak, see CONTROLS.md)
 
@@ -47,11 +53,12 @@ crossings. The surviving candidates go first to an external language model, then
 |---|---|---|
 | A. artefact checks | `ragusa check <table> --bounds FILE` evaluates any bounds on any table (verdicts, tight objects, tight objects at the maximum of an edge column); a mirrored KnotInfo export (sign-dependent invariants negated, chirality-dependent properties unknown); `--complete-knots` fills empty cells with intervals implied by the catalogue; coverage of each hypothesis by crossing number | engine command, exporter option, tests |
 | B. re-check | the Sprint 11 shortlist through the four checks; survivors grouped into distinct relations (identities, one relation under several hypotheses, the same inequality solved for either column) | `external/results/` |
-| C. dossier | `external/candidates/knotinfo_le13/`: README for the model (context, conventions, answer format), one Markdown file per candidate, a combined LaTeX file and its PDF | git-ignored until the KnotInfo licence is settled |
+| C. dossier | `external/candidates/knotinfo_le13/`: README for the model (context, conventions, answer format), one Markdown file per candidate, a combined LaTeX file and its PDF | git-ignored: regenerated from the KnotInfo export, which stays out of the repository |
 
 ## Sprint 11: first real harvest (done; see CONTROLS.md 2026-09-15)
 
-The vetted pipeline (`--min-tight sqrt`, `greedy_touch`) has not yet run on the frontier tables.
+At the start of this sprint the vetted pipeline (`--min-tight sqrt`, `greedy_touch`) had not yet run on the
+frontier tables.
 
 | phase | content | output |
 |---|---|---|
@@ -80,7 +87,7 @@ Sprint 8: sharp coverage keeps bounds refuted on held-out objects at 34% (`graph
 | phase | content | output |
 |---|---|---|
 | A. per-candidate detail | with `--holdout`, `candidates_heldout.csv`: for every candidate valid on training, its duplicates class, sharp-coverage witness count, tight objects on training, largest denominator, and held-out verdict counts | the data rules are compared on, without rerunning the pipeline per rule |
-| B. rule study | `rule_study.py` evaluates candidate rules on the duplicates representatives: at least k witnesses, at least k tight objects, bounded denominators, combinations; pooled refuted rate of tested bounds, bounds kept, per-run comparison with the duplicates pool (the rate of a random subset of the same size). Rules are chosen on seeds 0–4 and confirmed on seeds 5–9, never the reverse | `results/rows/rule_study_graph_data.json`; KnotInfo in `external/`; CONTROLS.md |
+| B. rule study | `rule_study.py` evaluates candidate rules on the duplicates representatives: at least k witnesses, at least k tight objects, bounded denominators, combinations; pooled refuted rate of tested bounds, bounds kept, per-run comparison with the duplicates pool (the rate of a random subset of the same size). Rules are chosen on seeds 0–4 and confirmed on seeds 5–9, never the reverse | `results/rows/rule_study_graph_data_s0-4.json` and `_s5-9.json`; KnotInfo in `external/`; CONTROLS.md |
 | C. engine rule | the chosen rule as an engine filter, with exact attribution (equal to reruns on random tables) and the floor report; committed `graph_data` report regenerated only if the default pipeline changes, with the change logged | new filter, gates |
 
 ## Sprint 8: does the floor report hold up? (done; results in CONTROLS.md, 2026-09-15 entries)
@@ -94,7 +101,7 @@ nobody has profiled, and 47 Fano survivors nobody has compared with the literatu
 | B. profiling | per-phase wall-clock timings (`--timings FILE`, never in `floor.json`); Fano rerun; fix the dominant phase if it is not inherent | timings in CONTROLS.md; floor reports unchanged |
 | C. literature | Fano survivors not restating Riemann–Roch, checked against Kasprzyk and related work by web search | `docs/literature/fano3c_degree_survivors.md` |
 
-## Sprint 7: the engine for the frontier (phases, one commit each)
+## Sprint 7: the engine for the frontier (phases, one commit each) (done)
 
 The load tests and the scale of the Fano table (674,688 rows) change what the engine must do. Dense
 evaluation (candidates × objects stored) and attribution by re-running each filter once per object
@@ -109,7 +116,7 @@ do not survive that scale, so both are redesigned before the first frontier run.
 | E. held-out (done) | split objects (by crossing number, or seeded fraction); survivors re-checked on the held-out part | reported, not forced |
 | F. runs (done; see CONTROLS.md phase F log) | KnotInfo up to 12 crossings; the full Fano table | floor reports; KnotInfo outputs stay git-ignored, since the maintainers ask that the database not be reposted (2026-10-02) |
 
-## Sprint 6: frontier scouting
+## Sprint 6: frontier scouting (done)
 
 A domain qualifies when it has all four:
 

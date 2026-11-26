@@ -53,7 +53,7 @@ invariant, which ragusa's language covers only as a degenerate case.
 House of Graphs (over 29,000 graphs, 52 invariants, REST API), McKay's censuses (12,005,168 graphs
 on 10 vertices; CC BY 4.0) and PHOEG (all graphs to order 10) — reported.
 **Crowded:** AutoGraphForge (arXiv:2609.03478) already runs generation, refutation against 348,207
-graphs and Lean proving, with a 559-relation novelty filter (**checked** in Sprint 1: 559 entries).
+graphs (as reported at scouting time; the run report quoted in PROMPT.md §1.2 ends with 348530) and Lean proving, with a 559-relation novelty filter (**checked** in Sprint 1: 559 entries).
 Worth it only for classes and invariants others skipped (hypohamiltonian, planar or chordal
 censuses). Graphs remain ragusa's control, not its target.
 
