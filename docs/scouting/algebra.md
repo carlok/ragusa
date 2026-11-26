@@ -31,8 +31,8 @@ unverified.
 `RandyRDavila/TxGraffiti2/papers/graffiti3/Graffiti3_Group_Theory_Experiment.ipynb` exports GAP
 SmallGroups invariants to a CSV and runs Graffiti3 on targets such as `nrConjClasses` and the
 commuting probability, with ratio, LP, polynomial, square-root, logarithmic and exponential
-templates. Five of its published conjectures (C20, C21, C22, C27, C28) have explicit counterexample
-families: U₇(q) for every prime power q, and dihedral groups D₂ₙ for n ≥ 32 a power of two or
+templates. Five of its published conjectures (C20, C21, C22, C27, C28) have, according to a preprint, explicit
+counterexample families: U₇(q) for every prime power q, and dihedral groups D₂ₙ for n ≥ 32 a power of two or
 n ≥ 25 odd (`ZackaryLoevseth/graffiti3-counterexample-families`, public preprint release, August
 2026, not peer reviewed). Statements true on a small group table failed on larger groups: the
 sampling-bias risk in its plainest form.

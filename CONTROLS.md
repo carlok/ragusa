@@ -5,9 +5,9 @@ failed a control with, and discarded. Failures stay in this file.
 
 | gate | reproduces | status | result | discarded routines |
 |---|---|---|---|---|
-| G-A0 | `linear_programming` has a working LP solver on macOS | **fail as first recorded**; fixed — `run_txg.py` prepends PuLP 3.3.2's bundled `osx/i64/cbc` (CBC 2.10.3, x86_64 via Rosetta) to PATH when LP is requested and no solver is found; LP then yields 144 candidates on the §1.1 scope (597 → 392 → 216 → 141; the solver path is in the generation row's notes) | PuLP's bundled CBC is available (`listSolvers` → `['PULP_CBC_CMD']`), but txgraffiti 0.4.1 `generators/optimization.get_available_solver` only uses `shutil.which("cbc")` / `shutil.which("glpsol")` and ignores PuLP's binary. With neither on PATH it raises, and `safe_generator` turns the error into zero candidates. §1.1's claim that LP "will run" on a Mac does not hold for the shipped code | the first G-A0 entry ("pass") was checked against PuLP, not the code path txgraffiti uses |
-| G-A1 | PROMPT.md §1.1 counts 453 / 384 / 216 / 141 (convex_hull + ratios, 12 features × 6 predicates, `independence_number`) | pass | `python -m ragusa_a.run_txg` → 453 / 384 / 216 / 141; Dalmatian 5.55 s on this Mac vs 20.3 s in §1.1 | first LP-inclusive run wrote rows with 0 LP candidates because `safe_generator` swallowed the solver error; rows moved out of `results/`, script now refuses to write when any generator yields nothing |
-| G-A2 | AutoGraphForge `results/unified_report.json` figures from its own `results/`; the 0-vs-154 tension | resolved (see log 2026-09-14) | the 0 is true by construction; the 154 reproduces; the pipeline's own flags give 33, overlap 8 | first comparison script read `d["survivors"]` (an int count) as the row list; fixed to `d["conjectures"]` |
+| G-A0 | `linear_programming` has a working LP solver on macOS | **fail as first recorded**; fixed — `run_txg.py` prepends PuLP 3.3.2's bundled `osx/i64/cbc` (CBC 2.10.3, x86_64 via Rosetta) to PATH when LP is requested and no solver is found; LP then yields 144 candidates on the §1.1 scope (597 → 392 → 216 → 141; the solver path is in the generation row's notes) | PuLP's bundled CBC is available (`listSolvers` → `['PULP_CBC_CMD']`), but in our reading of txgraffiti 0.4.1 (put to the author on 2026-10-04, not answered so far) `generators/optimization.get_available_solver` looks only for `shutil.which("cbc")` / `shutil.which("glpsol")`, not for PuLP's binary. With neither on PATH it raises, and `safe_generator` turns the error into zero candidates, so on this setup LP yielded nothing until the bundled CBC was put on PATH | the first G-A0 entry ("pass") was checked against PuLP, not the code path txgraffiti uses |
+| G-A1 | PROMPT.md §1.1 counts 453 / 384 / 216 / 141 (convex_hull + ratios, 12 features × 6 predicates, `independence_number`) | pass | `python -m ragusa_a.run_txg` → 453 / 384 / 216 / 141; Dalmatian 5.55 s on this Mac vs 20.3 s in §1.1 | first LP-inclusive run wrote rows with 0 LP candidates because `safe_generator` returned no candidates when the solver lookup failed; rows moved out of `results/`, script now refuses to write when any generator yields nothing |
+| G-A2 | AutoGraphForge `results/unified_report.json` figures from its own `results/`; the 0-vs-154 tension | resolved on our side (see log 2026-09-14); the question to the author is open | the 0 is true by construction; the 154 reproduces; the pipeline's own flags give 33, overlap 8 | first comparison script read `d["survivors"]` (an int count) as the row list; fixed to `d["conjectures"]` |
 | G-A3 | each leave-one-out kernel reproduces its shipped rule's decisions on the full `graph_data` pool (1716 candidates) | pass | 0 mismatches for Dalmatian (exact arithmetic, first attempt), Sophie and Morgan | |
 | G-A4 | kernel decision without object r equals the shipped rule re-run on the table without r | pass | full table: 4 removals per rule (2 with most flips, 2 random), 0 mismatches; small table: every removal of a 30-row table for all three rules (`tests/test_rules.py`) | |
 | G-A5 | staged `remove_duplicates > filter_with_dalmatian > filter_with_morgan` equals `txgraffiti2()` | pass | 379 = 379 | first census run crashed at this gate calling `txgraffiti2.txgraffiti2` (the import is already the function); outputs are written at the end, so nothing reached `results/`; fixed and rerun. The background task reported exit 0 because the command chained an `echo` after the script |
@@ -51,9 +51,10 @@ became `calibration/src/ragusa_a/agf_novelty.py`.
    pipeline (`legacy/run_parallel.py`, `legacy/unified.py`, removed in
    `e2d3616`, read from git history), `gen_worker` drops known conjectures per
    shard, and the final `survivors` list keeps only `inequality is None or
-   metadata["novel"]`. `_report` then counts `novel` inside that list. The
-   report's zero says nothing about how many the filter killed; that count was
-   only logged per shard (`known=%5d`) and not persisted.
+   metadata["novel"]`. `_report` then counts `novel` inside that list. In our
+   reading the report's zero therefore does not count what the filter killed;
+   that count was only logged per shard (`known=%5d`), and whether it was kept
+   was put to him on 2026-10-04, not answered so far.
 2. **The §1.2 figure reproduces.** `classify_statement(stmt, list(_GC2TABLE))`
    over the 6,522 rows of `results/cegis_results.json["conjectures"]`: 154
    known, 5.6 s.
@@ -741,24 +742,27 @@ generator effects.
   115 (`_GC2TABLE` columns), **0 without the adapter**. Statement syntax alone decides
   whether the filter sees anything.
 
-### 2026-09-14 — shipped generators emit conjectures false on their own table
+### 2026-09-14 — candidates from the shipped generators that are false on the table (our measurement)
 
 Full `graph_data` scope (target `independence_number`, all 23 features, all 13
 predicates), each generator run alone by a throwaway script (scratchpad
 `false_by_gen.py`, nothing written to `results/`). The census pool counts false
 candidates after deduplication (244); these counts are before it.
 
-| generator | raw | false on the table | example counterexample slack | apparent cause |
+| generator | raw | false on the table | example counterexample slack | cause, as we read it |
 |---|---:|---:|---|---|
 | `linear_programming` | 598 | 73 | about −6·10⁻⁸ | constants rounded to fractions such as `6882346/999999` |
 | `convex_hull` | 1348 | 125 | about −2·10⁻¹⁵ | floating-point facet coefficients |
 | `ratios` | 598 | 66 | exactly −1 | ratio skips rows where the feature is 0, but the bound still covers them (e.g. `α ≤ 13/6 · triameter` on a triameter-0 graph) |
 
+The last column is our reading of the cause; these causes were not among the points put to the
+author.
+
 Consequence: the partition's `discarded` class mixes false candidates with
 redundant true ones, so every table reports the false count separately.
 `dalmatian_accept` is the only one of the three rules that checks validity.
 
-### 2026-09-14 — txgraffiti 0.4.1 source reading (unmeasured; to test in Sprint 1)
+### 2026-09-14 — txgraffiti 0.4.1 source reading
 
 Three of these points (the whole-pool comparison, `>=` candidates compared with upper bounds, the
 solver lookup) were put to Randy Davila on 2026-10-04 as questions about intent, not answered so
@@ -774,8 +778,8 @@ wrong.
   `!=` on `Conjecture` compares names.
 - `dalmatian_accept` collects matching old bounds with `op in ("<=", "≤")`
   whatever the new conjecture's operator, so a `>=` candidate is compared
-  against upper bounds. Measure how many lower bounds pass only through this
-  path before describing it.
+  against upper bounds. Measured later in the census entry above: all true `>=`
+  candidates are accepted.
 - `remove_duplicates` keys on `(hypothesis.name, conclusion.name)`, the
   rendered strings, so equal bounds written differently are not merged.
 - `filter_with_morgan` depends on input order: it removes earlier accepted

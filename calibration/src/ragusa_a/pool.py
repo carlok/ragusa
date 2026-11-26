@@ -29,8 +29,8 @@ DEFAULT_GENERATORS = ("linear_programming", "convex_hull", "ratios")
 
 
 def setup_solver(gen_names) -> str | None:
-    """txgraffiti's get_available_solver() only looks for `cbc`/`glpsol` on PATH and
-    ignores PuLP's bundled binary. Put the bundled one on PATH; the package is untouched."""
+    """txgraffiti's get_available_solver() looks for `cbc`/`glpsol` on PATH, not for PuLP's
+    bundled binary. Put the bundled one on PATH; the package is untouched."""
     if "linear_programming" not in gen_names:
         return None
     if not (shutil.which("cbc") or shutil.which("glpsol")):
@@ -58,8 +58,8 @@ def _solver_id(path: str | None) -> str:
 def generate(df, target, features, preds, gen_names, feature_size=1):
     """Generation loop of txgraffiti2, with a per-generator candidate count.
 
-    `safe_generator` swallows exceptions, so a broken generator looks like one that
-    found nothing. Refuse to continue in that case."""
+    `safe_generator` returns nothing when a generator raises, so a generator that failed
+    looks like one that found nothing. Refuse to continue in that case."""
     raw = []
     per_gen = dict.fromkeys(gen_names, 0)
     for feat_tuple in combinations(features, feature_size):

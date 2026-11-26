@@ -3,8 +3,8 @@
 
 Every number below is filled in from `results/rows/` by `docs/gen/render.py`.
 Status: internal calibration for Project B, not a publication. Ján Pastorek and Randy Davila were
-written to in October 2026 about the points below that concern their code. Where they have not
-answered, those points are our reading and measurement of their code, and may be wrong.
+written to in October 2026 about the points below that concern their code, and neither has
+answered so far. Those points are our reading and measurement of their code, and may be wrong.
 
 ## Scope and pinning
 
@@ -63,7 +63,7 @@ not for bounds under single-predicate hypotheses), not a flaw.
 **Dalmatian by operator.** Upper bounds: 942 in the pool (781 true on the table),
 88 accepted, 693 true ones rejected. Lower bounds: 774 in the pool
 (691 true), 691 accepted, 0 true ones rejected,
-so on this table Dalmatian filters lower bounds by validity alone. The cause is in the source: `dalmatian_accept` collects only `<=` bounds as
+so on this table Dalmatian filters lower bounds by validity alone. Our reading of the source, put to the author and not answered so far: `dalmatian_accept` collects only `<=` bounds as
 existing bounds, so a true `>=` candidate is compared against upper bounds, whose row-wise minimum
 it lies below almost everywhere. Of Dalmatian's 779 representatives, 691
 are lower bounds.
@@ -131,9 +131,9 @@ The arrow swap is the only adapter, and the unadapted run is kept as a control.
 module's `_GC2TABLE` columns flags 154; the verdicts the pipeline stored flag
 33; 8 are in both, 146 only standalone, 25 only stored.
 The difference follows the column list passed to the same function. Which list the pipeline
-intends is a question we put to the author; until he answers, this is our reading of his code. The earlier report's
-"novel survivors equal survivors" holds by construction (survivors were filtered to novel first)
-and is not a kill count.
+intends is a question we put to the author; until he answers, this is our reading of his code. In our reading the earlier report's
+"novel survivors equal survivors" holds by construction (survivors were filtered to novel first),
+so it does not count kills; that too was put to the author.
 
 ## What this calibration says for Project B
 

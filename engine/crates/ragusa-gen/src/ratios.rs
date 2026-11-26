@@ -5,7 +5,7 @@
 //! `target >= c_min·feature` then `target <= c_max·feature`, feature by feature.
 //!
 //! One deliberate difference: when every ratio for a feature is NaN, txgraffiti raises and its
-//! `safe_generator` silently ends the whole call, dropping the remaining features. Here that
+//! `safe_generator` returns nothing for the whole call, so the remaining features are dropped. Here that
 //! feature is skipped and the others still run. Interval cells are fitted as missing values.
 
 use ragusa_table::{BoolColumns, Table};
